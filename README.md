@@ -156,17 +156,18 @@ flowchart TD
     G -- "end_early" --> X
     H -- "end_early" --> X
 
-    classDef startEnd fill:#f9f,stroke:#333,stroke-width:2px
-    classDef process  fill:#ccf,stroke:#333,stroke-width:2px
-    classDef decision fill:#ffc,stroke:#333,stroke-width:2px
-    classDef io       fill:#cfc,stroke:#333,stroke-width:2px
-    classDef early    fill:#fcc,stroke:#333,stroke-width:2px
+    classDef startEnd fill:#FFCC80,stroke:#000,stroke-width:2px
+    classDef process  fill:#90CAF9,stroke:#000,stroke-width:2px
+    classDef decision fill:#FFF176,stroke:#000,stroke-width:2px
+    classDef io       fill:#A5D6A7,stroke:#000,stroke-width:2px
+    classDef early    fill:#E57373,stroke:#000,stroke-width:2px
 
     class A,K,L startEnd
     class C,E,F,G,H,I,J process
     class B decision
     class D io
     class X,Y early
+
 
 ```
 
