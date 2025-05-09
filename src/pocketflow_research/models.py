@@ -1,4 +1,5 @@
 from typing import List, Optional, Dict, Any, Literal, Union
+from typing_extensions import TypedDict
 from pydantic import BaseModel, Field
 from datetime import datetime
 from numpy import ndarray
@@ -89,14 +90,11 @@ class ThaiJoAuthorSchema(BaseModel):
     full_name: Dict[str, Optional[str]]
     affiliation: Optional[Dict[str, Optional[str]]] = None
 
-class ThaiJoPaperSchema(BaseModel):
+class ThaiJoPaperSchema(TypedDict):
     id: int
     title: str
-    abstract: Optional[str] = None
+    abstract: str
     authors: List[str]
-    url: Optional[str] = None
-    published_date: Optional[str] = None
+    url: str
+    published_date: str
     source: Literal["thaijo"]
-
-    class Config:
-        arbitrary_types_allowed = True

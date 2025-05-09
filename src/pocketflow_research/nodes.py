@@ -16,12 +16,12 @@ from models import (
 
 # Import utility functions
 from utils.call_llm import call_llm
-from utils.fetch_arxiv_papers import fetch_arxiv_papers
-from utils.fetch_thaijo_papers import fetch_thaijo_papers # Added ThaiJO fetcher
-from utils.process_pdf import download_and_extract_text
-from utils.chunk_text import chunk_text
-from utils.embedding import get_embedding
-from utils.faiss_utils import (
+from core.rag.fetch_arxiv_papers import fetch_arxiv_papers
+from core.rag.fetch_thaijo_papers import fetch_thaijo_papers # Added ThaiJO fetcher
+from core.rag.process_pdf import download_and_extract_text
+from core.rag.chunk_text import chunk_text
+from core.rag.embedding import get_embedding
+from core.rag.faiss_utils import (
     build_faiss_index,
     load_faiss_index,
     search_faiss_index,
@@ -590,23 +590,23 @@ if __name__ == "__main__":
     test_topic_main = "ปลานิลสามารถพบเจอได้ที่ไหนในไทย" 
 
     print("\n--- Testing GetTopicNode (Simulated) ---")
-    get_topic_node_test = GetTopicNode()
+    get_topic_node_test = KeywordExtractorNode()
     shared_data_test["topic"] = test_topic_main
-    topic_test = get_topic_node_test.run(shared_data_test)
+    keywords = get_topic_node_test.run(shared_data_test)
 
     print(f"Topic: {test_topic_main}")
-    print(f"Fetched Keywords: {topic_test}")
+    print(f"Fetched Keywords: {keywords}")
     print("----------------------------")
 
-    print("\n--- Testing FetchArxivNode ---")
-    fetch_arxiv_node_test = FetchArxivNode()
+    print("\n--- Testing FetchThaiJoNode ---")
+    fetch_arxiv_node_test = FetchThaijoNode()
     fetch_arxiv_node_test.run(shared_data_test) # run will call prep, exec, post
-    print(f"ArXiv Papers Fetched: {len(shared_data_test.get('fetched_papers', []))}")
+    print(f"ThaiJo Papers Fetched: {len(shared_data_test.get('fetched_papers', []))}")
     arxiv_papers_test: List[FetchedPaperInfo] = shared_data_test.get('fetched_papers', [])
     print("----------------------------")
 
     if arxiv_papers_test:
-        print("\n--- Testing ProcessPapersBatchNode (ArXiv) ---")
+        print("\n--- Testing ProcessPapersBatchNode (ThaiJo) ---")
         process_papers_node_test = ProcessPapersBatchNode()
         
         # Manually simulate BatchNode execution for testing as run() might not be suitable for BatchNode directly
@@ -626,7 +626,7 @@ if __name__ == "__main__":
         print(f"Chunk Source Map Entries: {len(shared_data_test.get('chunk_source_map', {}))}")
         print("----------------------------")
     else:
-        print("\n--- Skipping ProcessPapersBatchNode (No ArXiv papers) ---")
+        print("\n--- Skipping ProcessPapersBatchNode (No ThaiJo papers) ---")
         print("----------------------------")
 
     if shared_data_test.get('all_chunks'):
@@ -691,5 +691,5 @@ if __name__ == "__main__":
     shared_data_test['fetched_papers'] = arxiv_papers_test # Ensure it has the papers fetched earlier
     cite_sources_node_test.run(shared_data_test)
     final_answer_test: Optional[str] = shared_data_test.get('final_answer')
-    print(f"Final Answer with Citations: {final_answer_test if final_answer_test else 'N/A'}...")
+    print(f"Final Answer with Citations: {final_answer_test if final_answer_test else 'N/A'}")
     print("----------------------------\n")

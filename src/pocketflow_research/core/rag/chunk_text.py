@@ -43,8 +43,10 @@ def _chunk_by_rule_paragraph(text: str, min_chunk_size: int = 50) -> list[str]:
              final_chunks.extend(sub_chunks)
         elif len(para) >= min_chunk_size:
              final_chunks.append(para)
-        # else: # Optionally handle very short paragraphs (e.g., merge with next)
-        #     pass
+        else:  # Handle very short paragraphs by merging with previous one
+            if final_chunks and len(para) < min_chunk_size:
+                final_chunks[-1] = final_chunks[-1] + " " + para
+            else: final_chunks.append(para)
 
     # Basic filtering of potentially empty chunks after processing
     final_chunks = [chunk for chunk in final_chunks if chunk]
@@ -107,7 +109,6 @@ if __name__ == "__main__":
     rule_chunks = chunk_text(test_text, method='rule', min_chunk_size=40)
     for i, chunk in enumerate(rule_chunks): print(f"Rule Chunk {i+1} ({len(chunk)}): '{chunk}'")
 
-    print("\n--- Testing Method: semantic (Placeholder) ---")
-    semantic_chunks = chunk_text(test_text, method='semantic')
-    # Note: This currently falls back to rule-based
-    for i, chunk in enumerate(semantic_chunks): print(f"Semantic Chunk {i+1} ({len(chunk)}): '{chunk}'")
+    # print("\n--- Testing Method: semantic (Placeholder) ---")
+    # semantic_chunks = chunk_text(test_text, method='semantic')
+    # for i, chunk in enumerate(semantic_chunks): print(f"Semantic Chunk {i+1} ({len(chunk)}): '{chunk}'")

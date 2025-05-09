@@ -33,47 +33,40 @@ def download_and_extract_text(pdf_url: str) -> str | None:
 
         response.raise_for_status()  # Raise an exception for bad status codes
 
-        # Check Content-Type header
         content_type = response.headers.get('Content-Type', '').lower()
         if 'application/pdf' not in content_type:
             logging.warning(f"URL {pdf_url} did not return PDF content (Content-Type: {content_type}). Skipping extraction.")
             return None
 
         logging.info("Download complete. Extracting text using PyMuPDF...")
-        # Use BytesIO to treat the downloaded bytes as a file stream
         pdf_stream = io.BytesIO(response.content)
 
-        # Open the PDF from the stream
-        doc = fitz.open(stream=pdf_stream, filetype="pdf") # Keep specific error handling below
+        doc = fitz.open(stream=pdf_stream, filetype="pdf")
         num_pages = doc.page_count
         logging.info(f"PDF has {num_pages} pages.")
 
-        # Extract text from each page
         text_parts = []
         for page_num in range(num_pages):
             page = doc.load_page(page_num)
-            text_parts.append(page.get_text("text") or "") # Add empty string if extraction fails
+            text_parts.append(page.get_text("text") or "")
 
         extracted_text = "\n".join(text_parts)
-        doc.close() # Close the document
+        doc.close()
         logging.info(f"Successfully extracted text (length: {len(extracted_text)}).")
 
     except requests.exceptions.RequestException as e:
         logging.error(f"Error downloading PDF from {pdf_url}: {e}")
-        return None # Return None directly
+        return None
     except fitz.FileDataError as e: # Catch specific PyMuPDF errors
         logging.error(f"Error reading PDF content from {pdf_url} with PyMuPDF: {e}")
-        return None # Return None directly
-    except Exception as e: # Catch any other unexpected errors
+        return None
+    except Exception as e:
         logging.error(f"An unexpected error occurred while processing {pdf_url}: {e}", exc_info=True) # Log traceback for unexpected errors
-        return None # Return None directly
+        return None
 
-    # Ensure extracted_text is returned if successful
     return extracted_text
 
 if __name__ == "__main__":
-    # Example usage with a known arXiv PDF URL
-    # Replace with a valid URL if this one becomes outdated
     test_url = "https://arxiv.org/pdf/1706.03762.pdf" # Attention is All You Need paper
     print(f"Testing download_and_extract_text with URL: {test_url}")
 
