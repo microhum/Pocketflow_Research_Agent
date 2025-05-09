@@ -2,7 +2,7 @@
 import arxiv
 import logging
 from typing import List
-from models import ArxivPaperSchema
+from pocketflow_research.models import ArxivPaperSchema
 
 logging.basicConfig(level=logging.INFO)
 

@@ -4,7 +4,7 @@ import requests
 import fitz  # PyMuPDF
 import io
 import logging
-from utils.proxy_rotatation_request import get_random_proxy_request
+# from utils.proxy_rotatation_request import get_random_proxy_request
 
 logging.basicConfig(level=logging.INFO)
 

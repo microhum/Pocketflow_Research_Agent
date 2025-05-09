@@ -1,183 +1,213 @@
-"""
-PocketFlow: A minimalist LLM framework for Agents, Task Decomposition, RAG, etc.
-"""
+import asyncio, warnings, copy, time
 
-class Node:
-    """
-    Base class for all nodes in a flow.
-    """
-    def __init__(self, max_retries=1, wait=0):
-        self.params = {}
-        self.max_retries = max_retries
-        self.wait = wait
-        self.cur_retry = 0
-        self.transitions = {}
-        
+
+class BaseNode:
+    def __init__(self):
+        self.params, self.successors = {}, {}
+
     def set_params(self, params):
-        """Set parameters for this node."""
         self.params = params
-        return self
-        
+
+    def next(self, node, action="default"):
+        if action in self.successors:
+            warnings.warn(f"Overwriting successor for action '{action}'")
+        self.successors[action] = node
+        return node
+
     def prep(self, shared):
-        """Prepare data from shared store for execution."""
-        return None
-        
+        pass
+
     def exec(self, prep_res):
-        """Execute the node's main logic."""
-        return None
-        
-    def exec_fallback(self, prep_res, exc):
-        """Handle exceptions from exec."""
-        raise exc
-        
+        pass
+
     def post(self, shared, prep_res, exec_res):
-        """Process results and update shared store."""
-        return "default"
-        
+        pass
+
+    def _exec(self, prep_res):
+        return self.exec(prep_res)
+
+    def _run(self, shared):
+        p = self.prep(shared)
+        e = self._exec(p)
+        return self.post(shared, p, e)
+
     def run(self, shared):
-        """Run the node's full lifecycle."""
-        prep_res = self.prep(shared)
-        
-        exec_res = None
-        self.cur_retry = 0
-        
-        while self.cur_retry < self.max_retries:
+        if self.successors:
+            warnings.warn("Node won't run successors. Use Flow.")
+        return self._run(shared)
+
+    def __rshift__(self, other):
+        return self.next(other)
+
+    def __sub__(self, action):
+        if isinstance(action, str):
+            return _ConditionalTransition(self, action)
+        raise TypeError("Action must be a string")
+
+
+class _ConditionalTransition:
+    def __init__(self, src, action):
+        self.src, self.action = src, action
+
+    def __rshift__(self, tgt):
+        return self.src.next(tgt, self.action)
+
+
+class Node(BaseNode):
+    def __init__(self, max_retries=1, wait=0):
+        super().__init__()
+        self.max_retries, self.wait = max_retries, wait
+
+    def exec_fallback(self, prep_res, exc):
+        raise exc
+
+    def _exec(self, prep_res):
+        for self.cur_retry in range(self.max_retries):
             try:
-                exec_res = self.exec(prep_res)
-                break
+                return self.exec(prep_res)
             except Exception as e:
                 if self.cur_retry == self.max_retries - 1:
-                    # Last retry failed, use fallback
-                    exec_res = self.exec_fallback(prep_res, e)
-                    break
-                
-                import time
-                time.sleep(self.wait)
-                self.cur_retry += 1
-        
-        action = self.post(shared, prep_res, exec_res)
-        return action if action is not None else "default"
-        
-    def __rshift__(self, other):
-        """
-        Operator overload for >>
-        node_a >> node_b is equivalent to node_a - "default" >> node_b
-        """
-        self.transitions["default"] = other
-        return other
-        
-    def __sub__(self, action):
-        """
-        Operator overload for -
-        Used in node_a - "action" >> node_b
-        """
-        class _TransitionBuilder:
-            def __init__(self, node, action):
-                self.node = node
-                self.action = action
-                
-            def __rshift__(self, other):
-                self.node.transitions[self.action] = other
-                return other
-                
-        return _TransitionBuilder(self, action)
+                    return self.exec_fallback(prep_res, e)
+                if self.wait > 0:
+                    time.sleep(self.wait)
 
 
 class BatchNode(Node):
-    """
-    A node that processes items in batches.
-    """
-    def exec(self, prep_res):
-        """
-        Process each item in the batch.
-        
-        Args:
-            prep_res: An iterable of items to process
-            
-        Returns:
-            list: Results for each item
-        """
-        results = []
-        for item in prep_res:
-            result = super().exec(item)
-            results.append(result)
-        return results
+    def _exec(self, items):
+        return [super(BatchNode, self)._exec(i) for i in (items or [])]
 
 
-class Flow(Node):
-    """
-    A flow that connects multiple nodes.
-    """
+class Flow(BaseNode):
     def __init__(self, start=None):
         super().__init__()
-        self.start = start
-        
-    def run(self, shared):
-        """
-        Run the flow from the start node.
-        
-        Args:
-            shared: The shared data store
-            
-        Returns:
-            str: The final action
-        """
-        if not self.start:
-            return "default"
-            
-        # Apply flow params to start node
-        self.start.set_params(self.params)
-        
-        current = self.start
-        while current:
-            action = current.run(shared)
-            
-            # Find the next node based on the action
-            current = current.transitions.get(action)
-            
-            # If we found a next node and it's not the end, apply params
-            if current:
-                current.set_params(self.params)
-                
-        return "default"
+        self.start_node = start
+
+    def start(self, start):
+        self.start_node = start
+        return start
+
+    def get_next_node(self, curr, action):
+        nxt = curr.successors.get(action or "default")
+        if not nxt and curr.successors:
+            warnings.warn(f"Flow ends: '{action}' not found in {list(curr.successors)}")
+        return nxt
+
+    def _orch(self, shared, params=None):
+        curr, p, last_action = (
+            copy.copy(self.start_node),
+            (params or {**self.params}),
+            None,
+        )
+        while curr:
+            curr.set_params(p)
+            last_action = curr._run(shared)
+            curr = copy.copy(self.get_next_node(curr, last_action))
+        return last_action
+
+    def _run(self, shared):
+        p = self.prep(shared)
+        o = self._orch(shared)
+        return self.post(shared, p, o)
+
+    def post(self, shared, prep_res, exec_res):
+        return exec_res
 
 
 class BatchFlow(Flow):
-    """
-    A flow that runs multiple times with different parameters.
-    """
-    def prep(self, shared):
-        """
-        Return a list of parameter dictionaries.
-        
-        Args:
-            shared: The shared data store
-            
-        Returns:
-            list: A list of parameter dictionaries
-        """
-        return []
-        
-    def run(self, shared):
-        """
-        Run the flow multiple times with different parameters.
-        
-        Args:
-            shared: The shared data store
-            
-        Returns:
-            str: The final action
-        """
-        param_list = self.prep(shared)
-        
-        for params in param_list:
-            # Merge flow params with batch params
-            merged_params = {**self.params, **params}
-            
-            # Set merged params on the flow
-            self.set_params(merged_params)
-            
-            # Run the flow with these params
-            super().run(shared)
-            
-        return "default"
+    def _run(self, shared):
+        pr = self.prep(shared) or []
+        for bp in pr:
+            self._orch(shared, {**self.params, **bp})
+        return self.post(shared, pr, None)
+
+
+class AsyncNode(Node):
+    async def prep_async(self, shared):
+        pass
+
+    async def exec_async(self, prep_res):
+        pass
+
+    async def exec_fallback_async(self, prep_res, exc):
+        raise exc
+
+    async def post_async(self, shared, prep_res, exec_res):
+        pass
+
+    async def _exec(self, prep_res):
+        for i in range(self.max_retries):
+            try:
+                return await self.exec_async(prep_res)
+            except Exception as e:
+                if i == self.max_retries - 1:
+                    return await self.exec_fallback_async(prep_res, e)
+                if self.wait > 0:
+                    await asyncio.sleep(self.wait)
+
+    async def run_async(self, shared):
+        if self.successors:
+            warnings.warn("Node won't run successors. Use AsyncFlow.")
+        return await self._run_async(shared)
+
+    async def _run_async(self, shared):
+        p = await self.prep_async(shared)
+        e = await self._exec(p)
+        return await self.post_async(shared, p, e)
+
+    def _run(self, shared):
+        raise RuntimeError("Use run_async.")
+
+
+class AsyncBatchNode(AsyncNode, BatchNode):
+    async def _exec(self, items):
+        return [await super(AsyncBatchNode, self)._exec(i) for i in items]
+
+
+class AsyncParallelBatchNode(AsyncNode, BatchNode):
+    async def _exec(self, items):
+        return await asyncio.gather(
+            *(super(AsyncParallelBatchNode, self)._exec(i) for i in items)
+        )
+
+
+class AsyncFlow(Flow, AsyncNode):
+    async def _orch_async(self, shared, params=None):
+        curr, p, last_action = (
+            copy.copy(self.start_node),
+            (params or {**self.params}),
+            None,
+        )
+        while curr:
+            curr.set_params(p)
+            last_action = (
+                await curr._run_async(shared)
+                if isinstance(curr, AsyncNode)
+                else curr._run(shared)
+            )
+            curr = copy.copy(self.get_next_node(curr, last_action))
+        return last_action
+
+    async def _run_async(self, shared):
+        p = await self.prep_async(shared)
+        o = await self._orch_async(shared)
+        return await self.post_async(shared, p, o)
+
+    async def post_async(self, shared, prep_res, exec_res):
+        return exec_res
+
+
+class AsyncBatchFlow(AsyncFlow, BatchFlow):
+    async def _run_async(self, shared):
+        pr = await self.prep_async(shared) or []
+        for bp in pr:
+            await self._orch_async(shared, {**self.params, **bp})
+        return await self.post_async(shared, pr, None)
+
+
+class AsyncParallelBatchFlow(AsyncFlow, BatchFlow):
+    async def _run_async(self, shared):
+        pr = await self.prep_async(shared) or []
+        await asyncio.gather(
+            *(self._orch_async(shared, {**self.params, **bp}) for bp in pr)
+        )
+        return await self.post_async(shared, pr, None)

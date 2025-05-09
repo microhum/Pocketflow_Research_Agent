@@ -16,7 +16,7 @@ from pocketflow_research.nodes import (
     CiteSourcesNode,
     EarlyEndReporterNode # Added EarlyEndReporterNode
 )
-from src.pocketflow_research.models import SharedStore # Import SharedStore
+from pocketflow_research.models import SharedStore # Import SharedStore
 from typing import cast # For casting dict to SharedStore
 
 logging.basicConfig(level=logging.INFO)
@@ -49,22 +49,30 @@ def create_research_agent_flow(source: str = 'arxiv') -> Flow:
     cite_sources = CiteSourcesNode()
     early_end_reporter = EarlyEndReporterNode() # Instantiate the new node
 
-    # --- Define flow connections ---
-    # Path A: Fetch New Documents
+
+    # Define the flow connections 
+
     get_topic >> classify_intent
+
+    # Path for "FETCH_NEW" intent
     classify_intent - "fetch_new" >> extract_keywords
     extract_keywords >> paper_fetching_node
     paper_fetching_node >> process_papers
     process_papers >> embed_chunks
     embed_chunks >> build_temp_index
-    build_temp_index >> retrieve_chunks
+    build_temp_index >> embed_query # Embed query after building new index
+    embed_query - "default" >> retrieve_chunks # Default transition after embedding query
 
-    # Path B: QA on Current Context (Skip Fetching/Processing)
-    classify_intent - "qa_current" >> retrieve_chunks
-    classify_intent >> embed_query 
-    embed_query >> retrieve_chunks
+    # Path for "QA_CURRENT" intent
+    # If QA_CURRENT, we still need to embed the current query (topic)
+    # to search the existing persistent index.
+    classify_intent - "qa_current" >> embed_query 
+    # After embedding query in QA_CURRENT path, go to retrieve_chunks
+    # No new papers are fetched or processed for QA_CURRENT.
+    # RetrieveChunksNode will rely on the persistent index.
+    embed_query - "default" >> retrieve_chunks # This ensures retrieve_chunks is hit from both paths
 
-    # Common path after retrieval
+    # Common path after retrieval (from either FETCH_NEW or QA_CURRENT)
     retrieve_chunks >> generate_response
     generate_response >> cite_sources
 
@@ -86,14 +94,14 @@ def create_research_agent_flow(source: str = 'arxiv') -> Flow:
     return Flow(start=get_topic)
 
 if __name__ == "__main__":
-    print("--- Testing Research Agent Flow (ArXiv Source) ---")
-    arxiv_flow_instance = create_research_agent_flow(source='arxiv')
-    if arxiv_flow_instance:
-        print("ArXiv flow created.")
-        shared_arxiv_data: SharedStore = cast(SharedStore, {"topic": "Large Language Models"})
-        arxiv_flow_instance.run(shared_arxiv_data)
-        print("\nArXiv Flow Run Complete.")
-        print(f"Final Answer (ArXiv): {shared_arxiv_data.get('final_answer', 'Not generated')}")
+    # print("--- Testing Research Agent Flow (ArXiv Source) ---")
+    # arxiv_flow_instance = create_research_agent_flow(source='arxiv')
+    # if arxiv_flow_instance:
+    #     print("ArXiv flow created.")
+    #     shared_arxiv_data: SharedStore = cast(SharedStore, {"topic": "Large Language Models"})
+    #     arxiv_flow_instance.run(shared_arxiv_data)
+    #     print("\nArXiv Flow Run Complete.")
+    #     print(f"Final Answer (ArXiv): {shared_arxiv_data.get('final_answer', 'Not generated')}")
 
     print("\n--- Testing Research Agent Flow (ThaiJO Source) ---")
     thaijo_flow_instance = create_research_agent_flow(source='thaijo')

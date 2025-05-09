@@ -6,6 +6,11 @@ from numpy import ndarray
 
 FaissIndexObject = Any
 
+# New model for chat messages
+class ChatMessage(BaseModel):
+    role: Literal["user", "assistant", "system"]
+    content: str
+
 class PaperMetadataBase(BaseModel):
     title: str
     source_url: Optional[str] = None
@@ -37,16 +42,17 @@ class RetrievedChunk(BaseModel):
     original_source: ChunkSourceInfo
 
 class SharedStore(BaseModel):
-    topic: Optional[str] = None
+    topic: Optional[str] = None # Explicitly for embedding and search
+    chat_history: List[ChatMessage] = Field(default_factory=list) # For conversational context
     query_intent: Optional[Literal["FETCH_NEW", "QA_CURRENT", "unknown"]] = None
-    search_keywords: Optional[str] = None
+    search_keywords: Optional[str] = None # May be derived from topic or chat_history
     fetched_papers: List[FetchedPaperInfo] = Field(default_factory=list)
-    temp_embeddings: Optional[Any] = None 
+    temp_embeddings: Optional[Any] = None
     chunk_source_map: Dict[int, ChunkSourceInfo] = Field(default_factory=dict)
-    temp_embeddings: Optional[ndarray] = None
+    # temp_embeddings: Optional[ndarray] = None # Duplicate, removed
     query_embedding: Optional[Any] = None
     temp_index: Optional[FaissIndexObject] = None
-    query_embedding: Optional[ndarray] = None
+    # query_embedding: Optional[ndarray] = None # Duplicate, removed
     retrieved_chunks_with_source: List[RetrievedChunk] = Field(default_factory=list)
     answer_text: Optional[str] = None
     answer_sources: List[ChunkSourceInfo] = Field(default_factory=list)
@@ -92,9 +98,10 @@ class ThaiJoAuthorSchema(BaseModel):
 
 class ThaiJoPaperSchema(TypedDict):
     id: int
-    title: str
-    abstract: str
-    authors: List[str]
+    title: str # Note: In ThaiJO API response, title is an object {"en_US": "...", "th_TH": "..."}
+              # This model simplifies it to a single string. Consider adjusting if specific language needed.
+    abstract: str # Similar to title, abstract is an object in API response.
+    authors: List[str] # Simplified. API provides more structured author info.
     url: str
     published_date: str
     source: Literal["thaijo"]

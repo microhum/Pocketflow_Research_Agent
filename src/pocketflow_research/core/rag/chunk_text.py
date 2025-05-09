@@ -22,7 +22,7 @@ def _chunk_by_char(text: str, chunk_size: int = 1000, chunk_overlap: int = 100) 
              logging.warning("Character chunking stopped due to overlap configuration.")
              break
         if start_index >= text_len: break
-    logging.info(f"Split text (length {text_len}) into {len(chunks)} chunks (method: char, size ~{chunk_size}, overlap {chunk_overlap}).")
+    # logging.info(f"Split text (length {text_len}) into {len(chunks)} chunks (method: char, size ~{chunk_size}, overlap {chunk_overlap}).")
     return chunks
 
 def _chunk_by_rule_paragraph(text: str, min_chunk_size: int = 50) -> list[str]:

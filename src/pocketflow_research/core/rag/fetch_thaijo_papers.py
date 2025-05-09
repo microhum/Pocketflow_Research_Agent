@@ -4,7 +4,7 @@ import requests
 import json
 import logging
 from typing import List, Optional
-from models import ThaiJoPaperSchema
+from pocketflow_research.models import ThaiJoPaperSchema
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 

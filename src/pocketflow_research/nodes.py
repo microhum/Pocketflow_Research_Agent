@@ -65,39 +65,62 @@ class GetTopicNode(Node):
         return "default"
 
 class QueryIntentClassifierNode(Node):
-    """Classifies the user query intent (fetch new vs. QA on current)."""
-    def prep(self, shared: SharedStore) -> Optional[str]:
-        return shared.get("topic")
+    """Classifies the user query intent (fetch new vs. QA on current) based on chat history."""
+    def prep(self, shared: SharedStore) -> Tuple[Optional[List[Dict[str, str]]], Optional[str]]:
+        # Convert ChatMessage objects to simple dicts for easier processing if needed
+        chat_history_simple = [{"role": msg.role, "content": msg.content} for msg in shared.get("chat_history", [])]
+        topic = shared.get("topic")
+        return chat_history_simple, topic
 
-    def exec(self, topic: Optional[str]) -> Literal["FETCH_NEW", "QA_CURRENT", "unknown"]:
-        if not topic:
-            logging.error("No topic provided for intent classification.")
+    def exec(self, inputs: Tuple[Optional[List[Dict[str, str]]], Optional[str]]) -> Literal["FETCH_NEW", "QA_CURRENT", "unknown"]:
+        chat_history, topic = inputs
+        
+        query_to_analyze = ""
+        if chat_history:
+            # Use the last user message if available
+            last_user_message = next((msg["content"] for msg in reversed(chat_history) if msg["role"] == "user"), None)
+            if last_user_message:
+                query_to_analyze = last_user_message
+            elif topic: # Fallback to topic if no user message in history (e.g. system message start)
+                query_to_analyze = topic
+        elif topic: # Fallback to topic if chat history is empty
+            query_to_analyze = topic
+        
+        if not query_to_analyze:
+            logging.error("No query or topic provided for intent classification.")
             return "unknown"
 
-        prompt = f"""Analyze the following user query: "{topic}"
-Determine the user's primary intent. Is the user asking a general question that requires searching for new documents, or are they asking a specific question likely answerable from previously discussed or indexed documents?
+        # Construct a representation of chat history for the prompt, if needed
+        history_str_for_prompt = ""
+        if chat_history and len(chat_history) > 1: # More than just the current query
+            history_str_for_prompt = "\n\nPrevious conversation context:\n" + "\n".join([f"{msg['role']}: {msg['content']}" for msg in chat_history[:-1]])
+
+
+        prompt = f"""Given the following conversation history (if any) and the latest user query, determine the user's primary intent.
+Is the user asking a general question that requires searching for new documents, or are they asking a specific question likely answerable from previously discussed or indexed documents?
 Respond with ONLY one of the following labels:
 FETCH_NEW - If the query requires searching for and processing new documents.
-QA_CURRENT - If the query seems to be asking about documents already in context or indexed.
-Query: "{topic}"
+QA_CURRENT - If the query seems to be asking about documents already in context or indexed, or is a follow-up to a previous turn.
+{history_str_for_prompt}
+Latest User Query: "{query_to_analyze}"
 Intent Label:"""
         try:
             intent_label_str = call_llm(prompt).strip().upper()
-            logging.info(f"LLM classified intent for '{topic}' as: {intent_label_str}")
+            logging.info(f"LLM classified intent for query '{query_to_analyze}' (with history context) as: {intent_label_str}")
             if intent_label_str == "FETCH_NEW":
                 return "FETCH_NEW"
             elif intent_label_str == "QA_CURRENT":
                 return "QA_CURRENT"
             else:
-                logging.warning(f"LLM returned unexpected intent label: {intent_label_str}. Defaulting to FETCH_NEW.")
-                return "FETCH_NEW"
+                logging.warning(f"LLM returned unexpected intent label: {intent_label_str} for query '{query_to_analyze}'. Defaulting to FETCH_NEW.")
+                return "FETCH_NEW" # Default to fetching new if unsure
         except Exception as e:
-            logging.error(f"Error during intent classification LLM call: {e}", exc_info=True)
-            return "FETCH_NEW"
+            logging.error(f"Error during intent classification LLM call for query '{query_to_analyze}': {e}", exc_info=True)
+            return "FETCH_NEW" # Default to fetching new on error
 
-    def post(self, shared: SharedStore, prep_res: Optional[str], exec_res: Literal["FETCH_NEW", "QA_CURRENT", "unknown"]) -> Optional[str]:
+    def post(self, shared: SharedStore, prep_res: Tuple[Optional[List[Dict[str, str]]], Optional[str]], exec_res: Literal["FETCH_NEW", "QA_CURRENT", "unknown"]) -> Optional[str]:
         shared["query_intent"] = exec_res
-        logging.info(f"Query intent classified as: {exec_res}")
+        logging.info(f"Query intent classified as: {exec_res} based on chat history and/or topic.")
         if exec_res == "FETCH_NEW":
             return "fetch_new"
         elif exec_res == "QA_CURRENT":
@@ -106,38 +129,60 @@ Intent Label:"""
             return "fetch_new"
 
 class KeywordExtractorNode(Node):
-    """Extracts relevant keywords from the user query for searching."""
-    def prep(self, shared: SharedStore) -> Optional[str]:
-        return shared.get("topic")
+    """Extracts relevant keywords from the user query (or chat history) for searching."""
+    def prep(self, shared: SharedStore) -> Tuple[Optional[List[Dict[str, str]]], Optional[str]]:
+        chat_history_simple = [{"role": msg.role, "content": msg.content} for msg in shared.get("chat_history", [])]
+        topic = shared.get("topic") # Topic is still the primary source for keywords if intent is FETCH_NEW
+        return chat_history_simple, topic
 
-    def exec(self, topic: Optional[str]) -> Optional[str]:
-        if not topic:
-            logging.error("No topic provided for keyword extraction.")
-            return topic
-        prompt = f"""Extract the essential keywords or a concise search phrase from the following user query, suitable for searching academic databases like ArXiv or ThaiJO. Focus on the core concepts.
-User Query: "{topic}"
+    def exec(self, inputs: Tuple[Optional[List[Dict[str, str]]], Optional[str]]) -> Optional[str]:
+        chat_history, topic = inputs
+
+        query_for_keywords = ""
+        # Prioritize topic if available, as it's designated for search/embedding
+        if topic:
+            query_for_keywords = topic
+        elif chat_history: # Fallback to last user message if no explicit topic
+            last_user_message = next((msg["content"] for msg in reversed(chat_history) if msg["role"] == "user"), None)
+            if last_user_message:
+                query_for_keywords = last_user_message
+        
+        if not query_for_keywords:
+            logging.error("No query or topic provided for keyword extraction.")
+            return None # Return None if no basis for keywords
+
+        # Construct a representation of chat history for the prompt, if needed for context
+        history_str_for_prompt = ""
+        if chat_history and len(chat_history) > 1: # More than just the current query
+            history_str_for_prompt = "\n\nPrevious conversation context (for refining keywords if needed):\n" + "\n".join([f"{msg['role']}: {msg['content']}" for msg in chat_history[:-1]])
+
+
+        prompt = f"""Given the following conversation history (if any) and the primary query/topic, extract the essential keywords or a concise search phrase suitable for searching academic databases like ArXiv or ThaiJO. Focus on the core concepts of the primary query/topic.
+{history_str_for_prompt}
+Primary Query/Topic: "{query_for_keywords}"
 Return ONLY the keywords/search phrase. Examples:
 Query: "Summarize the latest advancements in large language models for code generation" -> Keywords: large language models code generation
 Query: "What did the paper 'Attention is All You Need' say about transformer architectures?" -> Keywords: Attention is All You Need transformer architectures
 Query: "Compare reinforcement learning methods for robotics" -> Keywords: reinforcement learning robotics comparison
 Query: "ปลานิลพบเจอที่ไหนบ้างในประเทศไทย?" -> Keywords: ปลานิล ไทย
-Query: "{topic}"
+Primary Query/Topic: "{query_for_keywords}"
 Keywords/Search Phrase:"""
         try:
             extracted_keywords = call_llm(prompt).strip()
-            logging.info(f"Extracted keywords for '{topic}': {extracted_keywords}")
-            if topic and extracted_keywords and len(extracted_keywords) < len(topic) * 1.5:
+            logging.info(f"Extracted keywords for query/topic '{query_for_keywords}': {extracted_keywords}")
+            # Basic validation: ensure keywords are not empty and not excessively long compared to original
+            if extracted_keywords and len(extracted_keywords) < len(query_for_keywords) * 1.8: # Allow a bit more flexibility
                 return extracted_keywords
             else:
-                logging.warning(f"Keyword extraction might have failed or returned poor result: '{extracted_keywords}'. Using original topic.")
-                return topic
+                logging.warning(f"Keyword extraction might have failed or returned poor result: '{extracted_keywords}'. Using original query/topic as keywords.")
+                return query_for_keywords # Fallback to the original query/topic
         except Exception as e:
-            logging.error(f"Error during keyword extraction LLM call: {e}", exc_info=True)
-            return topic
+            logging.error(f"Error during keyword extraction LLM call for query '{query_for_keywords}': {e}", exc_info=True)
+            return query_for_keywords # Fallback on error
 
-    def post(self, shared: SharedStore, prep_res: Optional[str], exec_res: Optional[str]) -> Optional[str]:
+    def post(self, shared: SharedStore, prep_res: Tuple[Optional[List[Dict[str, str]]], Optional[str]], exec_res: Optional[str]) -> Optional[str]:
         shared["search_keywords"] = exec_res
-        logging.info(f"Search keywords set to: {exec_res}")
+        logging.info(f"Search keywords set to: {exec_res if exec_res else 'None'}")
         return "default"
 
 class FetchArxivNode(Node):
@@ -258,6 +303,7 @@ class ProcessPapersBatchNode(BatchNode):
         return papers
 
     def exec(self, paper_info: FetchedPaperInfo) -> ProcessedPaperResult:
+        print(paper_info)
         logging.info(f"Processing paper_info: title={paper_info.title}, source={paper_info.source}")
         
         source_url = paper_info.source_url
@@ -459,42 +505,78 @@ class RetrieveChunksNode(Node):
         return "default"
 
 class GenerateResponseNode(Node):
-    """Generates the final response using LLM with retrieved context."""
-    def prep(self, shared: SharedStore) -> Tuple[Optional[str], List[RetrievedChunk]]:
-        topic: Optional[str] = shared.get("topic")
+    """Generates the final response using LLM with retrieved context and chat history."""
+    def prep(self, shared: SharedStore) -> Tuple[Optional[str], List[RetrievedChunk], List[Dict[str,str]]]:
+        topic: Optional[str] = shared.get("topic") # This is the primary query/topic for the current turn
         chunks_with_source: List[RetrievedChunk] = shared.get("retrieved_chunks_with_source", [])
-        return topic, chunks_with_source
+        chat_history_simple = [{"role": msg.role, "content": msg.content} for msg in shared.get("chat_history", [])]
+        return topic, chunks_with_source, chat_history_simple
 
-    def exec(self, inputs: Tuple[Optional[str], List[RetrievedChunk]]) -> Tuple[str, List[ChunkSourceInfo]]:
-        topic, retrieved_chunks = inputs
-        if not topic:
-            return "Error: No topic provided.", []
+    def exec(self, inputs: Tuple[Optional[str], List[RetrievedChunk], List[Dict[str,str]]]) -> Tuple[str, List[ChunkSourceInfo]]:
+        current_topic_or_query, retrieved_chunks, chat_history = inputs
+        
+        if not current_topic_or_query and not chat_history:
+            return "Error: No topic or chat history provided to generate a response.", []
+        
+        # The main query for this turn is likely the last user message in chat_history,
+        # or the current_topic_or_query if chat_history is minimal/empty.
+        query_for_llm = current_topic_or_query
+        if chat_history:
+            last_user_message = next((msg["content"] for msg in reversed(chat_history) if msg["role"] == "user"), None)
+            if last_user_message:
+                query_for_llm = last_user_message
+        
+        if not query_for_llm: # Should not happen if logic above is correct
+             query_for_llm = "Please provide a summary based on the context."
+
 
         chunk_texts: List[str] = [item.text for item in retrieved_chunks]
-        context = "\n\n---\n\n".join(chunk_texts)
+        context_str = "\n\n---\n\n".join(chunk_texts)
 
         unique_sources: List[ChunkSourceInfo] = []
         seen_titles: set[str] = set()
         for item in retrieved_chunks:
-            source_info = item.original_source # This is already ChunkSourceInfo
-            if source_info.title and source_info.title != "Unknown Title" and source_info.title not in seen_titles: # Added check for "Unknown Title"
+            source_info = item.original_source
+            if source_info.title and source_info.title != "Unknown Title" and source_info.title not in seen_titles:
                 unique_sources.append(source_info)
                 seen_titles.add(source_info.title)
 
-        if not context:
-            logging.warning("Generating response without retrieved context.")
-            prompt = f"Please provide information about the topic: {topic}"
+        # Construct chat history string for the prompt
+        history_str_for_prompt = "\n\nConversation History:\n"
+        if chat_history:
+            for msg in chat_history:
+                history_str_for_prompt += f"{msg['role'].capitalize()}: {msg['content']}\n"
         else:
-            prompt = f"Based on the following context from research papers, please answer the question or summarize the topic: {topic}\n\nContext:\n{context}\n\nAnswer/Summary:"
+            history_str_for_prompt = "" # No history if empty
+
+        if not context_str:
+            logging.warning("Generating response without retrieved context. Will rely on chat history and query.")
+            prompt = f"""{history_str_for_prompt}
+Based on the conversation history, please answer the latest user query: "{query_for_llm}"
+If the history is empty, provide information about the topic: "{query_for_llm}"
+Answer:"""
+        else:
+            prompt = f"""{history_str_for_prompt}
+Based on the conversation history and the following retrieved context from research papers, please answer the latest user query: "{query_for_llm}"
+
+Retrieved Context:
+{context_str}
+
+Answer/Summary (addressing the latest query within the conversational context):"""
         
         answer_text = call_llm(prompt)
+        # The LLM's response becomes the new "assistant" message in the chat history.
+        # This should be handled by the main loop or a dedicated node after this one if we want to continue the chat.
+        # For now, this node just generates the answer_text.
         return answer_text, unique_sources
 
     def post(self, shared: SharedStore, prep_res: Any, exec_res: Tuple[str, List[ChunkSourceInfo]]) -> Optional[str]:
         answer_text, unique_sources = exec_res
         shared["answer_text"] = answer_text
         shared["answer_sources"] = unique_sources
-        logging.info(f"Generated initial answer text and identified {len(unique_sources)} unique sources.")
+        # Optionally, add assistant's response to shared["chat_history"] here or in a subsequent node
+        # For example: shared["chat_history"].append(ChatMessage(role="assistant", content=answer_text))
+        logging.info(f"Generated initial answer text considering chat history and identified {len(unique_sources)} unique sources.")
         return "default"
 
 class CiteSourcesNode(Node):
@@ -609,7 +691,6 @@ if __name__ == "__main__":
         print("\n--- Testing ProcessPapersBatchNode (ThaiJo) ---")
         process_papers_node_test = ProcessPapersBatchNode()
         
-        # Manually simulate BatchNode execution for testing as run() might not be suitable for BatchNode directly
         prep_res_batch = process_papers_node_test.prep(shared_data_test)
         exec_res_list_batch: List[ProcessedPaperResult] = []
         if prep_res_batch:
