@@ -1,0 +1,112 @@
+# ThaiJO API Documentation
+
+ThaiJO is a Thai Researching Platform.
+
+## API Endpoint
+
+The API endpoint for searching articles is:
+`https://www.tci-thaijo.org/api/articles/search/`
+
+## Request Method
+
+POST
+
+## Request Body Parameters
+
+The request body should be a JSON object with the following parameters:
+
+*   `term` (string, required): The search keyword (e.g., "ปลากัด").
+*   `page` (integer, optional, default: 1): The page number for pagination. Starts from 1.
+*   `size` (integer, optional, default: 20): The number of results to return per page.
+*   `strict` (boolean, optional, default: true): If `true`, performs an exact match search for the term. If `false`, performs a broader search.
+*   `title` (boolean, optional, default: true): Set to `true` to include article titles in the search scope.
+*   `author` (boolean, optional, default: true): Set to `true` to include author names in the search scope.
+*   `abstract` (boolean, optional, default: true): Set to `true` to include article abstracts in the search scope.
+
+## Request Body Example
+
+```json
+{
+    "term": "ปลากัด",
+    "page": 1,
+    "size": 20,
+    "strict": true,
+    "title": true,
+    "author": true,
+    "abstract": true
+}
+```
+
+## Response Payload Structure
+
+The API returns a JSON object with the following structure:
+
+```json
+{
+    "total": 63, // Total number of articles found matching the query
+    "result": [  // Array containing the article objects for the current page
+        {
+            "id": 250858, // Unique ID of the article
+            "title": {
+                "en_US": "English Title...",
+                "th_TH": "Thai Title..."
+            },
+            "abstract_clean": {
+                "en_US": "English Abstract...",
+                "th_TH": "Thai Abstract..."
+            },
+            "keywords": {
+                "en_US": ["Keyword1", "Keyword2"],
+                "th_TH": ["คำสำคัญ1", "คำสำคัญ2"]
+            },
+            "authors": [
+                {
+                    "author_id": 437009,
+                    "full_name": {
+                        "en_US": "Author Name EN",
+                        "th_TH": "ชื่อผู้แต่ง TH"
+                    },
+                    "affiliation": {
+                        "en_US": "Affiliation EN",
+                        "th_TH": "สังกัด TH"
+                    },
+                    // ... other author details
+                }
+                // ... more authors
+            ],
+            "articleUrl": "https://li01.tci-thaijo.org/index.php/wichcha/article/view/250858", // URL to the article
+            "journal_id": 359, // ID of the journal
+            "issue_id": 17174, // ID of the issue
+            "datePublished": "2021-06-17T17:00:00+0000", // Publication date
+            "score": 81.35855, // Relevance score
+            "highlight": { // Snippets showing where the search term was found
+                "title.th_TH": ["...<span>ปลา</span><span>กัด</span>..."],
+                "keywords.th_TH.keyword": ["<span>ปลากัด</span>"],
+                // ... other highlighted fields
+            }
+            // ... other article details (journal info, URLs, dates, etc.)
+        }
+        // ... more articles (up to the 'size' limit)
+    ],
+    "options": [
+        1,  // Current page number
+        20, // Results per page (size)
+        0   // Unknown purpose
+    ]
+}
+```
+
+**Key Response Fields:**
+
+*   `total`: Total count of matching articles.
+*   `result`: An array of article objects.
+    *   `id`: Article's unique ID.
+    *   `title`: Object containing English (`en_US`) and Thai (`th_TH`) titles.
+    *   `abstract_clean`: Object containing English (`en_US`) and Thai (`th_TH`) abstracts.
+    *   `keywords`: Object containing English (`en_US`) and Thai (`th_TH`) keyword arrays.
+    *   `authors`: Array of author objects with names and affiliations.
+    *   `articleUrl`: Direct link to the article.
+    *   `datePublished`: Article publication date.
+    *   `score`: Search relevance score.
+    *   `highlight`: Object showing snippets where the search term matched.
+*   `options`: Array likely containing pagination details (`[page, size, ?]`).

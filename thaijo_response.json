@@ -1,0 +1,3221 @@
+{
+    "total": 63,
+    "result": [
+        {
+            "headerLogo": {
+                "en_US": "pageHeaderLogoImage_en_US.png",
+                "th_TH": "pageHeaderLogoImage_th_TH.png"
+            },
+            "keywords": {
+                "en_US": [
+                    "Growth",
+                    "Betta splendens",
+                    "Nostoc commune"
+                ],
+                "th_TH": [
+                    "Nostoc commune",
+                    "การเจริญเติบโต",
+                    "ปลากัด"
+                ]
+            },
+            "abstract_clean": {
+                "en_US": "The objective of this research was to study the growth, feed utilization, and coloration of Siamese fighting fish ( Betta splendens  Regan, 1910) fed with  Nostoc commune  Vaucher TISTR 8870 supplemented diets. The 6-week-old fish (0.72±0.09 g) were fed with experimental diets containing five inclusion levels of  N. commune  (0.0, 1.0, 2.5, 5.0 and 10.0%), comprising fifteen fish each, over eight-week duration. The fish fed control and 1.0%  N. commune  containing diets exhibited superior average body weight, average body length, daily weight gain and percentage of daily weight gain, as compared to remaining treatments ( p   0.05), while survival rate was 100±0.00% in all dietary treatments. Significantly positive feed conversion ratio was obtained in fish fed 1.0%  N. commune  containing diet relative to remaining treatments ( p   0.05). The lightness, redness and yellowness did not differ between fish fed control and  N. commune  containing diets ( p   0.05). Specific activities of pepsin and chymotrypsin were not different, whereas specific activity of lipase was high in fish fed control diet and the diets containing 1.0 and 2.5%  N. commune  ( p   0.05) .  The differences in average pH and temperature were found over experimental duration ( p   0.05). The lowest pH (6.24±0.10) and temperature (26.34±0.03 °C) were recorded in respective treatments of control and 2.5%  N. commune  containing diet. There was no statistical difference in dissolved oxygen ammonia concentration in all dietary groups ( p   0.05). Findings from the current study indicate that fish fed diet containing 1.0%  N. commune  contributes the lowest conversion ratio, reducing the cost for commercial production of Siamese fighting fish farming.",
+                "th_TH": "งานวิจัยนี้มีวัตถุประสงค์เพื่อศึกษาการเจริญเติบโต ประสิทธิภาพการใช้อาหาร และการสร้างสีของปลากัด ( Betta splendens  Regan, 1910) ที่เลี้ยงด้วยอาหารเสริมสาหร่ายสีเขียวแกมน้ำเงิน  Nostoc commune  Vaucher TISTR 8870 โดยเลี้ยงปลากัดอายุ 6 สัปดาห์ (0.72±0.09 กรัม) ด้วยอาหารที่มีสาหร่ายสีเขียวแกมน้ำเงิน  N. commune  Vaucher TISTR 8870 ในอัตราส่วนที่แตกต่างกัน 5 ระดับ คือ 0.0 1.0 2.5 5.0 และ 10.0 เปอร์เซ็นต์ แต่ละชุดการทดลองมี 15 ซ้ำ เป็นระยะเวลา 8 สัปดาห์ ผลการทดลองพบว่าปลากัดที่เลี้ยงด้วยอาหารไม่เสริมสาหร่ายสีเขียวแกมน้ำเงิน  N. commune  Vaucher TISTR 8870 และที่มีการเสริมสาหร่าย 1 เปอร์เซ็นต์ มีน้ำหนักเพิ่มขึ้นเฉลี่ย ความยาวเพิ่มขึ้นเฉลี่ย น้ำหนักเพิ่มขึ้นต่อวัน และเปอร์เซ็นต์น้ำหนักเพิ่มขึ้นต่อวันดีที่สุดและมีความแตกต่างกันอย่างมีนัยสำคัญทางสถิติ ( p   0.05) กับทุกชุดการทดลอง ยกเว้นอัตราการรอดตายที่ทุกชุดการทดลองมีค่าเท่ากับ 100±0.00 เปอร์เซ็นต์ ในขณะที่อัตราการเปลี่ยนอาหารเป็นเนื้อ พบว่าชุดการทดลองที่มีการเสริมสาหร่าย 1 เปอร์เซ็นต์ มีค่าต่ำที่สุดและมีความแตกต่างกันอย่างมีนัยสำคัญทางสถิติ ( p   0.05) ขณะที่ค่าความสว่าง ค่าความเป็นสีแดง และความเป็นสีเหลืองของสีผิวของปลากัดที่เลี้ยงด้วยอาหารที่เสริมและไม่เสริมสาหร่ายสาหร่ายสีเขียวแกมน้ำเงิน  N. commune  Vaucher TISTR 8870 ซึ่งพบว่าไม่มีความแตกต่างทางสถิติ ( p   0.05) กิจกรรมจำเพาะของเอนไซม์เอนไซม์เพปซินและไคโมทริปซินไม่มีความแตกต่างกัน แต่กิจกรรมจำเพาะของเอนไซม์ไลเปสมีค่าสูงในปลาในชุดควบคุมและปลาที่ได้รับสาหร่ายที่ระดับ 1.0 และ 2.5 เปอร์เซ็นต์ ( p   0.05) คุณภาพน้ำในการเลี้ยงปลากัดพบว่าค่าเฉลี่ยความเป็นกรด-ด่าง และค่าอุณหภูมิน้ำมีความแตกต่างทางสถิติอย่างมีนัยสำคัญ ( p   0.05) โดยพบว่าชุดควบคุม มีค่าเฉลี่ยความเป็นกรด-ด่าง ต่ำสุดอยู่ที่ 6.24±0.10 และค่าอุณหภูมิน้ำ พบว่าที่เสริมสาหร่าย 2.5 เปอร์เซ็นต์ มีค่าอุณหภูมิต่ำสุดคือ 26.34±0.03 องศาเซลเซียส ส่วนค่าปริมาณออกซิเจนละลายน้ำและแอมโมเนียไม่มีความแตกต่างทางสถิติ ( p   0.05) กับทุกชุดการทดลอง ผลการทดลองนี้แสดงให้เห็นว่าอาหารปลากัดที่มีการเสริมสาหร่าย 1.0 เปอร์เซ็นต์มีค่าอัตราการเปลี่ยนอาหารเป็นเนื้อต่ำสุดซึ่งจะช่วยลดต้นทุนในการเลี้ยงปลากัดเชิงพาณิชย์"
+            },
+            "language": "th",
+            "title": {
+                "en_US": "Effects of cyannobacteria, Nostoc commune Vaucher TISTR 8870 supplementation on growth, feed utilization and coloration of Siamese fighting fish (Betta splendens Regan, 1910) ผลของการเสริมสาหร่ายสีเขียวแกมน้ำเงิน Nostoc commune Vaucher TISTR 8870 ต่อการเจริญเติบโต ประสิทธิภาพการใช้อาหารและการสร้างสีของปลากัด (Betta splendens Regan, 1910)",
+                "th_TH": "Effects of cyannobacteria, Nostoc commune Vaucher TISTR 8870 supplementation on growth, feed utilization and coloration of Siamese fighting fish (Betta splendens Regan, 1910) ผลของการเสริมสาหร่ายสีเขียวแกมน้ำเงิน Nostoc commune Vaucher TISTR 8870 ต่อการเจริญเติบโต ประสิทธิภาพการใช้อาหารและการสร้างสีของปลากัด (Betta splendens Regan, 1910)"
+            },
+            "pubIdDoi": null,
+            "articleUrl": "https://li01.tci-thaijo.org/index.php/wichcha/article/view/250858",
+            "publication_id": 24167,
+            "path": "wichcha",
+            "pages": "106-120",
+            "copyrightHolder": {
+                "en_US": "Wichcha Journal Nakhon Si Thammarat Rajabhat University",
+                "th_TH": "วารสารวิชชา มหาวิทยาลัยราชภัฏนครศรีธรรมราช"
+            },
+            "coverImage": null,
+            "cat": "life01",
+            "dateStatusModified": "2021-06-18T04:04:55+0000",
+            "id": 250858,
+            "isPublushed": 1,
+            "journal_id": 359,
+            "doiSuffix": null,
+            "journal_enabled": 1,
+            "thaijoUrl": "https://li01.tci-thaijo.org/index.php/wichcha",
+            "thumbnail": {
+                "en_US": "journalThumbnail_en_US.png",
+                "th_TH": "journalThumbnail_th_TH.png"
+            },
+            "issue_id": 17174,
+            "issueDatePublished": "2021-06-13T17:00:00+0000",
+            "version": 1,
+            "datePublished": "2021-06-17T17:00:00+0000",
+            "issueCoverImage": {
+                "en_US": "cover_issue_17174_en_US.jpg"
+            },
+            "issueUrl": "https://li01.tci-thaijo.org/index.php/wichcha/issue/view/17174",
+            "subtitle": {
+                "en_US": "",
+                "th_TH": ""
+            },
+            "lastModified": "2021-12-17T04:56:25+0000",
+            "dateSubmitted": "2021-05-18T05:55:55+0000",
+            "status": 3,
+            "authors": [
+                {
+                    "publication_id": 24167,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Somrak Rodjaroen",
+                        "th_TH": "สมรักษ์ รอดเจริญ"
+                    },
+                    "affiliation": {
+                        "en_US": "สาขาเกษตรศาสตร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏนครศรีธรรมราช",
+                        "th_TH": "สาขาเกษตรศาสตร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏนครศรีธรรมราช"
+                    },
+                    "last_name": {
+                        "en_US": "Rodjaroen",
+                        "th_TH": "รอดเจริญ"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 437009,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Somrak",
+                        "th_TH": "สมรักษ์"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 24167,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Manop Adam",
+                        "th_TH": "มานพ อาดำ"
+                    },
+                    "affiliation": {
+                        "en_US": "สาขาเกษตรศาสตร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏนครศรีธรรมราช",
+                        "th_TH": "สาขาเกษตรศาสตร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏนครศรีธรรมราช"
+                    },
+                    "last_name": {
+                        "en_US": "Adam",
+                        "th_TH": "อาดำ"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 437860,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Manop",
+                        "th_TH": "มานพ"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 24167,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Saowalak Malawa",
+                        "th_TH": "เสาวลักษณ์ มาลาวะ"
+                    },
+                    "affiliation": {
+                        "en_US": "สาขาวิชาวาริชศาสตร์และนวัตกรรมการจัดการ คณะทรัพยากรธรรมชาติ มหาวิทยาลัยสงขลานครินทร์",
+                        "th_TH": "สาขาวิชาวาริชศาสตร์และนวัตกรรมการจัดการ คณะทรัพยากรธรรมชาติ มหาวิทยาลัยสงขลานครินทร์"
+                    },
+                    "last_name": {
+                        "en_US": "Malawa",
+                        "th_TH": "มาลาวะ"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 437861,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Saowalak",
+                        "th_TH": "เสาวลักษณ์"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 24167,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Thirarat Kaewchamnong",
+                        "th_TH": "ฐิรารัตน์ แก้วจำนง"
+                    },
+                    "affiliation": {
+                        "en_US": "สาขาเกษตรศาสตร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏนครศรีธรรมราช",
+                        "th_TH": "สาขาเกษตรศาสตร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏนครศรีธรรมราช"
+                    },
+                    "last_name": {
+                        "en_US": "Kaewchamnong",
+                        "th_TH": "แก้วจำนง"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 437798,
+                    "primary_contact": 1,
+                    "first_name": {
+                        "en_US": "Thirarat",
+                        "th_TH": "ฐิรารัตน์"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 24167,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Thatcha Sampim",
+                        "th_TH": "ธัชชา สามพิมพ์"
+                    },
+                    "affiliation": {
+                        "en_US": "สาขานวัตกรรมชีวภาพ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏนครศรีธรรมราช",
+                        "th_TH": "สาขานวัตกรรมชีวภาพ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏนครศรีธรรมราช"
+                    },
+                    "last_name": {
+                        "en_US": "Sampim",
+                        "th_TH": "สามพิมพ์"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 437801,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Thatcha",
+                        "th_TH": "ธัชชา"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 24167,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Karun Thongprajukaew",
+                        "th_TH": "การุณ ทองประจุแก้ว"
+                    },
+                    "affiliation": {
+                        "en_US": "สาขาวิชาวิทยาศาสตร์สุขภาพและวิทยาศาสตร์ประยุกต์ คณะวิทยาศาสตร์ มหาวิทยาลัยสงขลานครินทร์",
+                        "th_TH": "สาขาวิชาวิทยาศาสตร์สุขภาพและวิทยาศาสตร์ประยุกต์ คณะวิทยาศาสตร์ มหาวิทยาลัยสงขลานครินทร์"
+                    },
+                    "last_name": {
+                        "en_US": "Thongprajukaew",
+                        "th_TH": "ทองประจุแก้ว"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 437802,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Karun",
+                        "th_TH": "การุณ"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 24167,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Nutt Nuntapong",
+                        "th_TH": "นัทท์ นันทพงศ์"
+                    },
+                    "affiliation": {
+                        "en_US": "สาขาวิชาวาริชศาสตร์และนวัตกรรมการจัดการ คณะทรัพยากรธรรมชาติ มหาวิทยาลัยสงขลานครินทร์",
+                        "th_TH": "สาขาวิชาวาริชศาสตร์และนวัตกรรมการจัดการ คณะทรัพยากรธรรมชาติ มหาวิทยาลัยสงขลานครินทร์"
+                    },
+                    "last_name": {
+                        "en_US": "Nuntapong",
+                        "th_TH": "นันทพงศ์"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 437804,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Nutt",
+                        "th_TH": "นัทท์"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 24167,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Amnuaychok Wetchakul",
+                        "th_TH": "อำนวยโชค เวชกุล"
+                    },
+                    "affiliation": {
+                        "en_US": "สาขาเกษตรศาสตร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏนครศรีธรรมราช",
+                        "th_TH": "สาขาเกษตรศาสตร์ คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏนครศรีธรรมราช"
+                    },
+                    "last_name": {
+                        "en_US": "Wetchakul",
+                        "th_TH": "เวชกุล"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 437859,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Amnuaychok",
+                        "th_TH": "อำนวยโชค"
+                    },
+                    "country_long": "Thailand"
+                }
+            ],
+            "score": 81.35855,
+            "highlight": {
+                "title.th_TH": [
+                    "Effects of cyannobacteria, Nostoc commune Vaucher TISTR 8870 supplementation on growth, feed utilization and coloration of Siamese fighting fish (Betta splendens Regan, 1910) ผลของการเสริมสาหร่ายสีเขียวแกมน้ำเงิน Nostoc commune Vaucher TISTR 8870 ต่อการเจริญเติบโต ประสิทธิภาพการใช้อาหารและการสร้างสีของ<span>ปลา</span><span>กัด</span>"
+                ],
+                "keywords.th_TH.keyword": [
+                    "<span>ปลากัด</span>"
+                ],
+                "title.en_US": [
+                    "Effects of cyannobacteria, Nostoc commune Vaucher TISTR 8870 supplementation on growth, feed utilization and coloration of Siamese fighting fish (Betta splendens Regan, 1910) ผลของการเสริมสาหร่ายสีเขียวแกมน้ำเงิน Nostoc commune Vaucher TISTR 8870 ต่อการเจริญเติบโต ประสิทธิภาพการใช้อาหารและการสร้างสีของ<span>ปลา</span><span>กัด</span>"
+                ],
+                "keywords.th_TH": [
+                    "<span>ปลา</span><span>กัด</span>"
+                ],
+                "abstract_clean.th_TH": [
+                    "1.0 เปอร์เซ็นต์มีค่าอัตราการเปลี่ยนอาหารเป็นเนื้อต่ำสุดซึ่งจะช่วยลดต้นทุนในการเลี้ยง<span>ปลา</span><span>กัด</span>เชิงพาณิชย์",
+                    "งานวิจัยนี้มีวัตถุประสงค์เพื่อศึกษาการเจริญเติบโต ประสิทธิภาพการใช้อาหาร และการสร้างสีของ<span>ปลา</span><span>กัด</span> ( Betta splendens  Regan, 1910) ที่เลี้ยงด้วยอาหารเสริมสาหร่ายสีเขียวแกมน้ำเงิน  Nostoc commune  Vaucher TISTR 8870 โดยเลี้ยง<span>ปลา</span><span>กัด</span>อายุ 6 สัปดาห์ (0.72±0.09 กรัม) ด้วยอาหารที่มีสาหร่ายสีเขียวแกมน้ำเงิน  N."
+                ]
+            }
+        },
+        {
+            "headerLogo": null,
+            "keywords": {
+                "en_US": [
+                    "Siamese fighting fish",
+                    "Hopeaodorata",
+                    "Herbal plant"
+                ],
+                "th_TH": [
+                    "สมุนไพร",
+                    "ปลากัด",
+                    "ตะเคียนทอง"
+                ]
+            },
+            "abstract_clean": {
+                "en_US": "Siamese fighting fish ( Bettasplendens ) was appointed as national fish of Thailand andornamental fish for exportation. The major problem of Siamese fighting fish culture is diseases inflection, lead to lose of value for aquaculturist. Thus , antibiotic is used for disease control. However, bases on the good aquaculture practice, the good fisheries product should be safe and without drug residual. Many researches employ of herbal plant instead of antibiotic. The aim of this study is to investigate the effects of  Hopeaodorata  seeds crude extract to treatment the wounds, concentration level and healing duration. The study was conducted use a CRD by water extraction and made the concentration as 10, 20, 30 and 40 ppm compared with 5 ppm of oxytetracycline. The results showed, the wound of fish treated by  5 ppm of oxytetracycline recovering in 10 days while  Hopeaodorata  seeds crude extract at  30 ppm and 40 ppm could be recovered in 15 and 13 days, repectively.",
+                "th_TH": "ปลากัดจัดเป็นปลาประจำชาติไทยและยังเป็นปลาสวยงามส่งออกที่สำคัญของประเทศไทย โดยการเพาะเลี้ยงปลากัดจะประสบปัญหาการเกิดโรคส่งผลให้เกิดการสูญเสียรายได้กับเกษตรกรผู้เพาะเลี้ยงซึ่งทำให้การใช้ยาปฏิชีวะนะเข้ามามีบทบาทสำคัญต่อการรักษาโรคการเพาะเลี้ยงสัตว์น้ำในปัจจุบันมุ่งเน้นการผลิตสินค้าประมงที่ปลอดภัยไร้สารตกค้างจึงมีงานวิจัยการใช้พืชสมุนไพรที่มีประสิทธิภาพในการรักษาโรคมาทดแทนการใช้ยาปฏิชีวนะดังนั้นวัตถุประสงค์ของการศึกษาในครั้งนี้คือผลของการใช้สารสกัดหยาบจากเมล็ดตะเคียนทองต่อการรักษาบาดแผลของปลากัดเพื่อทราบถึงปริมาณและระยะเวลาในการสมานแผลของปลากัดโดยทำการสกัดเมล็ดตะเคียนทองด้วยน้ำและปรับระดับความเข้มข้นสารละลายของเมล็ดตะเคียนทองที่ระดับ 10, 20, 30 และ 40 ppm เปรียบเทียบกับการใช้ยาปฎิชีวนะoxytetracyclin5 ppm ทำการทดลองเป็นเวลา 15 วันผลการศึกษาพบว่ายาปฎิชีวนะoxytetracyclin5 ppm สามารถรักษาบาดแผลของปลากัดหายสนิทได้ภายในระยะเวลา 10 วันระดับความเข้มข้นของผงเมล็ดตะเคียนทองที่ 10 และ 20 ppm ไม่สามารถรักษาบาดแผลปลากัดให้หายสนิทได้ภายในเวลา 15 วันและระดับความเข้มข้นของผงเมล็ดตะเคียนทองที่ 30 และ 40 ppm สามารถรักษาบาดแผลปลากัดให้หายสนิทได้ภายในเวลา 15 และ 13 วันตามลำดับ"
+            },
+            "language": null,
+            "title": {
+                "en_US": "Effects of Hopeaodorata seedscrude extraction on treating wounds of Siamese fighting fish (Bettasplendens)",
+                "th_TH": "ผลของสารสกัดหยาบจากเมล็ดตะเคียนทอง ต่อการรักษาแผลในปลากัด"
+            },
+            "pubIdDoi": null,
+            "articleUrl": "https://li01.tci-thaijo.org/index.php/JVIA/article/view/246578",
+            "publication_id": 20426,
+            "path": "JVIA",
+            "pages": "50-55",
+            "copyrightHolder": {
+                "en_US": "๋Journal of Vocational Institute of Agriculture",
+                "th_TH": "วารสารวิชาการสถาบันการอาชีวศึกษาเกษตร"
+            },
+            "coverImage": null,
+            "cat": "life01",
+            "dateStatusModified": "2020-09-01T05:33:11+0000",
+            "id": 246578,
+            "isPublushed": 1,
+            "journal_id": 765,
+            "doiSuffix": null,
+            "journal_enabled": 1,
+            "thaijoUrl": "https://li01.tci-thaijo.org/index.php/JVIA",
+            "thumbnail": null,
+            "issue_id": 16754,
+            "issueDatePublished": "2020-09-01T05:53:22+0000",
+            "version": 1,
+            "datePublished": "2020-08-31T17:00:00+0000",
+            "issueCoverImage": {
+                "en_US": "cover_issue_16754_en_US.jpg"
+            },
+            "issueUrl": "https://li01.tci-thaijo.org/index.php/JVIA/issue/view/16754",
+            "subtitle": {
+                "en_US": "",
+                "th_TH": ""
+            },
+            "lastModified": "2020-09-11T05:28:37+0000",
+            "dateSubmitted": "2020-09-01T05:46:42+0000",
+            "status": 3,
+            "authors": [
+                {
+                    "publication_id": 20426,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Sathit Chanmanee",
+                        "th_TH": "สถิตย์ จันทร์มณี"
+                    },
+                    "affiliation": {
+                        "en_US": "Chumphon College of Agriculture and Technology, Southern Vocational Institute of Agricultural, Chumphon 86220",
+                        "th_TH": "วิทยาลัยเกษตรและเทคโนโลยีชุมพร สถาบันการอาชีวเกษตรภาคใต้ ชุมพร 86220"
+                    },
+                    "last_name": {
+                        "en_US": "Chanmanee",
+                        "th_TH": "จันทร์มณี"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 426235,
+                    "primary_contact": 1,
+                    "first_name": {
+                        "en_US": "Sathit",
+                        "th_TH": "สถิตย์"
+                    },
+                    "country_long": "Thailand"
+                }
+            ],
+            "score": 80.88375,
+            "highlight": {
+                "title.th_TH": [
+                    "ผลของสารสกัดหยาบจากเมล็ดตะเคียนทอง ต่อการรักษาแผลใน<span>ปลา</span><span>กัด</span>"
+                ],
+                "keywords.th_TH.keyword": [
+                    "<span>ปลากัด</span>"
+                ],
+                "keywords.th_TH": [
+                    "<span>ปลา</span><span>กัด</span>"
+                ],
+                "abstract_clean.th_TH": [
+                    "<span>ปลา</span><span>กัด</span>จัดเป็น<span>ปลา</span>ประจำชาติไทยและยังเป็น<span>ปลา</span>สวยงามส่งออกที่สำคัญของประเทศไทย โดยการเพาะเลี้ยง<span>ปลา</span><span>กัด</span>จะประสบปัญหาการเกิดโรคส่งผลให้เกิดการสูญเสียรายได้กับเกษตรกรผู้เพาะเลี้ยงซึ่งทำให้การใช้ยาปฏิชีวะนะเข้ามามีบทบาทสำคัญต่อการรักษาโรคการเพาะเลี้ยงสัตว์น้ำในปัจจุบันมุ่งเน้นการผลิตสินค้าประมงที่ปลอดภัยไร้สารตกค้างจึงมีงานวิจัยการใช้พืชสมุนไพรที่มีประสิทธิภาพในการรักษาโรคมาทดแทนการใช้ยาปฏิชีวนะดังนั้นวัตถุประสงค์ของการศึกษาในครั้งนี้คือผลของการใช้สารสกัดหยาบจากเมล็ดตะเคียนทองต่อการรักษาบาดแผลของ<span>ปลา</span><span>กัด</span>เพื่อทราบถึงปริมาณและระยะเวลาในการสมานแผลของ<span>ปลา</span><span>กัด</span>โดยทำการสกัดเมล็ดตะเคียนทองด้วยน้ำและปรับระดับความเข้มข้นสารละลายของเมล็ดตะเคียนทองที่ระดับ",
+                    "15 วันและระดับความเข้มข้นของผงเมล็ดตะเคียนทองที่ 30 และ 40 ppm สามารถรักษาบาดแผล<span>ปลา</span><span>กัด</span>ให้หายสนิทได้ภายในเวลา 15 และ 13 วันตามลำดับ"
+                ]
+            }
+        },
+        {
+            "headerLogo": {
+                "en_US": "pageHeaderLogoImage_en_US.png",
+                "th_TH": "pageHeaderLogoImage_th_TH.png"
+            },
+            "keywords": {
+                "en_US": [
+                    "ความเป็นพิษ",
+                    "ประสิทธิภาพในการทำให้สลบ",
+                    "น้ำมันกานพลู",
+                    "ปลากัดจีน"
+                ]
+            },
+            "abstract_clean": {
+                "en_US": "เพื่อศึกษาความเป็นไปได้ในการใช้น้ำมันกานพลูทำให้ปลากัดจีนสลบในระหว่างการขนส่งจึงทดสอบความเป็น พิษและผลของน้ำมันกานพลูต่อการสลบปลากัดจีน (ความยาวเหยียด 5.5-6.5 ซม.) โดยทำ 3 ซ้ำ วิเคราะห์พิษเฉียบพลัน ของน้ำมันกานพลูที่มีต่อปลากัดจีนโดยใช้วิธีชีววิเคราะห์แบบน้ำนิ่งและ Probit analysis program พบว่าความเข้มข้นของ น้ำมันกานพลูที่ทำให้ปลาจำนวนครึ่งหนึ่งตายในเวลา 24 ชั่วโมง มีค่าเท่ากับ 21.77 ppm โดยค่าความเชื่อมั่นที่ 95% อยู่ในช่วง 19.64-23.95 ppm และพบว่าน้ำมันกานพลูความเข้มข้น 15 ppm เป็นความเข้มข้นที่เหมาะสมต่อการ ขนส่งปลากัดจีนมากที่สุด เพราะสามารถทำให้ปลาสลบในระยะแรกได้ภายในเวลา 10 นาทีหลังสัมผัสกับน้ำมันกานพลู และสลบนานถึง 24 ชั่วโมง นอกจากนี้ปลาสามารถฟื้นจากอาการสลบภายในเวลาไม่เกิน 5 นาทีหลังจากเปลี่ยนน้ำใหม่ และเมื่อนำมาเลี้ยงต่อเป็นเวลา 1 เดือนพบว่าปลาทั้งหมดมีสภาพร่างกายปกติและสุขภาพสมบูรณ์ดี"
+            },
+            "language": null,
+            "title": {
+                "en_US": "ความเป็นพิษและประสิทธิภาพของน้ำมันกานพลูในการสลบปลากัดจีน"
+            },
+            "pubIdDoi": null,
+            "articleUrl": "https://ph02.tci-thaijo.org/index.php/tsujournal/article/view/68408",
+            "publication_id": 3470,
+            "path": "tsujournal",
+            "pages": "30-38",
+            "copyrightHolder": {
+                "en_US": "วารสารมหาวิทยาลัยทักษิณ (Thaksin University Journal)"
+            },
+            "coverImage": null,
+            "cat": "physical02",
+            "dateStatusModified": "2016-10-06T01:59:26+0000",
+            "id": 68408,
+            "isPublushed": 1,
+            "journal_id": 219,
+            "doiSuffix": "default",
+            "journal_enabled": 1,
+            "thaijoUrl": "https://ph02.tci-thaijo.org/index.php/tsujournal",
+            "thumbnail": null,
+            "issue_id": 6462,
+            "issueDatePublished": "2016-10-04T02:34:47+0000",
+            "version": 1,
+            "datePublished": "1970-01-01T00:00:00+0000",
+            "issueCoverImage": {
+                "en_US": "cover_issue_6462_en_US.jpg"
+            },
+            "issueUrl": "https://ph02.tci-thaijo.org/index.php/tsujournal/issue/view/6462",
+            "subtitle": {},
+            "lastModified": "2016-10-06T01:59:26+0000",
+            "dateSubmitted": "2016-10-06T01:59:25+0000",
+            "status": 3,
+            "authors": [
+                {
+                    "publication_id": 3470,
+                    "country": "",
+                    "full_name": {
+                        "en_US": "สมหมาย เชี่ยววารีสัจจะ"
+                    },
+                    "affiliation": {
+                        "en_US": ""
+                    },
+                    "last_name": {
+                        "en_US": "เชี่ยววารีสัจจะ"
+                    },
+                    "biography": {
+                        "en_US": ""
+                    },
+                    "author_id": 128621,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "สมหมาย"
+                    }
+                },
+                {
+                    "publication_id": 3470,
+                    "country": "",
+                    "full_name": {
+                        "en_US": "ดนัย สมใจ"
+                    },
+                    "affiliation": {
+                        "en_US": ""
+                    },
+                    "last_name": {
+                        "en_US": "สมใจ"
+                    },
+                    "biography": {
+                        "en_US": ""
+                    },
+                    "author_id": 128619,
+                    "primary_contact": 1,
+                    "first_name": {
+                        "en_US": "ดนัย"
+                    }
+                },
+                {
+                    "publication_id": 3470,
+                    "country": "",
+                    "full_name": {
+                        "en_US": "อรอุมา พาลเสือ"
+                    },
+                    "affiliation": {
+                        "en_US": ""
+                    },
+                    "last_name": {
+                        "en_US": "พาลเสือ"
+                    },
+                    "biography": {
+                        "en_US": ""
+                    },
+                    "author_id": 128620,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "อรอุมา"
+                    }
+                }
+            ],
+            "score": 75.99567,
+            "highlight": {
+                "abstract_clean.en_US": [
+                    "เพื่อศึกษาความเป็นไปได้ในการใช้น้ำมันกานพลูทำให้<span>ปลา</span><span>กัด</span>จีนสลบในระหว่างการขนส่งจึงทดสอบความเป็น พิษและผลของน้ำมันกานพลูต่อการสลบ<span>ปลา</span><span>กัด</span>จีน (ความยาวเหยียด 5.5-6.5 ซม.)",
+                    "15 ppm เป็นความเข้มข้นที่เหมาะสมต่อการ ขนส่ง<span>ปลา</span><span>กัด</span>จีนมากที่สุด เพราะสามารถทำให้<span>ปลา</span>สลบในระยะแรกได้ภายในเวลา 10 นาทีหลังสัมผัสกับน้ำมันกานพลู และสลบนานถึง 24 ชั่วโมง นอกจากนี้<span>ปลา</span>สามารถฟื้นจากอาการสลบภายในเวลาไม่เกิน 5 นาทีหลังจากเปลี่ยนน้ำใหม่ และเมื่อนำมาเลี้ยงต่อเป็นเวลา 1 เดือนพบว่า<span>ปลา</span>ทั้งหมดมีสภาพร่างกายปกติและสุขภาพสมบูรณ์ดี"
+                ],
+                "keywords.en_US": [
+                    "<span>ปลา</span><span>กัด</span>จีน"
+                ],
+                "title.en_US": [
+                    "ความเป็นพิษและประสิทธิภาพของน้ำมันกานพลูในการสลบ<span>ปลา</span><span>กัด</span>จีน"
+                ]
+            }
+        },
+        {
+            "headerLogo": {
+                "en_US": "pageHeaderLogoImage_en_US.png",
+                "th_TH": "pageHeaderLogoImage_th_TH.png"
+            },
+            "keywords": {
+                "en_US": [
+                    "Carotenoid",
+                    "Color Intensity",
+                    "Siamese fighting fish"
+                ],
+                "th_TH": [
+                    "แคโรทีนอยด์",
+                    "ความเข้มสี",
+                    "ปลากัด"
+                ]
+            },
+            "abstract_clean": {
+                "en_US": "The aim of this research is to study effect of carotenoid vegetable supplementation from Scallion, Celery and Water convolvulus on color intensity of siamese fighting fish. The carotenoid supplemented diets from scallion, celery, water spinach and dietary fishmeal (control) were provided to Siamese fighting fish at 0.02 g every day. Ten males of Siamese fighting fish were reared in each diet formula and measured by Ultra Scan VIS every month for 3 times. The experiment was conducted at biology laboratory, Faculty of Science and Technology. The results found that the fish feed with diet supplemented with scallion has the highest color intensity compared with the others. The highest values of lightness (L*), redness (a) and yellowness (b) in were 16.58 + 13.71, 9.50 + 14.28 and 7.42 + 5.48, respectively. Whereas, the value of color intensity was low in the fish received diet supplemented with celery and water spinach that were 42 + 14.54, 5.53 + 5.20, 4.68 + 8.35 and 5.47 + 5.02, 4.57 + 5.06, 4.06 + 7.06, respectively.",
+                "th_TH": "วัตถุประสงค์ของการวิจัยเพื่อเปรียบเทียบผลจากการเสริมผักที่มีแคโรทีนอยด์ได้แก่ ต้นหอม ขึ้นฉ่าย และผักบุ้งจีนต่อความเข้มของสีปลากัด ให้อาหารปลาสำเร็จรูปเสริมแคโรทีนอยด์จากต้นหอม ขึ้นฉ่าย ผักบุ้งจีน อาหารปลาสำเร็จรูป (ชุดควบคุมเปรียบเทียบ) ปริมาณ 0.02 กรัม ทุกวันใช้ปลากัดเพศผู้จำนวน 10 ตัว ทำการวัดความเข้มสีของปลากัดด้วยเครื่องวัดความเข้มสีทุกเดือน วัด 3 ครั้ง ทำการทดลองที่ห้องปฏิบัติการชีววิทยา คณะวิทยาศาสตร์และเทคโนโลยี ผลการทดลองพบว่าอาหารปลาสำเร็จรูปเสริมแคโรทีนอยด์จากต้นหอมมีความเข้มสีของปลากัดสูงสุด เมื่อเปรียบเทียบกับอาหารปลาสำเร็จรูปแบบเสริมแคโรทีนอยด์จากขึ้นฉ่ายและผักบุ้งจีน โดยมีค่าความเข้มสีของปลากัดมีค่าสูงสุด ค่าความสว่าง (L*) ค่าความเข้มเฉดสีแดง (a*) และค่าความเข้มเฉดสีเหลือง (b*) เท่ากับ 16.58 + 13.71, 9.50 + 14.28 และ 7.42 + 5.48 ตามลำดับ ในขณะที่อาหารสำเร็จรูปแบบเสริมแคโรทีนอยด์จากผักบุ้งจีนและขึ้นฉ่ายมีค่าเท่ากับ 7.42 + 14.54, 5.53 + 5.20, 4.68 + 8.35 และ 5.47 + 5.02, 4.57 + 5.06, 4.06 + 7.06 ตามลำดับ"
+            },
+            "language": "th",
+            "title": {
+                "en_US": "Effect of Carotenoids Vegetable Supplementation in Diet on Color Intensity of Siamese Fighting Fish",
+                "th_TH": "ผลของการเสริมผักที่มีแคโรทีนอยด์ในอาหารต่อความเข้มสีของปลากัด"
+            },
+            "pubIdDoi": null,
+            "articleUrl": "https://ph01.tci-thaijo.org/index.php/JRIST/article/view/246938",
+            "publication_id": 16345,
+            "path": "JRIST",
+            "pages": "38-46",
+            "copyrightHolder": {
+                "en_US": "Journal of Research and Innovation in Science and Technology",
+                "th_TH": "วารสารวิจัยและนวัตกรรมทางวิทยาศาสตร์และเทคโนโลยี"
+            },
+            "coverImage": null,
+            "cat": "physical01",
+            "dateStatusModified": "2021-12-30T01:08:22+0000",
+            "id": 246938,
+            "isPublushed": 1,
+            "journal_id": 806,
+            "doiSuffix": null,
+            "journal_enabled": 1,
+            "thaijoUrl": "https://ph01.tci-thaijo.org/index.php/JRIST",
+            "thumbnail": {
+                "en_US": "journalThumbnail_en_US.jpg",
+                "th_TH": "journalThumbnail_th_TH.jpg"
+            },
+            "issue_id": 16885,
+            "issueDatePublished": "2021-12-30T01:08:33+0000",
+            "version": 1,
+            "datePublished": "2021-12-26T17:00:00+0000",
+            "issueCoverImage": {},
+            "issueUrl": "https://ph01.tci-thaijo.org/index.php/JRIST/issue/view/16885",
+            "subtitle": {
+                "en_US": "",
+                "th_TH": ""
+            },
+            "lastModified": "2021-12-30T01:08:22+0000",
+            "dateSubmitted": "2021-12-02T06:15:05+0000",
+            "status": 3,
+            "authors": [
+                {
+                    "publication_id": 16345,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "ณฐพงศ์ เมธินธรังสรรค์",
+                        "th_TH": "ณฐพงศ์ เมธินธรังสรรค์"
+                    },
+                    "affiliation": {
+                        "en_US": "คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรใมราชูปถัมภ์",
+                        "th_TH": "คณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏวไลยอลงกรณ์ ในพระบรใมราชูปถัมภ์"
+                    },
+                    "last_name": {
+                        "en_US": "เมธินธรังสรรค์",
+                        "th_TH": "เมธินธรังสรรค์"
+                    },
+                    "biography": null,
+                    "author_id": 422095,
+                    "primary_contact": 1,
+                    "first_name": {
+                        "en_US": "ณฐพงศ์",
+                        "th_TH": "ณฐพงศ์"
+                    },
+                    "country_long": "Thailand"
+                }
+            ],
+            "score": 75.83331,
+            "highlight": {
+                "title.th_TH": [
+                    "ผลของการเสริมผักที่มีแคโรทีนอยด์ในอาหารต่อความเข้มสีของ<span>ปลา</span><span>กัด</span>"
+                ],
+                "keywords.th_TH.keyword": [
+                    "<span>ปลากัด</span>"
+                ],
+                "keywords.th_TH": [
+                    "<span>ปลา</span><span>กัด</span>"
+                ],
+                "abstract_clean.th_TH": [
+                    "วัตถุประสงค์ของการวิจัยเพื่อเปรียบเทียบผลจากการเสริมผักที่มีแคโรทีนอยด์ได้แก่ ต้นหอม ขึ้นฉ่าย และผักบุ้งจีนต่อความเข้มของสี<span>ปลา</span><span>กัด</span> ให้อาหาร<span>ปลา</span>สำเร็จรูปเสริมแคโรทีนอยด์จากต้นหอม ขึ้นฉ่าย ผักบุ้งจีน อาหาร<span>ปลา</span>สำเร็จรูป (ชุดควบคุมเปรียบเทียบ) ปริมาณ 0.02 กรัม ทุกวันใช้<span>ปลา</span><span>กัด</span>เพศผู้จำนวน 10 ตัว ทำการวัดความเข้มสีของ<span>ปลา</span><span>กัด</span>ด้วยเครื่องวัดความเข้มสีทุกเดือน",
+                    "วัด 3 ครั้ง ทำการทดลองที่ห้องปฏิบัติการชีววิทยา คณะวิทยาศาสตร์และเทคโนโลยี ผลการทดลองพบว่าอาหาร<span>ปลา</span>สำเร็จรูปเสริมแคโรทีนอยด์จากต้นหอมมีความเข้มสีของ<span>ปลา</span><span>กัด</span>สูงสุด เมื่อเปรียบเทียบกับอาหาร<span>ปลา</span>สำเร็จรูปแบบเสริมแคโรทีนอยด์จากขึ้นฉ่ายและผักบุ้งจีน โดยมีค่าความเข้มสีของ<span>ปลา</span><span>กัด</span>มีค่าสูงสุด ค่าความสว่าง (L*) ค่าความเข้มเฉดสีแดง"
+                ]
+            }
+        },
+        {
+            "headerLogo": {
+                "en_US": "pageHeaderLogoImage_en_US.png",
+                "th_TH": "pageHeaderLogoImage_th_TH.png"
+            },
+            "keywords": {
+                "en_US": [
+                    "Pigment",
+                    "Growth performance",
+                    "Betta splendens",
+                    "Sweet Potato",
+                    "Color Expression"
+                ],
+                "th_TH": [
+                    "มันเทศ",
+                    "สารสี",
+                    "การแสดงออกของสี",
+                    "ปลากัด",
+                    "การเจริญเติบโต"
+                ]
+            },
+            "abstract_clean": {
+                "en_US": "This study investigated the effect of different sweet potato varieties as dietary pigment sources on the coloration of Siamese Fighting Fish (Betta splendens). The experiment was conducted as a completely randomized design (CRD) with four treatments and three replicates. The experimental feed consisted of; control feed, 5 % orange sweet potato (OrSP), 5 % yellow sweet potato (YeSP) and 5 % purple sweet potato (PuSP). The experimental feeds were formulated with 31.18-32.01 % crude protein, 6.73 - 7.04 % crude fat and total carotenoids in control, OrSP, YeSP and PuSP were 15.63, 42.61, 38.79 and 32.32 mg/kg, respectively. Two-month male fishes were obtained from a reliable commercial farm and acclimated to the rearing environment. After the 8 weeks rearing period, the results showed that the final average weight, final average length, average daily gain, weight gain, specific growth rate and feed conversion ratio (FCR) were not significantly different between treatment groups (p  0.05). However, dietary supplementation with sweet potato affected the color expression and carotenoid accumulation by Betta splendens. The lightness (L*) of fish fed with the control feed showed the highest value (p ≤ 0.05). The redness (a*) of fish fed with 5 % OrSP and 5 % YeSP was higher than in the other treatments (p ≤ 0.05) and the yellowness (b*) of fish fed with 5 % OrSP showed higher values than in the other groups (p ≤ 0.05). The results of carotenoid accumulation in each organ increased in all treatment groups. After 8 weeks, the fish fed with 5% OrSP showed the highest carotenoid accumulation in skin and scale, dorsal fin, anal fin and caudal fin as compared to the other groups (p ≤ 0.05).",
+                "th_TH": "การศึกษาครั้งนี้มีวตั ถุประสงค์เพือ่ ศึกษาการใชม้ นั เทศเป็นสารเร่งสีในอาหารปลากดั (Betta splendens) โดยวางแผนการทดลองแบบ Completely Randomized Design แบ่งเป็น 4 ชุดการทดลองๆ ละ 3 ซ้ำประกอบดว้ ย ชุดควบคมุ ไม่เสริมมนั เทศ (Control), อาหารเสริมมนั เทศสีส้ม 5 % (OrSP), อาหารเสริมมนั เทศสีเหลือง 5 % (YeSP) และอาหารเสริมมันเทศสีม่วง 5 % (PuSP) อาหารทดลองมีโปรตีน 31.18-32.01 % ไขมัน 6.73 - 7.04 % และมีปริมาณแคโรทีนอยด์ใน Control, OrSP, YeSP และ PuSP เท่ากับ 15.63 42.61 38.79 และ 32.32 mg/kg ตามลำดับโดยนำปลากัดเพศผู้อายปุ ระมาณ 2 เดือน มาปรับสภาพแวดลอ้ มก่อนทำการทดลองหลังทดลอง 8 สัปดาห์ พบว่าประสิทธิภาพการเจริญเติบโตไม่มีความแตกต่างกันอย่างมีนัยสำคัญทางสถิติ (p  0.05) แต่ส่งผลต่อการแสดงออกของสีของปลา โดยค่าความสว่าง (L*) ของปลาชุดควบคุมมีค่าสูงกว่าชุดการทดลองอื่น (p ≤ 0.05) ค่าความเข้มสีแดง (a*) ของปลาชุดการทดลอง OrSP และ YeSP มีค่าสูงกว่าปลาชุดควบคุมและปลาชุดการทดลอง PuSP (p ≤ 0.05) ปลาชุดการทดลอง OrSP มีค่าความเข้มสีเหลือง (b*) สูงที่สุด (p ≤ 0.05) การสะสมแคโรทีนอยดใ์ นอวยั วะของปลาหลงั ไดรั้บอาหารทดลองมีการสะสมแคโรที นอยด์สูงขึ้นทุกชุดการทดลอง โดยปลาชุดการทดลอง OrSP มีการสะสมแคโรทีนอยด์ในผิวหนังและเกล็ด ครีบหลัง ครีบหาง และครีบก้นสูงกว่าชุดการทดลองอื่น (p ≤ 0.05)"
+            },
+            "language": "th",
+            "title": {
+                "en_US": "Utilization of Sweet Potato as Pigment Source in Siamese Fighting Fish (Betta splendens) Feed",
+                "th_TH": "การใช้มันเทศเป็นแหล่งสารสีในอาหารปลากัด"
+            },
+            "pubIdDoi": "10.55164/ajstr.v24i2.242161",
+            "articleUrl": "https://ph02.tci-thaijo.org/index.php/tsujournal/article/view/242161",
+            "publication_id": 11800,
+            "path": "tsujournal",
+            "pages": "70-79",
+            "copyrightHolder": {
+                "en_US": "ASEAN Journal of Scientific and Technological Reports",
+                "th_TH": "ASEAN Journal of Scientific and Technological Reports"
+            },
+            "coverImage": null,
+            "cat": "physical02",
+            "dateStatusModified": "2023-05-22T14:10:40+0000",
+            "id": 242161,
+            "isPublushed": 1,
+            "journal_id": 219,
+            "doiSuffix": "default",
+            "journal_enabled": 1,
+            "thaijoUrl": "https://ph02.tci-thaijo.org/index.php/tsujournal",
+            "thumbnail": null,
+            "issue_id": 16596,
+            "issueDatePublished": "2022-08-17T17:00:00+0000",
+            "version": 1,
+            "datePublished": "2021-08-21T17:00:00+0000",
+            "issueCoverImage": {
+                "en_US": "cover_issue_16596_en_US.jpg"
+            },
+            "issueUrl": "https://ph02.tci-thaijo.org/index.php/tsujournal/issue/view/16596",
+            "subtitle": {
+                "en_US": "",
+                "th_TH": ""
+            },
+            "lastModified": "2021-08-30T08:21:37+0000",
+            "dateSubmitted": "2020-10-08T03:14:21+0000",
+            "status": 3,
+            "authors": [
+                {
+                    "publication_id": 11800,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Supalug Kattakdad",
+                        "th_TH": "ศุภลักษณ์ เกตุตากแดด"
+                    },
+                    "affiliation": {
+                        "en_US": "Faculty of Agriculture and Technology, Rajamangala University of Technology Isan, Surin, 32000, Thailand",
+                        "th_TH": "คณะเกษตรศาสตร์และเทคโนโลยี มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน สุรินทร์ 32000"
+                    },
+                    "last_name": {
+                        "en_US": "Kattakdad",
+                        "th_TH": "เกตุตากแดด"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 413042,
+                    "primary_contact": 1,
+                    "first_name": {
+                        "en_US": "Supalug",
+                        "th_TH": "ศุภลักษณ์"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 11800,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Krittima Saowakoon",
+                        "th_TH": "กฤติมา เสาวกูล"
+                    },
+                    "affiliation": {
+                        "en_US": "Faculty of Agriculture and Technology, Rajamangala University of Technology Isan, Surin, 32000, Thailand",
+                        "th_TH": "คณะเกษตรศาสตร์และเทคโนโลยี มหาวิทยาลยั เทคโนโลยีราชมงคลอีสาน สุรินทร์ 32000"
+                    },
+                    "last_name": {
+                        "en_US": "Saowakoon",
+                        "th_TH": "เสาวกูล"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 418600,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Krittima",
+                        "th_TH": "กฤติมา"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 11800,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Suriya Udduang",
+                        "th_TH": "สุริยา อุดด้วง"
+                    },
+                    "affiliation": {
+                        "en_US": "Faculty of Agriculture and Technology, Rajamangala University of Technology, Surin, 32000, Thailand",
+                        "th_TH": "คณะเกษตรศาสตร์และเทคโนโลยี มหาวิทยาลัยเทคโนโลยีราชมงคลอีสาน สุรินทร์ 32000"
+                    },
+                    "last_name": {
+                        "en_US": "Udduang",
+                        "th_TH": "อุดด้วง"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 418601,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Suriya",
+                        "th_TH": "สุริยา"
+                    },
+                    "country_long": "Thailand"
+                }
+            ],
+            "score": 75.71138,
+            "highlight": {
+                "title.th_TH": [
+                    "การใช้มันเทศเป็นแหล่งสารสีในอาหาร<span>ปลา</span><span>กัด</span>"
+                ],
+                "keywords.th_TH.keyword": [
+                    "<span>ปลากัด</span>"
+                ],
+                "keywords.th_TH": [
+                    "<span>ปลา</span><span>กัด</span>"
+                ],
+                "abstract_clean.th_TH": [
+                    ") และอาหารเสริมมันเทศสีม่วง 5 % (PuSP) อาหารทดลองมีโปรตีน 31.18-32.01 % ไขมัน 6.73 - 7.04 % และมีปริมาณแคโรทีนอยด์ใน Control, OrSP, YeSP และ PuSP เท่ากับ 15.63 42.61 38.79 และ 32.32 mg/kg ตามลำดับโดยนำ<span>ปลา</span><span>กัด</span>เพศผู้อายปุ ระมาณ 2 เดือน มาปรับสภาพแวดลอ้ มก่อนทำการทดลองหลังทดลอง 8 สัปดาห์ พบว่าประสิทธิภาพการเจริญเติบโตไม่มีความแตกต่างกันอย่างมีนัยสำคัญทางสถิติ",
+                    "(p  0.05) แต่ส่งผลต่อการแสดงออกของสีของ<span>ปลา</span> โดยค่าความสว่าง (L*) ของ<span>ปลา</span>ชุดควบคุมมีค่าสูงกว่าชุดการทดลองอื่น (p ≤ 0.05) ค่าความเข้มสีแดง (a*) ของ<span>ปลา</span>ชุดการทดลอง OrSP และ YeSP มีค่าสูงกว่า<span>ปลา</span>ชุดควบคุมและ<span>ปลา</span>ชุดการทดลอง PuSP (p ≤ 0.05) <span>ปลา</span>ชุดการทดลอง OrSP มีค่าความเข้มสีเหลือง (b*) สูงที่สุด (p ≤ 0.05) การสะสมแคโรทีนอยดใ์"
+                ]
+            }
+        },
+        {
+            "headerLogo": {
+                "en_US": "pageHeaderLogoImage_en_US.png",
+                "th_TH": "pageHeaderLogoImage_th_TH.png"
+            },
+            "keywords": {
+                "en_US": [
+                    "Betta splendens",
+                    "Burma mahogany bark fermented juice",
+                    "sex induction",
+                    "survival rate"
+                ],
+                "th_TH": [
+                    "การเหนี่ยวนำเพศ",
+                    "อัตราการรอดตาย",
+                    "ปลากัด",
+                    "น้ำหมักสีเสียดเปลือก"
+                ]
+            },
+            "abstract_clean": {
+                "en_US": "This research aims to investigate the effect of Burma mahogany ( Pentace burmanica  Kurz) bark fermented juice on the growth, sex ratio, and survival rate of Siamese fighting fish ( Betta splendens ). A completely randomized design (CRD) was employed, with 6 experimental sets. These sets used fermented juice from the bark of Burmese mahogany with varying ratios: 0 (control), 0.25, 0.50, 0.75, 1.00, and 2.00 g/l. Each experimental set was replicated three times and conducted over a period of 60 days. It was found that the fermented juice made from the bark of Burma mahogany did not significantly affect the growth of Siamese fighting fish (P0.05). However, there was a significant effect on the sex ratio (P0.01). At 0.25 g/l, the highest proportion of males (68.95±8.67%) was observed, which was higher than the control (62.01±8.67%). However, as the concentration increased at the ratios of 0.50 and 0.75 g/l, there was a tendency towards a higher proportion of females compared to males, at 57.07±7.87% and 81.95±8.62%, respectively. At 1.00 and 2.00 g/l, all the fish were females (100%). Survival rates were not significantly different among all the experimental sets (P0.05). At 0.50, 0.75, and 1.00 g/l, the survival rates of 99.33±0.58% were observed. Survival rates at 0.25 and 2.00 g/l were 98.67±0.58 and 98.67±1.15%, respectively, which were higher than the survival rate of the control (98.00±1.00%). Water quality analysis revealed that as the concentration of the fermented juice made from the bark of Burma mahogany increased, the pH level became more acidic (6.25-7.05) compared to the control (7.63). The alkalinity of the water was also lower (85 mg/l as CaCO3) compared to the control (200 mg/l as CaCO3). In conclusion ,  the fermented juice made from the bark of Burma mahogany does not affect the growth and survival rate of Siamese fighting fish.",
+                "th_TH": "งานวิจัยครั้งนี้มีวัตถุประสงค์เพื่อศึกษาผลของน้ำหมักเปลือกของสีเสียดเปลือกต่อการเจริญเติบโต อัตราส่วนเพศ และอัตราการรอดตายของปลากัด วางแผนการทดลองแบบสุ่มตลอด (completely randomized design; CRD) โดยแบ่งการทดลองออกเป็น 6 ชุดการทดลอง คือ ใช้น้ำหมักเปลือกของสีเสียดเปลือกที่อัตราส่วนต่างกัน คือ 0 (ชุดควบคุม), 0.25, 0.50, 0.75, 1.00 และ 2.00 g/l ชุดการทดลองละ 3 ซ้ำ เลี้ยงเป็นเวลา 60 วัน พบว่า น้ำหมักเปลือกของสีเสียดเปลือกไม่มีผลต่อการเจริญเติบโตของปลากัด (P0.05) สัดส่วนเพศปลากัด มีความแตกต่างกันทางสถิติอย่างมีนัยสำคัญยิ่ง (P0.01) คือ ที่อัตราส่วน 0.25 g/l สัดส่วนเพศผู้สูงที่สุด (68.95±8.67 %) ซึ่งมีค่ามากกว่าชุดควบคุม (62.01±8.67 %) แต่เมื่อความเข้มข้นมากขึ้นที่อัตราส่วน 0.50 และ 0.75 g/l มีแนวโน้มเหนี่ยวนำให้เป็นเพศเมียมากกว่าเพศผู้ เท่ากับ 57.07±7.87, 81.95±8.62 % ตามลำดับในขณะที่อัตราส่วน 1.00 และ 2.00 g/l มีสัดส่วนเพศเมีย 100 % ส่วนอัตราการรอดตายของทุกกลุ่มทดลอง พบว่าไม่มีความแตกต่างกันทางสถิติ (P0.05) โดยพบว่า ที่อัตราส่วน 0.50, 0.75 และ 1.00 g/l มีอัตรารอดตายสูงถึง 99.33±0.58 % ที่อัตราส่วน 0.25 และ 2.00 g/l พบว่าอัตราการรอดตาย เท่ากับ 98.67±0.58 และ 98.67±1.15 % ตามลำดับ ซึ่งมีค่าสูงกว่าปลากัดที่เลี้ยงในอัตรา 0 (ชุดควบคุม) เท่ากับ 98.00±1.00 % จากการตรวจสอบวิเคราะห์คุณภาพน้ำ พบว่าน้ำหมักเปลือกของสีเสียดเปลือกที่อัตราความเข้มเพิ่มมากขึ้น มีค่าความเป็นกรด-ด่าง (pH) ต่ำลง โดยมีค่าระหว่าง 6.25-7.05 ซึ่ง 0 (ชุดควบคุม) มีค่า เท่ากับ 7.63 และค่าความเป็นด่าง (alkalinity) ของน้ำมีค่าต่ำมาก เท่ากับ 85 mg/l as CaCO 3  แต่ในอัตรา 0 (ชุดควบคุม) เท่ากับ 200 mg/l as CaCO 3  สรุปได้ว่า น้ำหมักเปลือกของสีเสียดเปลือกไม่มีผลต่อการเจริญเติบโต และอัตราการการรอดตายในปลากัด แต่มีผลต่อการเหนี่ยวนำเพศปลากัดโดยที่อัตราส่วนเพิ่มขึ้นมีแนวโน้มเป็นเพศเมียสูง แต่ทั้งนี้ควรใช้ในปริมาณที่เหมาะสม"
+            },
+            "language": null,
+            "title": {
+                "en_US": "Effect of Burma mahogany (Pentace burmanica Kurz) bark fermented juice on sex ratio and survival rate of Siamese fighting fish (Betta splendens)",
+                "th_TH": "ผลของน้ำหมักเปลือกของสีเสียดเปลือกต่ออัตราส่วนเพศและอัตราการรอดตายในปลากัด"
+            },
+            "pubIdDoi": null,
+            "articleUrl": "https://li01.tci-thaijo.org/index.php/agkasetkaj/article/view/261779",
+            "publication_id": 34903,
+            "path": "agkasetkaj",
+            "pages": "713-723",
+            "copyrightHolder": {
+                "en_US": "วารสารแก่นเกษตร คณะเกษตรศาสตร์ มหาวิทยาลัยขอนแก่น",
+                "th_TH": "วารสารแก่นเกษตร คณะเกษตรศาสตร์ มหาวิทยาลัยขอนแก่น"
+            },
+            "coverImage": null,
+            "cat": "life01",
+            "dateStatusModified": "2025-02-17T08:36:46+0000",
+            "id": 261779,
+            "isPublushed": 1,
+            "journal_id": 807,
+            "doiSuffix": null,
+            "journal_enabled": 1,
+            "thaijoUrl": "https://li01.tci-thaijo.org/index.php/agkasetkaj",
+            "thumbnail": {
+                "en_US": "journalThumbnail_en_US.jpg",
+                "th_TH": "journalThumbnail_th_TH.jpg"
+            },
+            "issue_id": 17623,
+            "issueDatePublished": "2024-07-12T08:02:15+0000",
+            "version": 1,
+            "datePublished": "2024-07-11T17:00:00+0000",
+            "issueCoverImage": {
+                "th_TH": "cover_issue_17623_th_TH.jpg"
+            },
+            "issueUrl": "https://li01.tci-thaijo.org/index.php/agkasetkaj/issue/view/17623",
+            "subtitle": {},
+            "lastModified": "2024-02-19T02:44:44+0000",
+            "dateSubmitted": "2024-01-09T05:00:30+0000",
+            "status": 3,
+            "authors": [
+                {
+                    "publication_id": 34903,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Adithepchaikhan Pachanawan",
+                        "th_TH": "อดิเทพชัยย์การณ์ ภาชนะวรรณ"
+                    },
+                    "affiliation": {
+                        "en_US": "Department of Fisheries, Faculty of Agriculture Technology, Nakhon Phanom University, Nakhon Phanom",
+                        "th_TH": "สาขาวิชาประมง คณะเกษตรและเทคโนโลยี มหาวิทยาลัยนครพนม นครพนม"
+                    },
+                    "last_name": {
+                        "en_US": "Pachanawan",
+                        "th_TH": "ภาชนะวรรณ"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 467575,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Adithepchaikhan",
+                        "th_TH": "อดิเทพชัยย์การณ์"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 34903,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Jirawan Khamthorn",
+                        "th_TH": "จิราวรรณ คำธร"
+                    },
+                    "affiliation": {
+                        "en_US": "Department of Fisheries, Faculty of Agriculture Technology, Nakhon Phanom University, Nakhon Phanom",
+                        "th_TH": "สาขาวิชาประมง คณะเกษตรและเทคโนโลยี มหาวิทยาลัยนครพนม นครพนม"
+                    },
+                    "last_name": {
+                        "en_US": "Khamthorn",
+                        "th_TH": "คำธร"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 467576,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Jirawan",
+                        "th_TH": "จิราวรรณ"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 34903,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Vijitta Atthasan",
+                        "th_TH": "วิจิตรตา อรรถสาร"
+                    },
+                    "affiliation": {
+                        "en_US": "Department of Fisheries, Faculty of Agriculture Technology, Nakhon Phanom University, Nakhon Phanom",
+                        "th_TH": "สาขาวิชาประมง คณะเกษตรและเทคโนโลยี มหาวิทยาลัยนครพนม นครพนม"
+                    },
+                    "last_name": {
+                        "en_US": "Atthasan",
+                        "th_TH": "อรรถสาร"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 467569,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Vijitta",
+                        "th_TH": "วิจิตรตา"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 34903,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Sataphon ์Nonkhukhetkhong",
+                        "th_TH": "ศตพร โนนคู่เขตโขง"
+                    },
+                    "affiliation": {
+                        "en_US": "Department of Fisheries, Faculty of Agriculture Technology, Nakhon Phanom University, Nakhon Phanom",
+                        "th_TH": "สาขาวิชาประมง คณะเกษตรและเทคโนโลยี มหาวิทยาลัยนครพนม นครพนม"
+                    },
+                    "last_name": {
+                        "en_US": "์Nonkhukhetkhong",
+                        "th_TH": "โนนคู่เขตโขง"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 467572,
+                    "primary_contact": 1,
+                    "first_name": {
+                        "en_US": "Sataphon",
+                        "th_TH": "ศตพร"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 34903,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Julaluk Juntaban",
+                        "th_TH": "จุฬาลักษณ์ จันทบาล"
+                    },
+                    "affiliation": {
+                        "en_US": "Department of Fisheries, Faculty of Agriculture Technology, Nakhon Phanom University, Nakhon Phanom",
+                        "th_TH": "สาขาวิชาประมง คณะเกษตรและเทคโนโลยี มหาวิทยาลัยนครพนม นครพนม"
+                    },
+                    "last_name": {
+                        "en_US": "Juntaban",
+                        "th_TH": "จันทบาล"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 467574,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Julaluk",
+                        "th_TH": "จุฬาลักษณ์"
+                    },
+                    "country_long": "Thailand"
+                }
+            ],
+            "score": 71.69786,
+            "highlight": {
+                "title.th_TH": [
+                    "ผลของน้ำหมักเปลือกของสีเสียดเปลือกต่ออัตราส่วนเพศและอัตราการรอดตายใน<span>ปลา</span><span>กัด</span>"
+                ],
+                "keywords.th_TH.keyword": [
+                    "<span>ปลากัด</span>"
+                ],
+                "keywords.th_TH": [
+                    "<span>ปลา</span><span>กัด</span>"
+                ],
+                "abstract_clean.th_TH": [
+                    "แต่มีผลต่อการเหนี่ยวนำเพศ<span>ปลา</span><span>กัด</span>โดยที่อัตราส่วนเพิ่มขึ้นมีแนวโน้มเป็นเพศเมียสูง แต่ทั้งนี้ควรใช้ในปริมาณที่เหมาะสม",
+                    "), 0.25, 0.50, 0.75, 1.00 และ 2.00 g/l ชุดการทดลองละ 3 ซ้ำ เลี้ยงเป็นเวลา 60 วัน พบว่า น้ำหมักเปลือกของสีเสียดเปลือกไม่มีผลต่อการเจริญเติบโตของ<span>ปลา</span><span>กัด</span> (P0.05) สัดส่วนเพศ<span>ปลา</span><span>กัด</span> มีความแตกต่างกันทางสถิติอย่างมีนัยสำคัญยิ่ง (P0.01) คือ ที่อัตราส่วน 0.25 g/l สัดส่วนเพศผู้สูงที่สุด (68.95±8.67 %) ซึ่งมีค่ามากกว่าชุดควบคุม"
+                ]
+            }
+        },
+        {
+            "headerLogo": {
+                "en_US": "pageHeaderLogoImage_en_US.png",
+                "th_TH": "pageHeaderLogoImage_th_TH.png"
+            },
+            "keywords": {
+                "en_US": [
+                    "Betta Fish for Competition",
+                    "Local Wisdom",
+                    "Fish Propagation",
+                    "Ornamental Fish, Conservation"
+                ],
+                "th_TH": [
+                    "ปลากัดสายกัด",
+                    "ภูมิปัญญาท้องถิ่น",
+                    "การเพาะเลี้ยงปลา",
+                    "ปลาสวยงาม",
+                    "การอนุรักษ์"
+                ]
+            },
+            "abstract_clean": {
+                "en_US": "The objectives of this research article aimed to study the following: 1) The context and the problem conditions of propagating betta fish for competition, 2) The local wisdom of fish propagation, and 3) Guidelines for promoting the propagation of betta fish for competition with the local wisdom for conservation of ornamental fish in a case study of Ban Bon Kuan Community, Village No. 5, Na Pho Sub-district, Thung Song District, Nakhon Si Thammarat Province. The research used qualitative research methods, utilizing a camera, observation records, a questionnaire, and an audio recorder. In in-depth interviews and group discussions, key informants consisted of a total of eight persons who were knowledgeable in the local wisdom for propagating betta fish for competition and a total of seven persons who promoted and supported the local wisdom for propagating betta fish for competition. The data was analyzed using content analysis and data summarization. The results of the research found the following details: 1) The context and the problem conditions of propagating betta fish for competition in a case study of Ban Bon Kuan Community, Village No. 5, Na Pho Sub-district, Thung Song District, Nakhon Si Thammarat Province included problems with shortage of betta fish food and problems with nurturing the betta fish; 2) The local wisdom for propagating betta fish for competition in a case study of Ban Bon Kuan Community, Village No. 5, Na Pho Sub-district, Thung Song District, Nakhon Si Thammarat Province indicated the following important steps: 2.1) Preparing the pond, 2.2) Selecting male and female breeders, 2.3) Mating process, 2.4) Releasing fish into the pond, 2.5) Caring for baby betta fish, 2.6) Nurturing the fish for competition, 2.7) Fermenting water with leaves to condition the betta fish, 2.8) Feeding the betta fish, 2.9) Training the fish for competition, and 2.10) Nurturing the betta fish after competition; 3) Guidelines for promoting betta fish for competition in a case study of Ban Bon Kuan Community, Village No. 5, Na Pho Sub-district, Thung Song District, Nakhon Si Thammarat Province, included guidelines for promoting betta fish cultivation, guidelines for promoting betta fish sales, and guidelines for promoting the betta fish propagation.",
+                "th_TH": "บทความวิจัยนี้มีวัตถุประสงค์เพื่อศึกษา 1) บริบท และสภาพปัญหาการเลี้ยงปลากัดเพื่อการต่อสู้ 2) ภูมิปัญญาท้องถิ่นการเพาะเลี้ยงปลา และ 3) แนวทางส่งเสริมการเพาะเลี้ยงปลากัดสายกัดภูมิปัญญาท้องถิ่นปลาสวยงามเพื่อการอนุรักษ์ของชุมชนบ้านบนควน หมู่ที่ 5 ตำบลนาโพธิ์ อำเภอทุ่งสง จังหวัดนครศรีธรรมราช ซึ่งงานวิจัยครั้งนี้เป็นวิจัยเชิงคุณภาพ โดยใช้เครื่องมือบันทึกภาพ แบบสังเกต แบบสัมภาษณ์ และเครื่องบันทึกเสียงในการสัมภาษณ์เชิงลึก และสนทนากลุ่ม กับผู้ให้ข้อมูลสำคัญ ได้แก่ ผู้ที่มีความรู้เกี่ยวกับภูมิปัญญาการเลี้ยงปลากัดเพื่อการต่อสู้ จำนวน 8 คน ผู้ที่ส่งเสริม และสนับสนุนภูมิปัญญาการเลี้ยงปลากัดเพื่อการต่อสู้ จำนวน 7 คน วิเคราะห์ข้อมูลเชิงเนื้อหา และสรุปภาพรวม ผลการศึกษา พบว่า 1) บริบทและสภาพปัญหาการเลี้ยงปลากัดเพื่อการต่อสู้ กรณีศึกษา ชุมชนบ้านบนควน หมู่ที่ 5 ตำบลนาโพธิ์ อำเภอทุ่งสง จังหวัดนครศรีธรรมราช ได้แก่ ปัญหาการขาดแคลนอาหารปลากัด และปัญหาการดูแลรักษาปลากัด 2) ภูมิปัญญาวิธีการเลี้ยงปลากัดเพื่อการต่อสู้ กรณีศึกษา ชุมชนบ้านบนควน หมู่ที่ 5 ตำบลนาโพธิ์ อำเภอทุ่งสง จังหวัดนครศรีธรรมราช มีขั้นตอนสำคัญ ดังนี้ 2.1) การเตรียมบ่อ 2.2) การคัดเลือกพ่อพันธุ์ และแม่พันธุ์ 2.3) การเคียงคู่ผสม 2.4) การปล่อยปลาลงบ่อ  2.5) การดูแลลูกปลา 2.6) การดูแลปลาเพื่อนำไปกัด 2.7) การหมักน้ำด้วยใบไม้ใส่ในปลากัด 2.8) การให้อาหารปลากัด 2.9) การเตรียมกัด และ 2.10) การดูแลปลากัดหลังกัด และ 3) แนวทางการส่งเสริมการเลี้ยงปลากัดเพื่อการต่อสู้ กรณีศึกษา ชุมชนบ้านบนควน หมู่ที่ 5 ตำบลนาโพธิ์ อำเภอทุ่งสง จังหวัดนครศรีธรรมราช ได้แก่การส่งเสริมการเพาะเลี้ยงปลากัด การส่งเสริมการจำหน่ายปลากัด และการส่งเสริมการขยายพันธุ์ปลากัด"
+            },
+            "language": null,
+            "title": {
+                "en_US": "BETTA FISH FOR COMPETITION: THE LOCAL WISDOM FOR PROPAGATING THE ORNAMENTAL FISH FOR CONSERVATION IN BAN BON KHUAN COMMUNITY, VILLAGE NO. 5, NA PHO SUB-DISTRICT, THUNG SONG DISTRICT, NAKHON SI THAMMARAT PROVINCE",
+                "th_TH": "“ปลากัดสายกัด” ภูมิปัญญาท้องถิ่นการเพาะเลี้ยงปลาสวยงามเพื่อการอนุรักษ์ของชุมชนบ้านบนควน หมู่ที่ 5 ตำบลนาโพธิ์ อำเภอทุ่งสง จังหวัดนครศรีธรรมราช"
+            },
+            "pubIdDoi": null,
+            "articleUrl": "https://so18.tci-thaijo.org/index.php/J_ISSD/article/view/176",
+            "publication_id": 176,
+            "path": "J_ISSD",
+            "pages": "49-60",
+            "copyrightHolder": {
+                "en_US": "",
+                "th_TH": ""
+            },
+            "coverImage": null,
+            "cat": "social18",
+            "dateStatusModified": "2024-05-07T17:28:45+0000",
+            "id": 176,
+            "isPublushed": 1,
+            "journal_id": 13,
+            "doiSuffix": null,
+            "journal_enabled": 1,
+            "thaijoUrl": "https://so18.tci-thaijo.org/index.php/J_ISSD",
+            "thumbnail": null,
+            "issue_id": 19,
+            "issueDatePublished": "2023-06-29T17:00:00+0000",
+            "version": 1,
+            "datePublished": "2024-05-07T17:00:00+0000",
+            "issueCoverImage": {},
+            "issueUrl": "https://so18.tci-thaijo.org/index.php/J_ISSD/issue/view/19",
+            "subtitle": {
+                "en_US": "",
+                "th_TH": ""
+            },
+            "lastModified": "2024-05-07T17:17:59+0000",
+            "dateSubmitted": "2024-05-07T17:26:21+0000",
+            "status": 3,
+            "authors": [
+                {
+                    "publication_id": 176,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Wisawa Rattanaburi",
+                        "th_TH": "วิศวะ รัตนบุรี"
+                    },
+                    "affiliation": {
+                        "en_US": "Nakhon Si Thammarat Rajabhat University, Thailand",
+                        "th_TH": "มหาวิทยาลัยราชภัฏนครศรีธรรมราช"
+                    },
+                    "last_name": {
+                        "en_US": "Rattanaburi",
+                        "th_TH": "รัตนบุรี"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 326,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Wisawa",
+                        "th_TH": "วิศวะ"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 176,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Jittima Damrongwattana",
+                        "th_TH": "จิตติมา ดำรงวัฒนะ"
+                    },
+                    "affiliation": {
+                        "en_US": "Nakhon Si Thammarat Rajabhat University, Thailand",
+                        "th_TH": "มหาวิทยาลัยราชภัฏนครศรีธรรมราช"
+                    },
+                    "last_name": {
+                        "en_US": "Damrongwattana",
+                        "th_TH": "ดำรงวัฒนะ"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 327,
+                    "primary_contact": 1,
+                    "first_name": {
+                        "en_US": "Jittima",
+                        "th_TH": "จิตติมา"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 176,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Daycho Khaenamkaew",
+                        "th_TH": "เดโช แขน้ำแก้ว"
+                    },
+                    "affiliation": {
+                        "en_US": "Nakhon Si Thammarat Rajabhat University, Thailand",
+                        "th_TH": "มหาวิทยาลัยราชภัฏนครศรีธรรมราช"
+                    },
+                    "last_name": {
+                        "en_US": "Khaenamkaew",
+                        "th_TH": "แขน้ำแก้ว"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 328,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Daycho",
+                        "th_TH": "เดโช"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 176,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Udomsak Dechochai",
+                        "th_TH": "อุดมศักดิ์ เดโชชัย"
+                    },
+                    "affiliation": {
+                        "en_US": "Nakhon Si Thammarat Rajabhat University, Thailand",
+                        "th_TH": "มหาวิทยาลัยราชภัฏนครศรีธรรมราช"
+                    },
+                    "last_name": {
+                        "en_US": "Dechochai",
+                        "th_TH": "เดโชชัย"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 329,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Udomsak",
+                        "th_TH": "อุดมศักดิ์"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 176,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Supparuek Chorkong",
+                        "th_TH": "ศุภฤกษ์ ช่อคง"
+                    },
+                    "affiliation": {
+                        "en_US": "Independent Academic, Thailand",
+                        "th_TH": "นักวิชาการอิสระ"
+                    },
+                    "last_name": {
+                        "en_US": "Chorkong",
+                        "th_TH": "ช่อคง"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 330,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Supparuek",
+                        "th_TH": "ศุภฤกษ์"
+                    },
+                    "country_long": "Thailand"
+                }
+            ],
+            "score": 71.6902,
+            "highlight": {
+                "title.th_TH": [
+                    "“<span>ปลา</span><span>กัด</span>สาย<span>กัด</span>” ภูมิปัญญาท้องถิ่นการเพาะเลี้ยง<span>ปลา</span>สวยงามเพื่อการอนุรักษ์ของชุมชนบ้านบนควน หมู่ที่ 5 ตำบลนาโพธิ์ อำเภอทุ่งสง จังหวัดนครศรีธรรมราช"
+                ],
+                "keywords.th_TH": [
+                    "<span>ปลา</span><span>กัด</span>สาย<span>กัด</span>",
+                    "<span>ปลา</span>สวยงาม"
+                ],
+                "abstract_clean.th_TH": [
+                    ") การดูแล<span>ปลา</span><span>กัด</span>หลัง<span>กัด</span> และ 3) แนวทางการส่งเสริมการเลี้ยง<span>ปลา</span><span>กัด</span>เพื่อการต่อสู้ กรณีศึกษา ชุมชนบ้านบนควน หมู่ที่ 5 ตำบลนาโพธิ์ อำเภอทุ่งสง จังหวัดนครศรีธรรมราช ได้แก่การส่งเสริมการเพาะเลี้ยง<span>ปลา</span><span>กัด</span> การส่งเสริมการจำหน่าย<span>ปลา</span><span>กัด</span> และการส่งเสริมการขยายพันธุ์<span>ปลา</span><span>กัด</span>",
+                    "และสรุปภาพรวม ผลการศึกษา พบว่า 1) บริบทและสภาพปัญหาการเลี้ยง<span>ปลา</span><span>กัด</span>เพื่อการต่อสู้ กรณีศึกษา ชุมชนบ้านบนควน หมู่ที่ 5 ตำบลนาโพธิ์ อำเภอทุ่งสง จังหวัดนครศรีธรรมราช ได้แก่ ปัญหาการขาดแคลนอาหาร<span>ปลา</span><span>กัด</span> และปัญหาการดูแลรักษา<span>ปลา</span><span>กัด</span> 2) ภูมิปัญญาวิธีการเลี้ยง<span>ปลา</span><span>กัด</span>เพื่อการต่อสู้ กรณีศึกษา ชุมชนบ้านบนควน หมู่ที่"
+                ]
+            }
+        },
+        {
+            "headerLogo": null,
+            "keywords": {
+                "en_US": [
+                    "Composition",
+                    "Mahachai Betta",
+                    "suite"
+                ],
+                "th_TH": [
+                    "การประพันธ์เพลง",
+                    "ปลากัดป่ามหาชัย",
+                    "เพลงชุด"
+                ]
+            },
+            "abstract_clean": {
+                "en_US": "This research aims to generate artistic works in the realm of musical arts, particularly focusing on the Mahachai pla Fighting Fish series song and the process of composing music. Employing qualitative research methods, the study encompasses document analysis and interviews with experts in Thai music and Mahachai wild fighting fish. The research outcomes are conveyed through the creation of musical compositions.   The Composition of the Mahachai pla Kat song series draws inspiration from songs about fish and incorporates information about the Mahachai wild fighting fish and its habitat into new musical pieces. This composition process is driven by the author's artistic vision and is influenced by the incorporation of fighting fish into the work. The series comprises five songs: 1) pla katpa Song, 2) Thin-asai Song, 3) ren lop phai Song, 4) Mahachaimas – saya Song 5) leela chan cheing Song, and 6) pla katpa siam Song.   The research results found that the Composition of the Mahachai Pla Kat song series tells the story of the Mahachai wild fighting fish, beginning with its habitat and unique characteristics. It also narrates the battles of the Mahachai wild fighting fish, with each song having a distinct melody. The music is performed by the Piphat Dukdamband, a traditional ensemble featuring low-pitched instruments that produce a soft and pleasing sound. To enhance the storytelling, a special device— a fighting fish jar— is used to mimic the sound of fish gulping air and the sensation of water, making the narrative of the Mahachai wild fighting fish more clearly.",
+                "th_TH": "งานวิจัยนี้มีวัตถุประสงค์เพื่อสร้างสรรค์ผลงานทางด้านดุริยางคศิลป์ไทย เพลงชุดปลากัดป่ามหาชัย และกระบวนการในการประพันธ์เพลง โดยใช้ระเบียบวิธีวิจัยเชิงคุณภาพ เป็นการศึกษาข้อมูลเอกสารและสัมภาษณ์ผู้ทรงคุณวุฒิทางด้านดุริยางค์ศิลป์ไทยและผู้ทรงคุณวุฒิด้านปลากัดป่ามหาชัย นำเสนอผลการวิจัยด้วยการสร้างสรรค์ผลงานทางดุริยางคศิลป์ไทย    การประพันธ์เพลงชุดปลากัดป่ามหาชัย เป็นการประพันธ์เพลงโดยนำแนวคิดจากประพันธ์เพลงและผลงานศิลปะแขนงต่าง ๆ ที่เกี่ยวข้องกับปลากัดมาเป็นแรงบันดาลและแนวคิดในการประพันธ์เพลงไทย นำข้อมูลเกี่ยวกับปลากัดป่ามหาชัย และพื้นที่ที่ปลากัดป่ามหาชัยอาศัยอยู่มาประพันธ์ขึ้นมาให้เป็นบทเพลงใหม่ โดยผู้ประพันธ์ได้ประพันธ์ขึ้นมาทั้งหมด 6 เพลง คือ 1) เพลงปลากัดป่า 2) เพลงถิ่นอาศัย 3) เพลงเร้นหลบภัย 4) มหาชัยมัสยา 5) เพลงลีลาชั้นเชิง และ 6) เพลงปลากัดสยาม   ผลการวิจัยพบว่า การประพันธ์เพลงชุดปลากัดป่ามหาชัย เป็นการถ่ายทอดเรื่องราวของปลากัดป่ามหาชัยตั้งแต่ถิ่นที่อยู่อาศัยลักษณะที่โดดเด่นเฉพาะของปลาและเรื่องราวการต่อสู้ของปลากัดป่ามหาชัย ซึ่งท่วงทำนองของแต่ละเพลงจะมีทำนองที่แตกต่างกัน ซึ่งรูปแบบการบรรเลงจะเป็นการบรรเลงโดยวงปี่พาทย์ดึกดำบรรพ์ ผู้ประพันธ์ต้องการที่จะสื่อถึงสิ่งมีชีวิติที่อาศัยอยู่ในน้ำ ซึ่งวงปี่พาทย์ดึกดำบรรพ์ประกอบด้วยเครื่องดนตรีเสียงต่ำ มีสำนวนนุ่มนวล น่าฟัง เพิ่มอุปกรณ์พิเศษคือ โหลปลากัดที่ใช้เลียนเสียงการฮุบอากาศของปลาและเสียงที่ฟังแล้วให้ความรู้สึกถึงน้ำเพื่อเล่าเรื่องราวของปลากัดป่ามหาชัยได้ชัดเจนมากยิ่งขึ้น"
+            },
+            "language": null,
+            "title": {
+                "en_US": "Music Composition MAHACHAI BETTA Suite",
+                "th_TH": "การประพันธ์เพลงชุดปลากัดป่ามหาชัย"
+            },
+            "pubIdDoi": null,
+            "articleUrl": "https://so13.tci-thaijo.org/index.php/MusBSRU/article/view/711",
+            "publication_id": 716,
+            "path": "MusBSRU",
+            "pages": "125-139",
+            "copyrightHolder": {
+                "en_US": "Bansomdej Music Journal",
+                "th_TH": "วารสารดนตรีบ้านสมเด็จฯ"
+            },
+            "coverImage": null,
+            "cat": "social13",
+            "dateStatusModified": "2024-07-23T03:01:43+0000",
+            "id": 711,
+            "isPublushed": 1,
+            "journal_id": 6,
+            "doiSuffix": null,
+            "journal_enabled": 1,
+            "thaijoUrl": "https://so13.tci-thaijo.org/index.php/MusBSRU",
+            "thumbnail": {
+                "th_TH": "journalThumbnail_th_TH.png"
+            },
+            "issue_id": 157,
+            "issueDatePublished": "2024-07-23T03:01:38+0000",
+            "version": 1,
+            "datePublished": "2024-07-22T17:00:00+0000",
+            "issueCoverImage": {
+                "th_TH": "cover_issue_157_th_TH.jpg"
+            },
+            "issueUrl": "https://so13.tci-thaijo.org/index.php/MusBSRU/issue/view/157",
+            "subtitle": {},
+            "lastModified": "2024-05-02T01:23:24+0000",
+            "dateSubmitted": "2024-04-17T02:49:25+0000",
+            "status": 3,
+            "authors": [
+                {
+                    "publication_id": 716,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Suparat Thongtha",
+                        "th_TH": "ศุภรัสมิ์ ทองทา"
+                    },
+                    "affiliation": {
+                        "en_US": "Students of the Master of Arts Program in Music, Kasetsart University",
+                        "th_TH": "นิสิตศิลปศาสตรมหาบัณฑิต สาขาวิชาดนตรี มหาวิทยาลัยเกษตรศาสตร์"
+                    },
+                    "last_name": {
+                        "en_US": "Thongtha",
+                        "th_TH": "ทองทา"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 1062,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Suparat",
+                        "th_TH": "ศุภรัสมิ์"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 716,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Chattiya Khieti-navy",
+                        "th_TH": "ฉัตรติยา เกียรตินาวี"
+                    },
+                    "affiliation": {
+                        "en_US": "Advisor Dr. Thai Music Program, Department of Music, Kasetsart University",
+                        "th_TH": "อาจารย์ที่ปรึกษาหลัก ดร. สาขาวิชาดนตรีไทย ภาควิชาดนตรี มหาวิทยาลัยเกษตรศาสตร์"
+                    },
+                    "last_name": {
+                        "en_US": "Khieti-navy",
+                        "th_TH": "เกียรตินาวี"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 1335,
+                    "primary_contact": 1,
+                    "first_name": {
+                        "en_US": "Chattiya",
+                        "th_TH": "ฉัตรติยา"
+                    },
+                    "country_long": "Thailand"
+                }
+            ],
+            "score": 70.70071,
+            "highlight": {
+                "title.th_TH": [
+                    "การประพันธ์เพลงชุด<span>ปลา</span><span>กัด</span>ป่ามหาชัย"
+                ],
+                "keywords.th_TH": [
+                    "<span>ปลา</span><span>กัด</span>ป่ามหาชัย"
+                ],
+                "abstract_clean.th_TH": [
+                    "6 เพลง คือ 1) เพลง<span>ปลา</span><span>กัด</span>ป่า 2) เพลงถิ่นอาศัย 3) เพลงเร้นหลบภัย 4) มหาชัยมัสยา 5) เพลงลีลาชั้นเชิง และ 6) เพลง<span>ปลา</span><span>กัด</span>สยาม   ผลการวิจัยพบว่า การประพันธ์เพลงชุด<span>ปลา</span><span>กัด</span>ป่ามหาชัย เป็นการถ่ายทอดเรื่องราวของ<span>ปลา</span><span>กัด</span>ป่ามหาชัยตั้งแต่ถิ่นที่อยู่อาศัยลักษณะที่โดดเด่นเฉพาะของ<span>ปลา</span>และเรื่องราวการต่อสู้ของ<span>ปลา</span><span>กัด</span>ป่ามหาชัย",
+                    "การประพันธ์เพลงชุด<span>ปลา</span><span>กัด</span>ป่ามหาชัย เป็นการประพันธ์เพลงโดยนำแนวคิดจากประพันธ์เพลงและผลงานศิลปะแขนงต่าง ๆ ที่เกี่ยวข้องกับ<span>ปลา</span><span>กัด</span>มาเป็นแรงบันดาลและแนวคิดในการประพันธ์เพลงไทย นำข้อมูลเกี่ยวกับ<span>ปลา</span><span>กัด</span>ป่ามหาชัย และพื้นที่ที่<span>ปลา</span><span>กัด</span>ป่ามหาชัยอาศัยอยู่มาประพันธ์ขึ้นมาให้เป็นบทเพลงใหม่ โดยผู้ประพันธ์ได้ประพันธ์ขึ้นมาทั้งหมด"
+                ]
+            }
+        },
+        {
+            "headerLogo": {
+                "th_TH": "pageHeaderLogoImage_th_TH.jpg"
+            },
+            "keywords": {
+                "en_US": [
+                    "Wild betta",
+                    "Board game",
+                    "Breeding wild betta"
+                ],
+                "th_TH": [
+                    "ปลากัดป่า",
+                    "การเพาะพันธุ์ปลากัดป่า",
+                    "บอร์ดเกม"
+                ]
+            },
+            "abstract_clean": {
+                "en_US": "The objective of this creative article was to design a board game “Breeding Betta” providing knowledge on breeding wild betta in form of 2D animated media. The creative process consisted of 4 steps: 1) Plan operational guidelines, 2) Set goals and content objectives, gather information, study and understand the content correctly, 3) Study information for making a board game, 4) Design and create the board game. The creator developed the board game “Breeding Betta” as a family game that could be played by 2-4 people. In the simulation, the player was like the owner of a wild betta farm, raising different kinds of wild betta, and developing wild betta varieties to sell. In the game, various events were simulated based on reality to create the fun of the game, and the player learned about primitive species of wild betta, which are the ancestors of various beautiful biting fish. Raising awareness of economic fish that can generate a lot of income for the country was added in the game. This is because some species of wild fighting fish are at risk of becoming extinct and becoming more difficult to find. So they have increased the market value and demand. This project is part of the creator's hope to make wild fighting fish known and convey the guidelines for raising fighting fish for those interested in playing in the form of a board game.",
+                "th_TH": "บทความสร้างสรรค์ครั้งนี้มีวัตถุประสงค์เพื่อออกแบบบอร์ดเกม “Breeding Betta” ที่ให้ความรู้เรื่องการเพาะพันธุ์ปลากัดป่า ในรูปแบบสื่อเคลื่อนไหว 2 มิติ โดยมีวิธีดำเนินการสร้างสรรค์ประกอบด้วย 4 ขั้นตอนคือ 1) วางแผนแนวทางการดำเนินงาน 2) กำหนดเป้าหมายและวัตถุประสงค์ของเนื้อหา รวบรวมข้อมูลรวมทั้งศึกษาทำความเข้าใจกับเนื้อหาอย่างถูกต้อง 3) ศึกษาข้อมูลในการทำบอร์ดเกม และ 4) ออกแบบและจัดทำ คณะผู้สร้างสรรค์ได้พัฒนาบอร์ดเกมโดยสร้างสรรค์บอร์ดเกมรูปแบบเกมครอบครัว ซึ่งผู้เล่นสามารถเล่นได้ตั้งแต่ 2-4 คน จำลองให้ผู้เล่นเปรียบเสมือนเจ้าของฟาร์มปลากัดป่าพ่อพันธุ์สายพันธุ์ต่าง ๆ ที่คอยเลี้ยงดูเพาะพันธุ์ปลากัดป่า และพัฒนาสายพันธุ์ปลากัดป่าเพื่อนำไปขาย โดยภายในเกมจะจำลองเหตุการณ์ต่าง ๆ ที่อ้างอิงจากความเป็นจริง เพื่อสร้างความสนุก ในกับเกม และได้รู้จักปลากัดป่าสายพันธุ์ดั้งเดิมที่เปรียบเสมือนบรรพบุรุษของ ปลากัดสวยงามหลากหลายสายพันธุ์ สร้างความตระหนักรู้เรื่องปลาเศรษฐกิจที่สามารถสร้างรายได้เข้าประเทศได้ เนื่องจากปลากัดป่าบางสายพันธุ์มีความเสี่ยงใกล้สูญพันธุ์ และหายากมากขึ้น จึงทำให้มีมูลค่าและเป็นที่ต้องการของตลาด ซึ่งผลงานนี้เป็นส่วนหนึ่ง ที่คณะผู้สร้างสรรค์มีความมุ่งหวังที่จะทำให้ปลากัดป่าเป็นที่รู้จัก และถ่ายทอดแนวทาง การเลี้ยงปลากัดสำหรับผู้ที่สนใจได้ลองเล่นในรูปแบบบอร์ดเกม"
+            },
+            "language": null,
+            "title": {
+                "en_US": "DESIGNING A BOARD GAME FOR KNOWLEDGE SHARING ON WILD BETTA FISH",
+                "th_TH": "การออกแบบบอร์ดเกมเพื่อให้ความรู้เกี่ยวกับปลากัดป่า"
+            },
+            "pubIdDoi": null,
+            "articleUrl": "https://so05.tci-thaijo.org/index.php/Patanasilpa/article/view/271357",
+            "publication_id": 48442,
+            "path": "Patanasilpa",
+            "pages": "165-180",
+            "copyrightHolder": {
+                "en_US": "Patanasilpa Journal",
+                "th_TH": "วารสารพัฒนศิลป์วิชาการ"
+            },
+            "coverImage": {
+                "th_TH": "submission_271357_48442_coverImage_th_TH.jpg"
+            },
+            "cat": "social05",
+            "dateStatusModified": "2024-03-06T09:27:41+0000",
+            "id": 271357,
+            "isPublushed": 1,
+            "journal_id": 819,
+            "doiSuffix": null,
+            "journal_enabled": 1,
+            "thaijoUrl": "https://so05.tci-thaijo.org/index.php/Patanasilpa",
+            "thumbnail": {
+                "th_TH": "journalThumbnail_th_TH.jpg"
+            },
+            "issue_id": 17703,
+            "issueDatePublished": "2024-03-06T09:27:34+0000",
+            "version": 1,
+            "datePublished": "2024-03-05T17:00:00+0000",
+            "issueCoverImage": {
+                "th_TH": "cover_issue_17703_th_TH.jpg"
+            },
+            "issueUrl": "https://so05.tci-thaijo.org/index.php/Patanasilpa/issue/view/17703",
+            "subtitle": {
+                "en_US": "-",
+                "th_TH": "-"
+            },
+            "lastModified": "2024-03-06T07:40:59+0000",
+            "dateSubmitted": "2024-03-06T07:53:31+0000",
+            "status": 3,
+            "authors": [
+                {
+                    "publication_id": 48442,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "AUTTASEAD PREEDAKORN",
+                        "th_TH": "อรรถเศรษฐ์ ปรีดากรณ์"
+                    },
+                    "affiliation": {
+                        "en_US": "Department of Animation and Creative Media, Faculty of Information Technology, Siam University",
+                        "th_TH": "ภาควิชาแอนิเมชันและสื่อสร้างสรรค์ คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยสยาม"
+                    },
+                    "last_name": {
+                        "en_US": "PREEDAKORN",
+                        "th_TH": "ปรีดากรณ์"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 459105,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "AUTTASEAD",
+                        "th_TH": "อรรถเศรษฐ์"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 48442,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "PATTARAPON KOEDPRANG",
+                        "th_TH": "ภัทรพล เกิดปรางค์"
+                    },
+                    "affiliation": {
+                        "en_US": "Department of Animation and Creative Media, Faculty of Information Technology, Siam University",
+                        "th_TH": "ภาควิชาแอนิเมชันและสื่อสร้างสรรค์ คณะเทคโนโลยีสารสนเทศ มหาวิทยาลัยสยาม"
+                    },
+                    "last_name": {
+                        "en_US": "KOEDPRANG",
+                        "th_TH": "เกิดปรางค์"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 459106,
+                    "primary_contact": 1,
+                    "first_name": {
+                        "en_US": "PATTARAPON",
+                        "th_TH": "ภัทรพล"
+                    },
+                    "country_long": "Thailand"
+                }
+            ],
+            "score": 70.16408,
+            "highlight": {
+                "title.th_TH": [
+                    "การออกแบบบอร์ดเกมเพื่อให้ความรู้เกี่ยวกับ<span>ปลา</span><span>กัด</span>ป่า"
+                ],
+                "keywords.th_TH": [
+                    "<span>ปลา</span><span>กัด</span>ป่า",
+                    "การเพาะพันธุ์<span>ปลา</span><span>กัด</span>ป่า"
+                ],
+                "abstract_clean.th_TH": [
+                    "โดยภายในเกมจะจำลองเหตุการณ์ต่าง ๆ ที่อ้างอิงจากความเป็นจริง เพื่อสร้างความสนุก ในกับเกม และได้รู้จัก<span>ปลา</span><span>กัด</span>ป่าสายพันธุ์ดั้งเดิมที่เปรียบเสมือนบรรพบุรุษของ <span>ปลา</span><span>กัด</span>สวยงามหลากหลายสายพันธุ์ สร้างความตระหนักรู้เรื่อง<span>ปลา</span>เศรษฐกิจที่สามารถสร้างรายได้เข้าประเทศได้ เนื่องจาก<span>ปลา</span><span>กัด</span>ป่าบางสายพันธุ์มีความเสี่ยงใกล้สูญพันธุ์",
+                    "3) ศึกษาข้อมูลในการทำบอร์ดเกม และ 4) ออกแบบและจัดทำ คณะผู้สร้างสรรค์ได้พัฒนาบอร์ดเกมโดยสร้างสรรค์บอร์ดเกมรูปแบบเกมครอบครัว ซึ่งผู้เล่นสามารถเล่นได้ตั้งแต่ 2-4 คน จำลองให้ผู้เล่นเปรียบเสมือนเจ้าของฟาร์ม<span>ปลา</span><span>กัด</span>ป่าพ่อพันธุ์สายพันธุ์ต่าง ๆ ที่คอยเลี้ยงดูเพาะพันธุ์<span>ปลา</span><span>กัด</span>ป่า และพัฒนาสายพันธุ์<span>ปลา</span><span>กัด</span>ป่าเพื่อนำไปขาย"
+                ]
+            }
+        },
+        {
+            "headerLogo": {
+                "en_US": "pageHeaderLogoImage_en_US.png",
+                "th_TH": "pageHeaderLogoImage_th_TH.png"
+            },
+            "keywords": {
+                "en_US": [
+                    "Betta splendens",
+                    "Terminalia catappa",
+                    "pH"
+                ],
+                "th_TH": [
+                    "ปลากัด",
+                    "ใบหูกวาง",
+                    "ความเป็นกรด-ด่าง"
+                ]
+            },
+            "abstract_clean": {
+                "en_US": "The effects of pH from the different quantities of dried  Terminalia catappa  leaves (TCL) on breeder spawning rate, survival rate, larvae sex ratio and growth performance of halfmoon fancy betta fish were studied. The mean pH that resulted from soaking TCL in water at the concentrations of 0, 2.5, 5, 7.5 and 10 g/l were 7.90, 6.67, 6.48, 6.33 and 5.91, respectively. As a result, spawning rate and survival rate of the breeders and survival rate of larvae were significantly different (P0.05). The pH from the soaking of dried TCL in water at 2.5 g/l was pH 6.67, and this pH produced the highest spawning rate, which was 80.0%. However, the pH that resulted from soaking dried TCL at 10 mg/l was pH 5.91, and at this pH all breeders and larvae died. The immersion of fertilized eggs in various pH that resulted from soaking of different amounts of TCL affected the ratio of males and the growth performance of the  B. splendens  larvae. It was found that the soaking of dried TCL leaves at 5 g/l, which produced a pH of 6.71, resulted in the highest numbers of male larvae (74.13%). However, the growth of the fighting fish larvae was not significantly different at the various pH (P0.05). These studies indicate that 1) TCL concentrations of 2.5-7.5 g/l (pH 6.33-6.67) should be used for  B. splendens  breeding and, 2) a TCL concentration of 5.0 g/l (pH 6.71) increased the number of male larvae by 35.27% compared to the control (pH 7.50).",
+                "th_TH": "ผลของความเป็นกรด-ด่าง (pH) จากน้ำแช่ใบหูกวางแห้ง ( T. catappa  leaves, TCL) ต่อการผสมพันธุ์วางไข่และ อัตรารอดของพ่อแม่ปลากัด และอัตราส่วนเพศผู้ การเติบโตในลูกปลากัดสายพันธุ์หางพระจันทร์ครึ่งซีก พบว่า pH จากน้ำแช่ TCL ที่ 0, 2.5, 5, 7.5 และ 10 กรัม/ลิตร มีค่า pH เฉลี่ย 7.90, 6.67, 6.48, 6.33 และ 5.91 ตามลำดับ ทำให้การผสมพันธุ์วางไข่และอัตรารอดของพ่อแม่พันธุ์และลูกปลากัดมีความแตกต่างอย่างมีนัยสำคัญทางสถิติ (P0.05) โดยน้ำแช่ TCL 2.5 กรัม/ลิตร pH 6.67 มีการวางไข่มากที่สุด เท่ากับ 80.0% แต่น้ำแช่ TCL 10 กรัม/ลิตร pH 5.91 ทำให้พ่อแม่พันธุ์และลูกปลากัดตายทั้งหมด การแช่ไข่ปลากัดที่ได้รับการปฏิสนธิใน pH จากน้ำแช่ TCL ที่ปริมาณต่างกัน ส่งผลให้ลูกปลาเพศผู้จากน้ำแช่ TCL 5 กรัม/ลิตร pH 6.71 มีลูกปลาเพศผู้มากที่สุด (74.13%) การเติบโตของลูกปลากัดไม่มีความแตกต่างอย่างมีนัยสำคัญทางสถิติ (P0.05) ดังนั้น ปลากัดมีการผสมพันธุ์วางไข่ในน้ำแช่ TCL 2.5-7.5 กรัม/ลิตร pH 6.33-6.67 และน้ำแช่ TCL 5 กรัม/ลิตร pH 6.71 สามารถเพิ่มลูกปลากัดเพศผู้ได้ 35.27% เมื่อเทียบกับชุดควบคุม (pH 7.50)"
+            },
+            "language": "th",
+            "title": {
+                "en_US": "Effect of Water pH from Dried Terminalia catappa Leaves on Increasing Male Ratio and Growth Performance of Halfmoon Fancy Betta Fish (Betta splendens)",
+                "th_TH": "ผลของความเป็นกรด-ด่างของน้ำจากใบหูกวางแห้งต่อการเพิ่มอัตราส่วนเพศผู้ และการเติบโตในปลากัดสายพันธุ์หางพระจันทร์ครึ่งซีก"
+            },
+            "pubIdDoi": null,
+            "articleUrl": "https://li01.tci-thaijo.org/index.php/agritechjournal/article/view/241439",
+            "publication_id": 15790,
+            "path": "agritechjournal",
+            "pages": "511 - 518",
+            "copyrightHolder": {
+                "en_US": "King Mongkut's Agricultural Journal",
+                "th_TH": "วารสารเกษตรพระจอมเกล้า"
+            },
+            "coverImage": {
+                "th_TH": "article_241439_cover_th_TH.jpg"
+            },
+            "cat": "life01",
+            "dateStatusModified": "2020-12-25T03:52:59+0000",
+            "id": 241439,
+            "isPublushed": 1,
+            "journal_id": 415,
+            "doiSuffix": "customId",
+            "journal_enabled": 1,
+            "thaijoUrl": "https://li01.tci-thaijo.org/index.php/agritechjournal",
+            "thumbnail": {
+                "en_US": "journalThumbnail_en_US.jpg",
+                "th_TH": "journalThumbnail_th_TH.jpg"
+            },
+            "issue_id": 16981,
+            "issueDatePublished": "2020-12-25T03:53:41+0000",
+            "version": 1,
+            "datePublished": "2020-12-20T17:00:00+0000",
+            "issueCoverImage": {
+                "th_TH": "cover_issue_16981_th_TH.jpg"
+            },
+            "issueUrl": "https://li01.tci-thaijo.org/index.php/agritechjournal/issue/view/16981",
+            "subtitle": {
+                "en_US": "",
+                "th_TH": ""
+            },
+            "lastModified": "2020-12-25T03:52:59+0000",
+            "dateSubmitted": "2020-04-07T09:49:04+0000",
+            "status": 3,
+            "authors": [
+                {
+                    "publication_id": 15790,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Sooksakaow Rodpan",
+                        "th_TH": "สุกสกาว รอดปั้น"
+                    },
+                    "affiliation": {
+                        "en_US": "Department of Animal Production Technology and Fishery, Faculty of Agricultural Technology, King Mongkut’s Institute of Technology Ladkrabang, Ladkrabang, Bangkok 10520",
+                        "th_TH": "ภาควิชาเทคโนโลยีการผลิตสัตว์และประมง คณะเทคโนโลยีการเกษตร สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520"
+                    },
+                    "last_name": {
+                        "en_US": "Rodpan",
+                        "th_TH": "รอดปั้น"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 412473,
+                    "primary_contact": 1,
+                    "first_name": {
+                        "en_US": "Sooksakaow",
+                        "th_TH": "สุกสกาว"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 15790,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Nongnuch Laohavisuti",
+                        "th_TH": "นงนุช เลาหะวิสุทธิ์"
+                    },
+                    "affiliation": {
+                        "en_US": "Department of Animal Production Technology and Fishery, Faculty of Agricultural Technology, King Mongkut’s Institute of Technology Ladkrabang, Ladkrabang, Bangkok 10520",
+                        "th_TH": "ภาควิชาเทคโนโลยีการผลิตสัตว์และประมง คณะเทคโนโลยีการเกษตร สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520"
+                    },
+                    "last_name": {
+                        "en_US": "Laohavisuti",
+                        "th_TH": "เลาหะวิสุทธิ์"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 430745,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Nongnuch",
+                        "th_TH": "นงนุช"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 15790,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Uscharee Ruangdej",
+                        "th_TH": "อัจฉรี เรืองเดช"
+                    },
+                    "affiliation": {
+                        "en_US": "1 Department of Animal Production Technology and Fishery, Faculty of Agricultural Technology, King Mongkut’s Institute of Technology Ladkrabang, Ladkrabang, Bangkok 10520",
+                        "th_TH": "ภาควิชาเทคโนโลยีการผลิตสัตว์และประมง คณะเทคโนโลยีการเกษตร สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง เขตลาดกระบัง กรุงเทพฯ 10520"
+                    },
+                    "last_name": {
+                        "en_US": "Ruangdej",
+                        "th_TH": "เรืองเดช"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 430746,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Uscharee",
+                        "th_TH": "อัจฉรี"
+                    },
+                    "country_long": "Thailand"
+                }
+            ],
+            "score": 70.1086,
+            "highlight": {
+                "title.th_TH": [
+                    "ผลของความเป็นกรด-ด่างของน้ำจากใบหูกวางแห้งต่อการเพิ่มอัตราส่วนเพศผู้ และการเติบโตใน<span>ปลา</span><span>กัด</span>สายพันธุ์หางพระจันทร์ครึ่งซีก"
+                ],
+                "keywords.th_TH.keyword": [
+                    "<span>ปลากัด</span>"
+                ],
+                "keywords.th_TH": [
+                    "<span>ปลา</span><span>กัด</span>"
+                ],
+                "abstract_clean.th_TH": [
+                    "จากน้ำแช่ TCL ที่ปริมาณต่างกัน ส่งผลให้ลูกปลาเพศผู้จากน้ำแช่ TCL 5 กรัม/ลิตร pH 6.71 มีลูกปลาเพศผู้มากที่สุด (74.13%) การเติบโตของลูกปลา<span>กัด</span>ไม่มีความแตกต่างอย่างมีนัยสำคัญทางสถิติ (P0.05) ดังนั้น <span>ปลา</span><span>กัด</span>มีการผสมพันธุ์วางไข่ในน้ำแช่ TCL 2.5-7.5 กรัม/ลิตร pH 6.33-6.67 และน้ำแช่ TCL 5 กรัม/ลิตร pH 6.71 สามารถเพิ่มลูกปลา<span>กัด</span>เพศผู้ได้",
+                    "ผลของความเป็นกรด-ด่าง (pH) จากน้ำแช่ใบหูกวางแห้ง ( T. catappa  leaves, TCL) ต่อการผสมพันธุ์วางไข่และ อัตรารอดของพ่อแม่<span>ปลา</span><span>กัด</span> และอัตราส่วนเพศผู้ การเติบโตในลูกปลา<span>กัด</span>สายพันธุ์หางพระจันทร์ครึ่งซีก พบว่า pH จากน้ำแช่ TCL ที่ 0, 2.5, 5, 7.5 และ 10 กรัม/ลิตร มีค่า pH เฉลี่ย 7.90, 6.67, 6.48, 6.33 และ 5.91"
+                ]
+            }
+        },
+        {
+            "headerLogo": {
+                "en_US": "pageHeaderLogoImage_en_US.png",
+                "th_TH": "pageHeaderLogoImage_th_TH.png"
+            },
+            "keywords": {
+                "en_US": [
+                    "Biology",
+                    "Siamese fighting fish",
+                    "Betta splendens"
+                ],
+                "th_TH": [
+                    "ชีววิทยา",
+                    "ปลากัดไทย",
+                    "Betta splendens"
+                ]
+            },
+            "abstract_clean": {
+                "en_US": "Siamese fighting fish ( Betta splendens Regan , 1910) is a native species of ornamental and sport fish of Thailand. The commercial production of this species as ornament tends to increase progressively whereas the basic biology is scarcely known. This literature review provides elementary knowledge on taxonomy, ecology and distribution, morphology and anatomy, behavior, reproduction and development, digestion and feeding, pigmentation, heredity and aquaculture of the fish. These data are important for improving the quality of fish production. Whereas culture techniques, such as aquaculture system for intensive rearing, artificial feed with optimized nutrient content, female-to-male sex reversal, and breeding for improving color and fin shape are mainly required for fish farming. In addition, studies on biodiversity and natural habitat for conservation of wild type should be of interest.",
+                "th_TH": "ปลากัดไทย ( Betta splendens Regan , 1910) เป็นปลาสวยงามและเป็นปลาที่ใช้เพื่อเกมกีฬาชนิดพื้นเมืองของไทย การผลิตปลากัดเพื่อการค้ามีแนวโน้มเพิ่มขึ้นอย่างต่อเนื่อง ขณะที่ข้อมูลพื้นฐานทางด้านชีววิทยามีการศึกษากันน้อย การทบทวนเอกสารนี้ให้ความรู้พื้นฐานด้านอนุกรมวิธาน นิเวศวิทยาและการแพร่กระจายสัณฐานวิทยาและกายวิภาค พฤติกรรม การสืบพันธุ์และพัฒนาการ การย่อยและการกินอาหาร การสร้างสี พันธุกรรม และการเพาะเลี้ยง ซึ่งมีความส าคัญต่อการปรับปรุงคุณภาพของการผลิต ขณะที่เทคนิคการเพาะเลี้ยงที่มีความจำเป็นต่อการทำฟาร์ม ได้แก่ ระบบการเพาะเลี้ยงแบบหนาแน่น อาหารสังเคราะห์ที่มีคุณค่าทางโภชนาการ ที่เหมาะสม การแปลงเพศปลาเป็นเพศผู้ และการผสมพันธุ์เพื่อปรับปรุงสีและรูปร่างของครีบ นอกจากนี้การศึกษาด้านความหลากหลายทางชีวภาพและแหล่งอาศัยในธรรมชาติเพื่อการอนุรักษ์ก็เป็นสิ่งที่ควรสนใจ"
+            },
+            "language": null,
+            "title": {
+                "en_US": "Biology of Siamese Fighting Fish (Betta splendens Regan, 1910)",
+                "th_TH": "ชีววิทยาของปลากัดไทย (Betta splendens Regan, 1910)"
+            },
+            "pubIdDoi": null,
+            "articleUrl": "https://ph01.tci-thaijo.org/index.php/KKUSciJ/article/view/249066",
+            "publication_id": 18492,
+            "path": "KKUSciJ",
+            "pages": "1-15",
+            "copyrightHolder": {
+                "en_US": "",
+                "th_TH": "วารสารวิทยาศาสตร์ มข."
+            },
+            "coverImage": null,
+            "cat": "physical01",
+            "dateStatusModified": "2024-09-09T04:19:35+0000",
+            "id": 249066,
+            "isPublushed": 1,
+            "journal_id": 817,
+            "doiSuffix": "customId",
+            "journal_enabled": 1,
+            "thaijoUrl": "https://ph01.tci-thaijo.org/index.php/KKUSciJ",
+            "thumbnail": {
+                "en_US": "journalThumbnail_en_US.png"
+            },
+            "issue_id": 17021,
+            "issueDatePublished": "2013-03-28T17:00:00+0000",
+            "version": 1,
+            "datePublished": "2013-03-29T17:00:00+0000",
+            "issueCoverImage": {
+                "en_US": "cover_issue_17021_en_US.jpg"
+            },
+            "issueUrl": "https://ph01.tci-thaijo.org/index.php/KKUSciJ/issue/view/17021",
+            "subtitle": {},
+            "lastModified": "2022-07-21T07:50:11+0000",
+            "dateSubmitted": "2022-07-21T08:02:38+0000",
+            "status": 3,
+            "authors": [
+                {
+                    "publication_id": 18492,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "",
+                        "th_TH": "การุณ ทองประจุแก้ว"
+                    },
+                    "affiliation": {
+                        "en_US": "",
+                        "th_TH": "ภาควิชาวิทยาศาสตร์ประยุกต์ คณะวิทยาศาสตร์ มหาวิทยาลัยสงขลานครินทร์ อ. หาดใหญ่ จ. สงขลา 90112"
+                    },
+                    "last_name": {
+                        "en_US": "",
+                        "th_TH": "ทองประจุแก้ว"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 426700,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "",
+                        "th_TH": "การุณ"
+                    },
+                    "country_long": "Thailand"
+                }
+            ],
+            "score": 68.712395,
+            "highlight": {
+                "title.th_TH": [
+                    "ชีววิทยาของ<span>ปลา</span><span>กัด</span>ไทย (Betta splendens Regan, 1910)"
+                ],
+                "keywords.th_TH": [
+                    "<span>ปลา</span><span>กัด</span>ไทย"
+                ],
+                "abstract_clean.th_TH": [
+                    "<span>ปลา</span><span>กัด</span>ไทย ( Betta splendens Regan , 1910) เป็น<span>ปลา</span>สวยงามและเป็น<span>ปลา</span>ที่ใช้เพื่อเกมกีฬาชนิดพื้นเมืองของไทย การผลิต<span>ปลา</span><span>กัด</span>เพื่อการค้ามีแนวโน้มเพิ่มขึ้นอย่างต่อเนื่อง ขณะที่ข้อมูลพื้นฐานทางด้านชีววิทยามีการศึกษากันน้อย การทบทวนเอกสารนี้ให้ความรู้พื้นฐานด้านอนุกรมวิธาน นิเวศวิทยาและการแพร่กระจายสัณฐานวิทยาและกายวิภาค",
+                    "พฤติกรรม การสืบพันธุ์และพัฒนาการ การย่อยและการกินอาหาร การสร้างสี พันธุกรรม และการเพาะเลี้ยง ซึ่งมีความส าคัญต่อการปรับปรุงคุณภาพของการผลิต ขณะที่เทคนิคการเพาะเลี้ยงที่มีความจำเป็นต่อการทำฟาร์ม ได้แก่ ระบบการเพาะเลี้ยงแบบหนาแน่น อาหารสังเคราะห์ที่มีคุณค่าทางโภชนาการ ที่เหมาะสม การแปลงเพศ<span>ปลา</span>เป็นเพศผู้"
+                ]
+            }
+        },
+        {
+            "headerLogo": {
+                "en_US": "pageHeaderLogoImage_en_US.png",
+                "th_TH": "pageHeaderLogoImage_th_TH.png"
+            },
+            "keywords": {
+                "en_US": [
+                    "promotion and development",
+                    "fighting fish culture"
+                ],
+                "th_TH": [
+                    "การส่งเสริมและพัฒนา",
+                    "การเพาะเลี้ยงปลากัด"
+                ]
+            },
+            "abstract_clean": {
+                "en_US": "The objectives of this study was to study the guidelines for promotion and development of fighting fish culture: a case study of Siamese fighting fish farmers group, Bang Muang subdistrict, Mueang district, Nakhon Sawan province. A set of questionnaires was used for data collection administered to a population of 55 farmers. Obtained data were analyzed by using descriptive statistics, as performed by statistical software were package, statistically analyzed using frequency distribution, percentage, mean and standard deviation. The results showed that the average age of famers were 64.45 years old. The average household labor used in the fish culture was 2.39 persons. The average monthly household income was 36,189 Baht. The average culture area was 532.14 m 2  which included concrete pond 12.78 ponds and plastic buckets, average 1,424 buckets. The results revealed that frequent problems included lack and/or discontinuity of support from the government, unknown causes of fish death, fish diseases and undersold price. The need for promotion and development of fighting fish culture at a high level was prevention and treatment of disease. There was individual promotion and development of fighting fish culture, and the officials in government should have visited their farm and given them suggestions regularly.",
+                "th_TH": "การวิจัยครั้งนี้มีวัตถุประสงค์เพื่อศึกษาการส่งเสริมและพัฒนาการเพาะเลี้ยงปลากัด กรณีศึกษากลุ่มเกษตรกรผู้เพาะเลี้ยงปลากัด ตำบลบางม่วง อำเภอเมือง จังหวัดนครสวรรค์ โดยเก็บข้อมูลด้วยแบบสอบถามจากเกษตรกรผู้เพาะเลี้ยงปลากัดจำนวน 55 คน วิเคราะห์ข้อมูลโดยใช้สถิติเชิงพรรณนาด้วยโปรแกรมคอมพิวเตอร์สำเร็จรูป ได้แก่ การแจกแจงความถี่ ค่าร้อยละ ค่าเฉลี่ย ค่าส่วนเบี่ยงเบนมาตรฐาน ผลการศึกษาพบว่า เกษตรกรผู้เพาะเลี้ยงปลากัดมีอายุเฉลี่ย 64.45 ปี มีแรงงานที่ใช้ในการเพาะเลี้ยงปลาเฉลี่ย 2.39 คนต่อครัวเรือน รายได้ของครัวเรือนเฉลี่ย 36,189 บาทต่อเดือน พื้นที่ในการเพาะเลี้ยงปลากัดโดยเฉลี่ย 532.14 ตารางเมตร ซึ่งมีการใช้บ่อปูนซีเมนต์กลม จำนวนเฉลี่ย 132.78 บ่อ และถังพลาสติก จำนวนเฉลี่ย 1,424 ถัง ปัญหาที่พบมากในการเพาะเลี้ยงปลากัด ได้แก่ เจ้าหน้าที่รัฐไม่ให้การสนับสนุนและมีการส่งเสริมไม่ต่อเนื่อง ปลาตายไม่ทราบสาเหตุ ปลาเป็นโรค และถูกกดราคา ส่วนความต้องการส่งเสริมและพัฒนาการเพาะเลี้ยงปลากัดในระดับมาก คือ การป้องกันและรักษาโรค ให้มีการส่งเสริมและพัฒนาเป็นรายบุคคล และให้เจ้าหน้าที่ภาครัฐมาเยี่ยมฟาร์มและให้คำแนะนำอย่างสม่ำเสมอ"
+            },
+            "language": "th",
+            "title": {
+                "en_US": "Promotion and Development of Fighting Fish Culture: A Case Study Siamese Fighting Fish Farmers Group, Bang Muang Sub-district, Mueang District Nakhon Sawan Province",
+                "th_TH": "การส่งเสริมและพัฒนาการเพาะเลี้ยงปลากัด: กรณีศึกษากลุ่มเกษตรกรผู้เพาะเลี้ยงปลากัด ตำบลบางม่วง อำเภอเมือง จังหวัดนครสวรรค์"
+            },
+            "pubIdDoi": null,
+            "articleUrl": "https://li01.tci-thaijo.org/index.php/MJUJN/article/view/247512",
+            "publication_id": 21249,
+            "path": "MJUJN",
+            "pages": "114-126",
+            "copyrightHolder": {
+                "en_US": "Journal of Agricultural Research and Extension",
+                "th_TH": "วารสารวิจัยและส่งเสริมวิชาการเกษตร"
+            },
+            "coverImage": null,
+            "cat": "life01",
+            "dateStatusModified": "2022-07-13T08:26:43+0000",
+            "id": 247512,
+            "isPublushed": 1,
+            "journal_id": 463,
+            "doiSuffix": "customId",
+            "journal_enabled": 1,
+            "thaijoUrl": "https://li01.tci-thaijo.org/index.php/MJUJN",
+            "thumbnail": {
+                "en_US": "journalThumbnail_en_US.jpg",
+                "th_TH": "journalThumbnail_th_TH.jpg"
+            },
+            "issue_id": 17320,
+            "issueDatePublished": "2022-04-26T17:00:00+0000",
+            "version": 1,
+            "datePublished": "2022-04-26T17:00:00+0000",
+            "issueCoverImage": {
+                "th_TH": "cover_issue_17320_th_TH.jpg"
+            },
+            "issueUrl": "https://li01.tci-thaijo.org/index.php/MJUJN/issue/view/17320",
+            "subtitle": {},
+            "lastModified": "2021-11-01T04:09:32+0000",
+            "dateSubmitted": "2020-10-25T10:36:19+0000",
+            "status": 3,
+            "authors": [
+                {
+                    "publication_id": 21249,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "jamree khrueahong",
+                        "th_TH": "จามรี เครือหงษ์"
+                    },
+                    "affiliation": {
+                        "en_US": "Department of Agricultural Technology, Faculty of Agricultural Technology and Industrial Technology Nakhon Sawan Rajabhat University",
+                        "th_TH": "ภาควิชาเทคโนโลยีการเกษตร คณะเทคโนโลยีการเกษตรและเทคโนโลยีอุตสาหกรรม มหาวิทยาลัยราชภัฏนครสวรรค์"
+                    },
+                    "last_name": {
+                        "en_US": "khrueahong",
+                        "th_TH": "เครือหงษ์"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 428785,
+                    "primary_contact": 1,
+                    "first_name": {
+                        "en_US": "jamree",
+                        "th_TH": "จามรี"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 21249,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Chongdee Srinoparatawatana",
+                        "th_TH": "จงดี ศรีนพรัตน์วัฒน"
+                    },
+                    "affiliation": {
+                        "en_US": "Department of Agricultural Technology, Faculty of Agricultural Technology and Industrial Technology Nakhon Sawan Rajabhat University",
+                        "th_TH": "ภาควิชาเทคโนโลยีการเกษตร คณะเทคโนโลยีการเกษตรและเทคโนโลยีอุตสาหกรรม มหาวิทยาลัยราชภัฏนครสวรรค์"
+                    },
+                    "last_name": {
+                        "en_US": "Srinoparatawatana",
+                        "th_TH": "ศรีนพรัตน์วัฒน"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 428786,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Chongdee",
+                        "th_TH": "จงดี"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 21249,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Surapee Prasoompon",
+                        "th_TH": "สุรภี ประชุมพล"
+                    },
+                    "affiliation": {
+                        "en_US": "Department of Agricultural Technology, Faculty of Agricultural Technology and Industrial Technology Nakhon Sawan Rajabhat University",
+                        "th_TH": "ภาควิชาเทคโนโลยีการเกษตร คณะเทคโนโลยีการเกษตรและเทคโนโลยีอุตสาหกรรม มหาวิทยาลัยราชภัฏนครสวรรค์"
+                    },
+                    "last_name": {
+                        "en_US": "Prasoompon",
+                        "th_TH": "ประชุมพล"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 428787,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Surapee",
+                        "th_TH": "สุรภี"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 21249,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Parinya Panboonma",
+                        "th_TH": "ปริญญา พันบุญมา"
+                    },
+                    "affiliation": {
+                        "en_US": "Fisheries Development and Extension Group, Tak Fisheries Provincial Office, Tak",
+                        "th_TH": "กลุ่มพัฒนาและส่งเสริมอาชีพการประมง สำนักงานประมงจังหวัดตาก"
+                    },
+                    "last_name": {
+                        "en_US": "Panboonma",
+                        "th_TH": "พันบุญมา"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 428788,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Parinya",
+                        "th_TH": "ปริญญา"
+                    },
+                    "country_long": "Thailand"
+                }
+            ],
+            "score": 68.661736,
+            "highlight": {
+                "title.th_TH": [
+                    "การส่งเสริมและพัฒนาการเพาะเลี้ยง<span>ปลา</span><span>กัด</span>: กรณีศึกษากลุ่มเกษตรกรผู้เพาะเลี้ยง<span>ปลา</span><span>กัด</span> ตำบลบางม่วง อำเภอเมือง จังหวัดนครสวรรค์"
+                ],
+                "keywords.th_TH": [
+                    "การเพาะเลี้ยง<span>ปลา</span><span>กัด</span>"
+                ],
+                "abstract_clean.th_TH": [
+                    "การวิจัยครั้งนี้มีวัตถุประสงค์เพื่อศึกษาการส่งเสริมและพัฒนาการเพาะเลี้ยง<span>ปลา</span><span>กัด</span> กรณีศึกษากลุ่มเกษตรกรผู้เพาะเลี้ยง<span>ปลา</span><span>กัด</span> ตำบลบางม่วง อำเภอเมือง จังหวัดนครสวรรค์ โดยเก็บข้อมูลด้วยแบบสอบถามจากเกษตรกรผู้เพาะเลี้ยง<span>ปลา</span><span>กัด</span>จำนวน 55 คน วิเคราะห์ข้อมูลโดยใช้สถิติเชิงพรรณนาด้วยโปรแกรมคอมพิวเตอร์สำเร็จรูป ได้แก่",
+                    "จำนวนเฉลี่ย 132.78 บ่อ และถังพลาสติก จำนวนเฉลี่ย 1,424 ถัง ปัญหาที่พบมากในการเพาะเลี้ยง<span>ปลา</span><span>กัด</span> ได้แก่ เจ้าหน้าที่รัฐไม่ให้การสนับสนุนและมีการส่งเสริมไม่ต่อเนื่อง <span>ปลา</span>ตายไม่ทราบสาเหตุ <span>ปลา</span>เป็นโรค และถูกกดราคา ส่วนความต้องการส่งเสริมและพัฒนาการเพาะเลี้ยง<span>ปลา</span><span>กัด</span>ในระดับมาก คือ การป้องกันและรักษาโรค ให้มีการส่งเสริมและพัฒนาเป็นรายบุคคล"
+                ]
+            }
+        },
+        {
+            "headerLogo": {
+                "en_US": "pageHeaderLogoImage_en_US.png",
+                "th_TH": "pageHeaderLogoImage_th_TH.png"
+            },
+            "keywords": {
+                "en_US": [
+                    "Cytogenetics",
+                    "Chromosome",
+                    "Betta smaragdina"
+                ],
+                "th_TH": [
+                    "พันธุศาสตร์เซลล์",
+                    "โครโมโซม",
+                    "ปลากัดอีสาน",
+                    "Betta smaragdina"
+                ]
+            },
+            "abstract_clean": {
+                "en_US": "The first Cytogenetics of I-san fighting fish ( Betta smaragdina Ladiges , 1972) at Phuhinladchorfar canal, Nong Bua Lam Phu province was investigated in this study. Mitotic chromosome was prepared directly from kidney of specimens after  In vivo  colchicines treatment. The metaphase spreads were performed on microscopic slides and air-dried. Conventional staining technique was applied to stain the chromosome with Giemsa’s solution 20%. The results showed that the number of diploid chromosome of I-san fighting fish was 2n = 42, fundamental number (NF) was 50 in both male and female. The types of chromosomes were 6 large acrocentric, 4 large telocentric, 2 medium acrocentric, 20 medium telocentric and 10 small telocentric chromosomes. The karyotypes are not different between sex chromosomes male and female. The karyotype formula for the I-san fighting fish is as follow :  2n  (42) = L 6  a  + L 4  t  + M 2  a  + M 20  t  + S 10  t",
+                "th_TH": "รายงานครั้งแรกของการศึกษาพันธุศาสตร์เซลล์ปลากัดอีสาน ( Betta smaragdina Ladiges , 1972) จากลำธารในพื้นที่ภูหินลาดช่อฟ้า จังหวัดหนองบัวลำภู ใช้ตัวอย่างปลาเพศผู้ 5 ตัว และเพศเมีย 8 ตัว เตรียมโครโมโซมจากไตด้วยวิธีการตรงจากการฉีดสารโคลซิซีน ย้อมสีโครโมโซมแบบธรรมดาด้วยสีจิมซ่าความเข้มข้น 20 เปอร์เซ็นต์ ผลการศึกษาพบว่าปลากัดอีสานมีโครโมโซมดิพลอยด์  (2n)  เท่ากับ 42 แท่ง จำนวนโครโมโซมพื้นฐานเท่ากับ 50 ประกอบด้วยโครโมโซมชนิดอะโครเซนทริกขนาดใหญ่ 6 แท่ง เทโลเซนทริกขนาดใหญ่ 4 แท่ง อะโครเซนทริกขนาดกลาง 2 แท่ง เทโลเซนทริกขนาดกลาง 20 แท่ง และเทโลเซนทริกขนาดเล็ก 10 แท่ง ไม่สามารถแยกโครโมโซมเพศระหว่างปลาเพศผู้และเพศเมียได้ ปลากัดอีสานมีสูตรคาริโอไทป์ ดังนี้  2n  (42) = L 6  a  + L 4  t  + M 2  a  + M 20  t  + S 10  t"
+            },
+            "language": null,
+            "title": {
+                "en_US": "Cytogenetics of I-san fighting fish (Betta smaragdina Ladiges, 1972)",
+                "th_TH": "พันธุศาสตร์เซลล์ของปลากัดอีสาน (Betta smaragdina Ladiges, 1972)"
+            },
+            "pubIdDoi": null,
+            "articleUrl": "https://ph01.tci-thaijo.org/index.php/KKUSciJ/article/view/249194",
+            "publication_id": 18620,
+            "path": "KKUSciJ",
+            "pages": "936-944",
+            "copyrightHolder": {
+                "en_US": "KKU Science Journal",
+                "th_TH": "วารสารวิทยาศาสตร์ มข."
+            },
+            "coverImage": null,
+            "cat": "physical01",
+            "dateStatusModified": "2024-09-09T03:12:39+0000",
+            "id": 249194,
+            "isPublushed": 1,
+            "journal_id": 817,
+            "doiSuffix": "customId",
+            "journal_enabled": 1,
+            "thaijoUrl": "https://ph01.tci-thaijo.org/index.php/KKUSciJ",
+            "thumbnail": {
+                "en_US": "journalThumbnail_en_US.png"
+            },
+            "issue_id": 17027,
+            "issueDatePublished": "2013-12-29T17:00:00+0000",
+            "version": 1,
+            "datePublished": "2013-12-29T17:00:00+0000",
+            "issueCoverImage": {
+                "en_US": "cover_issue_17027_en_US.jpg"
+            },
+            "issueUrl": "https://ph01.tci-thaijo.org/index.php/KKUSciJ/issue/view/17027",
+            "subtitle": {
+                "en_US": "",
+                "th_TH": ""
+            },
+            "lastModified": "2022-07-26T07:03:42+0000",
+            "dateSubmitted": "2022-07-26T07:11:53+0000",
+            "status": 3,
+            "authors": [
+                {
+                    "publication_id": 18620,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "",
+                        "th_TH": "ณัฎฐา นิธิกุลวรวงศ์"
+                    },
+                    "affiliation": {
+                        "en_US": "",
+                        "th_TH": "สาขาประมง คณะวิทยาศาสตร์ประยุกต์และวิศวกรรมศาสตร์ วิทยาเขตหนองคาย มหาวิทยาลัยขอนแก่น จ.หนองคาย 43000"
+                    },
+                    "last_name": {
+                        "en_US": "",
+                        "th_TH": "นิธิกุลวรวงศ์"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 426927,
+                    "primary_contact": 1,
+                    "first_name": {
+                        "en_US": "",
+                        "th_TH": "ณัฎฐา"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 18620,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "",
+                        "th_TH": "วิไลลักษณ์ เครือเนตร"
+                    },
+                    "affiliation": {
+                        "en_US": "",
+                        "th_TH": "สาขาการจัดการทรัพยากรธรรมชาติและสิ่งแวดล้อม คณะวิทยาศาสตร์ประยุกต์และวิศวกรรมศาสตร์ วิทยาเขตหนองคาย มหาวิทยาลัยขอนแก่น จ.หนองคาย 43000"
+                    },
+                    "last_name": {
+                        "en_US": "",
+                        "th_TH": "เครือเนตร"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 426926,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "",
+                        "th_TH": "วิไลลักษณ์"
+                    },
+                    "country_long": "Thailand"
+                }
+            ],
+            "score": 65.86379,
+            "highlight": {
+                "title.th_TH": [
+                    "พันธุศาสตร์เซลล์ของ<span>ปลา</span><span>กัด</span>อีสาน (Betta smaragdina Ladiges, 1972)"
+                ],
+                "keywords.th_TH": [
+                    "<span>ปลา</span><span>กัด</span>อีสาน"
+                ],
+                "abstract_clean.th_TH": [
+                    "รายงานครั้งแรกของการศึกษาพันธุศาสตร์เซลล์<span>ปลา</span><span>กัด</span>อีสาน ( Betta smaragdina Ladiges , 1972) จากลำธารในพื้นที่ภูหินลาดช่อฟ้า จังหวัดหนองบัวลำภู ใช้ตัวอย่าง<span>ปลา</span>เพศผู้ 5 ตัว และเพศเมีย 8 ตัว เตรียมโครโมโซมจากไตด้วยวิธีการตรงจากการฉีดสารโคลซิซีน ย้อมสีโครโมโซมแบบธรรมดาด้วยสีจิมซ่าความเข้มข้น 20 เปอร์เซ็นต์ ผลการศึกษาพบว่า<span>ปลา</span><span>กัด</span>อีสานมีโครโมโซมดิพลอยด์",
+                    "(2n)  เท่ากับ 42 แท่ง จำนวนโครโมโซมพื้นฐานเท่ากับ 50 ประกอบด้วยโครโมโซมชนิดอะโครเซนทริกขนาดใหญ่ 6 แท่ง เทโลเซนทริกขนาดใหญ่ 4 แท่ง อะโครเซนทริกขนาดกลาง 2 แท่ง เทโลเซนทริกขนาดกลาง 20 แท่ง และเทโลเซนทริกขนาดเล็ก 10 แท่ง ไม่สามารถแยกโครโมโซมเพศระหว่าง<span>ปลา</span>เพศผู้และเพศเมียได้ <span>ปลา</span><span>กัด</span>อีสานมีสูตรคาริโอไทป์ ดังนี้"
+                ]
+            }
+        },
+        {
+            "headerLogo": {
+                "en_US": "pageHeaderLogoImage_en_US.jpg",
+                "th_TH": "pageHeaderLogoImage_th_TH.jpg"
+            },
+            "keywords": {
+                "en_US": [
+                    "Guidelines to Promote",
+                    "Ornamental Betta Fish",
+                    "The Breeding",
+                    "Ban Tha Soong Community"
+                ],
+                "th_TH": [
+                    "แนวทางส่งเสริม",
+                    "การเพาะพันธุ์",
+                    "ปลากัดสวยงาม",
+                    "ชุมชนบ้านท่าสูง"
+                ]
+            },
+            "abstract_clean": {
+                "en_US": "The objectives of this research article were to study How to breed beautiful betta fish and Guidelines to promote the breeding of ornamental betta fish in Ban Tha Soong Community, Thasala District, Nakhon Si Thammarat Province. This research had used the qualitative research method. The critical informant of this research are two groups consisting of the betta of 5 breeding group five persons and the support group to promote betta breeding of 6 persons, a total of 11 people. The research instrument an In-depth Interview. The data was collected through documents and field studies. Content analysis was descriptive analytics. The Results of the research found that; 1) How to breed beautiful betta fish; 1.1) Compare the pair, 1.2) Prepare the equipment, 1.3) Raise the barb, 1.4) The male fish will drive into the barb 1.5) mating, 1.6) Inject semen, 1.7) Spawn, 1.8) Separate the female fish, 1.9) The male will take care of until the eggs are released, 1.10) Betta fish nursery, and 1.11) Selection of fish for sale. 2) Guidelines to promote the breeding of ornamental betta fish; 2.1) Capital development to fund equipment purchase and is used as a cost for fish propagation and used in advertising and public relations. 2.2) production development The development of production has studied methods of breeding betta fish. To get the quality betta fish according to the needs of the customer group. 2.3) Marketing development. Developing marketing by developing a variety of fighting fish, both to reach a wide range of customers. Causing more trading of betta fish. 2.4) development of administration and management There should be the management of fish farming groups. It is planned to develop the species. Fish breeding plan fish farming period to have betta fish always available for sale, there is no shortage of market, and there must be a selling market.",
+                "th_TH": "บทความวิจัยนี้วัตถุประสงค์เพื่อศึกษาวิธีการเพาะพันธุ์ปลากัดสวยงาม และแนวทางการส่งเสริมการเพาะพันธุ์ปลากัดสวยงามของชุมชนบ้านท่าสูง อำเภอท่าศาลา จังหวัดนครศรีธรรมราช เป็นการวิจัยเชิงคุณภาพ กลุ่มผู้ให้ข้อมูลสำคัญ แบ่งเป็น 2 กลุ่ม ได้แก่ กลุ่มผู้เพาะพันธุ์ปลากัด จำนวน 5 คน และกลุ่มผู้ให้การสนับสนุนส่งเสริมการเพาะพันธุ์ปลากัด จำนวน 6 คน รวมเป็น 11 คน เครื่องมือที่ใช้ในการวิจัย คือ แบบสัมภาษณ์เชิงลึก เก็บรวบรวมข้อมูลโดยการศึกษาเอกสารและศึกษาภาคสนาม และนำมาวิเคราะห์ในเชิงพรรณนา ผลการวิจัยพบว่า 1) วิธีการเพาะพันธุ์ปลากัดสวยงามของชุมชนบ้านท่าสูง มีการแบ่งเป็นขั้นตอน 11 ขั้นตอนได้แก่ 1.1) เทียบคู่ 1.2) เตรียมอุปกรณ์ 1.3) ก่อหวอด 1.4) ต้อนเข้าหวอด 1.5) ผสมพันธุ์ 1.6) ฉีดน้ำเชื้อ 1.7) วางไข่ 1.8) แยกตัวเมีย 1.9) ตัวผู้ดูแลไข่ 1.10) การอนุบาลปลากัด และ 1.11) การเลือกปลาเพื่อจำหน่าย 2) แนวทางการส่งเสริมการเพาะพันธุ์ปลากัดสวยงามของชุมชนบ้านท่าสูง 4 ด้าน ได้แก่ 2.1) การพัฒนาเงินทุน จัดหาเงินทุนให้กับ กลุ่มผู้เลี้ยงปลากัด เพื่อใช้เป็นเงินทุนในการจัดซื้อหาอุปกรณ์ เป็นต้นทุนในการขยายพันธุ์ปลา และใช้ในการโฆษณาประชาสัมพันธ์ 2.2) การพัฒนาการผลิต มีการศึกษาวิธีการผสมพันธุ์ปลากัด เพื่อให้ได้ปลากัดที่มีคุณภาพตามต้องการของกลุ่มลูกค้า 2.3) การพัฒนาการตลาด โดยการพัฒนาปลากัดให้หลากหลาย เพื่อเข้าถึงลูกค้าหลากหลายกลุ่ม ทำให้มีการซื้อขายปลากัดกันมากขึ้น 2.4) การพัฒนาการบริหารและการจัดการ ควรมีการบริหารจัดการกลุ่มผู้เลี้ยงปลา มีการวางแผนในการพัฒนาสายพันธุ์ วางแผนในการเพาะพันธุ์ปลา ระยะเวลาการเลี้ยงปลา เพื่อให้มีปลากัดพร้อมจำหน่ายอยู่เสมอ ไม่ขาดตลาด และต้องมีการจัดหาตลาดเพื่อจำหน่ายด้วย"
+            },
+            "language": "th",
+            "title": {
+                "en_US": "GUIDELINES TO PROMOTE THE BREEDING OF ORNAMENTAL BETTA FISH IN BAN THA SOONG COMMUNITY, THASALA DISTRICT, NAKHON SI THAMMARAT PROVINCE",
+                "th_TH": "แนวทางส่งเสริมการเพาะพันธุ์ปลากัดสวยงามของชุมชนบ้านท่าสูง อำเภอท่าศาลา จังหวัดนครศรีธรรมราช"
+            },
+            "pubIdDoi": null,
+            "articleUrl": "https://so03.tci-thaijo.org/index.php/JPR/article/view/256184",
+            "publication_id": 29200,
+            "path": "JPR",
+            "pages": "17-32",
+            "copyrightHolder": {
+                "en_US": "Journal of MCU Phetchaburi Review",
+                "th_TH": "วารสาร มจร เพชรบุรีปริทรรศน์"
+            },
+            "coverImage": null,
+            "cat": "social03",
+            "dateStatusModified": "2022-02-23T06:28:36+0000",
+            "id": 256184,
+            "isPublushed": 1,
+            "journal_id": 821,
+            "doiSuffix": null,
+            "journal_enabled": 1,
+            "thaijoUrl": "https://so03.tci-thaijo.org/index.php/JPR",
+            "thumbnail": {
+                "en_US": "journalThumbnail_en_US.jpg",
+                "th_TH": "journalThumbnail_th_TH.jpg"
+            },
+            "issue_id": 16902,
+            "issueDatePublished": "2021-12-22T17:11:46+0000",
+            "version": 1,
+            "datePublished": "2021-12-22T17:00:00+0000",
+            "issueCoverImage": {
+                "th_TH": "cover_issue_16902_th_TH.jpg"
+            },
+            "issueUrl": "https://so03.tci-thaijo.org/index.php/JPR/issue/view/16902",
+            "subtitle": {},
+            "lastModified": "2021-12-22T17:11:29+0000",
+            "dateSubmitted": "2021-11-03T13:20:51+0000",
+            "status": 3,
+            "authors": [
+                {
+                    "publication_id": 29200,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Pongprasit Onchun",
+                        "th_TH": "พงศ์ประสิทธิ์ อ่อนจันทร์"
+                    },
+                    "affiliation": {
+                        "en_US": "Nakhon Si Thammarat Rajabhat University",
+                        "th_TH": "มหาวิทยาลัยราชภัฏนครศรีธรรมราช"
+                    },
+                    "last_name": {
+                        "en_US": "Onchun",
+                        "th_TH": "อ่อนจันทร์"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 432258,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Pongprasit",
+                        "th_TH": "พงศ์ประสิทธิ์"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 29200,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Jittima Damrongwattana",
+                        "th_TH": "จิตติมา ดำรงวัฒนะ"
+                    },
+                    "affiliation": {
+                        "en_US": "Nakhon Si Thammarat Rajabhat University",
+                        "th_TH": "มหาวิทยาลัยราชภัฏนครศรีธรรมราช"
+                    },
+                    "last_name": {
+                        "en_US": "Damrongwattana",
+                        "th_TH": "ดำรงวัฒนะ"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 432256,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Jittima",
+                        "th_TH": "จิตติมา"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 29200,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Boonying Prathum",
+                        "th_TH": "บุญยิ่ง ประทุม"
+                    },
+                    "affiliation": {
+                        "en_US": "Nakhon Si Thammarat Rajabhat University",
+                        "th_TH": "มหาวิทยาลัยราชภัฏนครศรีธรรมราช"
+                    },
+                    "last_name": {
+                        "en_US": "Prathum",
+                        "th_TH": "ประทุม"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 432257,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Boonying",
+                        "th_TH": "บุญยิ่ง"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 29200,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Nattapon Eissarapan",
+                        "th_TH": "ณัฐพล อิศระพันธุ์"
+                    },
+                    "affiliation": {
+                        "en_US": "Nakhon Si Thammarat Rajabhat University",
+                        "th_TH": "มหาวิทยาลัยราชภัฏนครศรีธรรมราช"
+                    },
+                    "last_name": {
+                        "en_US": "Eissarapan",
+                        "th_TH": "อิศระพันธุ์"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 432255,
+                    "primary_contact": 1,
+                    "first_name": {
+                        "en_US": "Nattapon",
+                        "th_TH": "ณัฐพล"
+                    },
+                    "country_long": "Thailand"
+                }
+            ],
+            "score": 61.488808,
+            "highlight": {
+                "title.th_TH": [
+                    "แนวทางส่งเสริมการเพาะพันธุ์<span>ปลา</span><span>กัด</span>สวยงามของชุมชนบ้านท่าสูง อำเภอท่าศาลา จังหวัดนครศรีธรรมราช"
+                ],
+                "keywords.th_TH": [
+                    "<span>ปลา</span><span>กัด</span>สวยงาม"
+                ],
+                "abstract_clean.th_TH": [
+                    "บทความวิจัยนี้วัตถุประสงค์เพื่อศึกษาวิธีการเพาะพันธุ์<span>ปลา</span><span>กัด</span>สวยงาม และแนวทางการส่งเสริมการเพาะพันธุ์<span>ปลา</span><span>กัด</span>สวยงามของชุมชนบ้านท่าสูง อำเภอท่าศาลา จังหวัดนครศรีธรรมราช เป็นการวิจัยเชิงคุณภาพ กลุ่มผู้ให้ข้อมูลสำคัญ แบ่งเป็น 2 กลุ่ม ได้แก่ กลุ่มผู้เพาะพันธุ์<span>ปลา</span><span>กัด</span> จำนวน 5 คน และกลุ่มผู้ให้การสนับสนุนส่งเสริมการเพาะพันธุ์<span>ปลา</span><span>กัด</span>",
+                    "เป็นต้นทุนในการขยายพันธุ์<span>ปลา</span> และใช้ในการโฆษณาประชาสัมพันธ์ 2.2) การพัฒนาการผลิต มีการศึกษาวิธีการผสมพันธุ์<span>ปลา</span><span>กัด</span> เพื่อให้ได้<span>ปลา</span><span>กัด</span>ที่มีคุณภาพตามต้องการของกลุ่มลูกค้า 2.3) การพัฒนาการตลาด โดยการพัฒนา<span>ปลา</span><span>กัด</span>ให้หลากหลาย เพื่อเข้าถึงลูกค้าหลากหลายกลุ่ม ทำให้มีการซื้อขาย<span>ปลา</span><span>กัด</span>กันมากขึ้น 2.4) การพัฒนาการบริหารและการจัดการ"
+                ]
+            }
+        },
+        {
+            "headerLogo": {
+                "en_US": "pageHeaderLogoImage_en_US.jpg",
+                "th_TH": "pageHeaderLogoImage_th_TH.png"
+            },
+            "keywords": {
+                "en_US": [
+                    "betta aquaculture system",
+                    "robot arm",
+                    "control system",
+                    "micro controller"
+                ],
+                "th_TH": [
+                    "ระบบควบคุม",
+                    "ไมโครคอนโทรลเลอร์",
+                    "แขนหุ่นยนต์",
+                    "การเพาะเลี้ยงปลากัด"
+                ]
+            },
+            "abstract_clean": {
+                "en_US": "This research paper presents the development of a small betta aquaculture system. The purpose of this research is to reduce water-changing and food-feeding time by using the open-source robotic arm with the designed equipment. The development consists of 2 parts: 1) the designing of water- changing and the food-feeding equipment. and 2) the software enhancements to control the robot arm to move more accurately. There are three case studies: Case 1 to test the accuracy of horizontal motion, Case 2 to test the functionality of the water-changing and food-feeding equipment, and Case 3 to test the overall functionality. The test results show the command and position control performance as well as the integration with the developed equipment which can work according to the specified conditions.",
+                "th_TH": "บทความวิจัยนี้ได้นำเสนอการพัฒนาระบบการเพาะเลี้ยงปลากัดขนาดเล็ก มีวัตถุประสงค์เพื่อลดเวลาการเปลี่ยนน้ำและให้อาหารปลากัดในขวดโหล ด้วยการประยุกต์ใช้แขนหุ่นยนต์แบบโอเพ่นซอร์ส ทำงานร่วมกับอุปกรณ์เปลี่ยนน้ำและให้อาหารปลาที่พัฒนาขึ้น โดยแบ่งการพัฒนาออกเป็น 2 ส่วนหลักคือ 1) การออกแบบระบบเปลี่ยนน้ำและให้อาหาร 2) การปรับปรุงซอฟต์แวร์เพื่อควบคุมแขนหุ่นยนต์ให้ทำงานร่วมกับอุปกรณ์ได้อย่างมีประสิทธิภาพและเคลื่อนที่ได้อย่างแม่นยำ สำหรับการทดสอบประสิทธิภาพในการทำงาน ได้กำหนดกรณีศึกษาขึ้นมา 3 กรณี โดยกรณีที่ 1 เป็นการทดสอบความแม่นยำของการเคลื่อนที่ในแนวราบ ส่วนกรณีที่ 2 เป็นการทดสอบการทำงานของอุปกรณ์เปลี่ยนน้ำและการให้อาหาร และกรณีที่ 3 เป็นการทดสอบการทำงานในภาพรวม ผลการทดสอบการทำงานตามโปรแกรมควบคุมแขนหุ่นยนต์นั้น สามารถควบคุมตำแหน่งและทำงานร่วมกับอุปกรณ์ที่พัฒนาขึ้นเป็นไปตามเงื่อนไขที่กำหนด"
+            },
+            "language": "th",
+            "title": {
+                "en_US": "Implementation of smart robotic arms in small betta aquaculture systems",
+                "th_TH": "การประยุกต์ใช้แขนหุ่นยนต์อัจฉริยะในระบบการเพาะเลี้ยงปลากัดขนาดเล็ก"
+            },
+            "pubIdDoi": null,
+            "articleUrl": "https://ph02.tci-thaijo.org/index.php/featkku/article/view/245726",
+            "publication_id": 14558,
+            "path": "featkku",
+            "pages": "32-44",
+            "copyrightHolder": {
+                "en_US": "Farm Engineering and Automation Technology Journal",
+                "th_TH": "วารสารวิศวกรรมฟาร์มและเทคโนโลยีการควบคุมอัตโนมัติ"
+            },
+            "coverImage": null,
+            "cat": "physical02",
+            "dateStatusModified": "2022-06-24T07:56:03+0000",
+            "id": 245726,
+            "isPublushed": 1,
+            "journal_id": 568,
+            "doiSuffix": null,
+            "journal_enabled": 1,
+            "thaijoUrl": "https://ph02.tci-thaijo.org/index.php/featkku",
+            "thumbnail": {
+                "en_US": "journalThumbnail_en_US.jpg"
+            },
+            "issue_id": 16895,
+            "issueDatePublished": "2022-06-23T17:00:00+0000",
+            "version": 1,
+            "datePublished": "2022-06-23T17:00:00+0000",
+            "issueCoverImage": {
+                "th_TH": "cover_issue_16895_th_TH.jpg"
+            },
+            "issueUrl": "https://ph02.tci-thaijo.org/index.php/featkku/issue/view/16895",
+            "subtitle": {},
+            "lastModified": "2021-12-14T02:19:21+0000",
+            "dateSubmitted": "2021-12-09T09:29:12+0000",
+            "status": 3,
+            "authors": [
+                {
+                    "publication_id": 14558,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "สุรเทพ นิลนนท์",
+                        "th_TH": "สุรเทพ นิลนนท์"
+                    },
+                    "affiliation": {
+                        "en_US": "Electrical Engineering Department, Kasetsart University",
+                        "th_TH": "ภาควิชาวิศวกรรมไฟฟ้า มหาวิทยาลัยเกษตรศาสตร์"
+                    },
+                    "last_name": {
+                        "en_US": "นิลนนท์",
+                        "th_TH": "นิลนนท์"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 420399,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "สุรเทพ",
+                        "th_TH": "สุรเทพ"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 14558,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Peerapon Chanhom",
+                        "th_TH": "พีรพล จันทร์หอม"
+                    },
+                    "affiliation": {
+                        "en_US": "Smart System Research and Energy Conversion Research Unit Faculty of Industrial Education, Rajamangala University of Technology Suvarnabhumi",
+                        "th_TH": "หน่วยวิจัยระบบอัจฉริยะและการแปลงผันพลังงาน สาขาวิชาวิศวกรรมไฟฟ้า คณะครุศาสตร์อุตสาหกรรม มหาวิทยาลัยเทคโนโลยีราชมงคลสุวรรณภูมิ"
+                    },
+                    "last_name": {
+                        "en_US": "Chanhom",
+                        "th_TH": "จันทร์หอม"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 420400,
+                    "primary_contact": 1,
+                    "first_name": {
+                        "en_US": "Peerapon",
+                        "th_TH": "พีรพล"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 14558,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Wipada Wongsuriya",
+                        "th_TH": "วิภาดา วงศ์สุริยา"
+                    },
+                    "affiliation": {
+                        "en_US": "Smart System Research and Energy Conversion Research Unit Faculty of Industrial Education, Rajamangala University of Technology Suvarnabhumi",
+                        "th_TH": "หน่วยวิจัยระบบอัจฉริยะและการแปลงผันพลังงาน สาขาวิชาวิศวกรรมไฟฟ้า คณะครุศาสตร์อุตสาหกรรม มหาวิทยาลัยเทคโนโลยีราชมงคลสุวรรณภูมิ"
+                    },
+                    "last_name": {
+                        "en_US": "Wongsuriya",
+                        "th_TH": "วงศ์สุริยา"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 420401,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Wipada",
+                        "th_TH": "วิภาดา"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 14558,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Pattanapong Sinpaithoon",
+                        "th_TH": "พัฒนพงษ์ สินธุ์ไพฑูรย์"
+                    },
+                    "affiliation": {
+                        "en_US": "Smart System Research and Energy Conversion Research Unit Faculty of Industrial Education, Rajamangala University of Technology Suvarnabhumi",
+                        "th_TH": "หน่วยวิจัยระบบอัจฉริยะและการแปลงผันพลังงาน สาขาวิชาวิศวกรรมไฟฟ้า คณะครุศาสตร์อุตสาหกรรม มหาวิทยาลัยเทคโนโลยีราชมงคลสุวรรณภูมิ"
+                    },
+                    "last_name": {
+                        "en_US": "Sinpaithoon",
+                        "th_TH": "สินธุ์ไพฑูรย์"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 420403,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Pattanapong",
+                        "th_TH": "พัฒนพงษ์"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 14558,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Peerasak Phaophang",
+                        "th_TH": "ภีรศักดิ์ เผ่าผาง"
+                    },
+                    "affiliation": {
+                        "en_US": "Smart System Research and Energy Conversion Research Unit Faculty of Industrial Education, Rajamangala University of Technology Suvarnabhumi",
+                        "th_TH": "หน่วยวิจัยระบบอัจฉริยะและการแปลงผันพลังงาน สาขาวิชาวิศวกรรมไฟฟ้า คณะครุศาสตร์อุตสาหกรรม มหาวิทยาลัยเทคโนโลยีราชมงคลสุวรรณภูมิ"
+                    },
+                    "last_name": {
+                        "en_US": "Phaophang",
+                        "th_TH": "เผ่าผาง"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 420402,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Peerasak",
+                        "th_TH": "ภีรศักดิ์"
+                    },
+                    "country_long": "Thailand"
+                }
+            ],
+            "score": 59.387733,
+            "highlight": {
+                "title.th_TH": [
+                    "การประยุกต์ใช้แขนหุ่นยนต์อัจฉริยะในระบบการเพาะเลี้ยง<span>ปลา</span><span>กัด</span>ขนาดเล็ก"
+                ],
+                "keywords.th_TH": [
+                    "การเพาะเลี้ยง<span>ปลา</span><span>กัด</span>"
+                ],
+                "abstract_clean.th_TH": [
+                    "บทความวิจัยนี้ได้นำเสนอการพัฒนาระบบการเพาะเลี้ยง<span>ปลา</span><span>กัด</span>ขนาดเล็ก มีวัตถุประสงค์เพื่อลดเวลาการเปลี่ยนน้ำและให้อาหาร<span>ปลา</span><span>กัด</span>ในขวดโหล ด้วยการประยุกต์ใช้แขนหุ่นยนต์แบบโอเพ่นซอร์ส ทำงานร่วมกับอุปกรณ์เปลี่ยนน้ำและให้อาหาร<span>ปลา</span>ที่พัฒนาขึ้น โดยแบ่งการพัฒนาออกเป็น 2 ส่วนหลักคือ 1) การออกแบบระบบเปลี่ยนน้ำและให้อาหาร"
+                ]
+            }
+        },
+        {
+            "headerLogo": {
+                "en_US": "pageHeaderLogoImage_en_US.png",
+                "th_TH": "pageHeaderLogoImage_th_TH.png"
+            },
+            "keywords": {
+                "en_US": [
+                    "Disease Treatment",
+                    "Terminalia Catappa Leaves",
+                    "Promotion Guidelines",
+                    "Local Wisdom",
+                    "Ornamental Fighting Fish"
+                ],
+                "th_TH": [
+                    "แนวทางการส่งเสริม",
+                    "ภูมิปัญญาท้องถิ่น",
+                    "การรักษาโรค",
+                    "ปลากัดสวยงาม",
+                    "ใบหูกวาง"
+                ]
+            },
+            "abstract_clean": {
+                "en_US": "The purpose of this research is to study the production process of medicines from terminalia catappa leaves and guidelines for promoting local wisdom in treating diseases of ornamental fighting fish by using terminalia catappa leaves. It is qualitative research. The research tool was an in-depth interview form and focus groups. The group of key informants was divided into 2 groups: a group of 6 people who raised ornamental fighting fish and a group of 6 people who sold water extracted from terminalia catappa leaves for fighting fish health, totaling 12 people. Data were collected by studying documents, conducting field studies and analyzed descriptively. The results of this research found that 1) The process of producing medicine from terminalia catappa leaves consists of 3 steps, 1) The process of selecting terminalia catappa leaves , 2) The process of producing fermented terminalia catappa leaves, and 3) Medicinal properties. 2) Guidelines for promoting local wisdom in treating diseases of ornamental fighting fish by using terminalia catappa leaves 2 main points: 1) Knowledge and wisdom 2) Economic and management aspects. To be used as information to request cooperation from the government sector to help support knowledge by preparing and distributing documents, publications, manuals, videos, as well as holding workshops on knowledge of diseases that occur with ornamental fighting fish. Prevention and treatment of ornamental fighting fish diseases using terminalia catappa leaves using local wisdom for ornamental fighting fish breeders. And the development of management and administration of the fighting fish distributor group, with a plan for selling fermented terminalia catappa leaves juice both in-store and online. In order to promote the fighting fish farming group, in addition to exporting fish to foreign countries, there is also economic expansion from terminalia catappa leaves through local wisdom.",
+                "th_TH": "การวิจัยครั้งนี้มีวัตถุประสงค์เพื่อศึกษากระบวนการผลิตยารักษาโรคจากใบหูกวาง และแนวทาง การส่งเสริมภูมิปัญญาท้องถิ่นในการรักษาโรคของปลากัดสวยงามโดยการใช้ ใบหูกวาง เป็นวิธีวิจัยเชิงคุณภาพ ใช้เครื่องมือเป็นแบบสัมภาษณ์เชิงลึกและสนทนากลุ่ม โดยเลือกแบบเจาะจง ผู้ให้ข้อมูลสำคัญ ได้แก่ กลุ่มผู้เลี้ยงปลากัดสวยงาม จำนวน 6 คน และกลุ่มผู้จำหน่ายน้ำสกัดจากใบหูกวางเพื่อสุขภาพปลากัด จำนวน 6 คน เก็บรวบรวมข้อมูลโดยการศึกษาเอกสารและศึกษาภาคสนาม และนำมาวิเคราะห์ในเชิงพรรณนา ผลการวิจัยพบว่า 1) กระบวนการผลิตยารักษาโรคจากใบหูกวางประกอบด้วย 3 ขั้นตอน 1.1) กระบวนการคัดเลือกใบหูกวาง 1.2) กระบวนการผลิตน้ำหมักใบหูกวาง และ 1.3) สรรพคุณทางยา และ 2) แนวทางส่งเสริมภูมิปัญญาท้องถิ่น ในการรักษาโรคของปลากัดสวยงามโดยการใช้ ใบหูกวาง 2 ประเด็นหลัก 2.1) ด้านความรู้และภูมิปัญญา 2.2) ด้านเศรษฐกิจและด้านการจัดการ เพื่อใช้เป็นข้อมูลในการขอความร่วมมือจากภาครัฐให้ช่วยสนับสนุนในด้านความรู้ด้วยการจัดทำและแจกจ่ายเอกสาร สิ่งพิมพ์ คู่มือ วิดิทัศน์ รวมถึงการจัดอบรมเชิงปฏิบัติการความรู้โรคที่เกิดขึ้นกับปลากัดสวยงาม การป้องกันและรักษาโรคปลากัดสวยงามจากใบหูกวางโดยภูมิปัญญาชาวบ้านให้กับกลุ่มผู้เลี้ยงปลากัดสวยงาม และการพัฒนาการบริหารและการจัดการกลุ่มผู้จำหน่ายปลากัด โดยมีการวางแผนเกี่ยวกับการจำหน่ายน้ำใบหูกวางหมักทั้งหน้าร้านและทางออนไลน์ เพื่อเป็นการส่งเสริมให้กลุ่มเลี้ยงปลากัดนอกจากมีการส่งออกปลาไปยังต่างประเทศแล้ว ยังมีการต่อยอดทางเศรษฐกิจจากใบหูกวางโดยภูมิปัญญาชาวบ้าน"
+            },
+            "language": null,
+            "title": {
+                "en_US": "GUIDELINES FOR PROMOTING LOCAL WISDOM IN TREATING DISEASES OF ORNAMENTAL FIGHTING FISH BY USING TERMINALIA CATAPPA LEAVES",
+                "th_TH": "แนวทางการส่งเสริมภูมิปัญญาท้องถิ่นในการรักษาโรคของปลากัดสวยงาม โดยการใช้ใบหูกวาง"
+            },
+            "pubIdDoi": null,
+            "articleUrl": "https://so06.tci-thaijo.org/index.php/JSC/article/view/277459",
+            "publication_id": 44699,
+            "path": "JSC",
+            "pages": "184-193",
+            "copyrightHolder": {
+                "en_US": "Journal of Social Science and Cultural",
+                "th_TH": "วารสารสังคมศาสตร์และวัฒนธรรม"
+            },
+            "coverImage": null,
+            "cat": "social06",
+            "dateStatusModified": "2024-11-27T03:27:09+0000",
+            "id": 277459,
+            "isPublushed": 1,
+            "journal_id": 816,
+            "doiSuffix": null,
+            "journal_enabled": 1,
+            "thaijoUrl": "https://so06.tci-thaijo.org/index.php/JSC",
+            "thumbnail": null,
+            "issue_id": 17672,
+            "issueDatePublished": "2024-11-25T16:05:25+0000",
+            "version": 1,
+            "datePublished": "2024-11-24T17:00:00+0000",
+            "issueCoverImage": {
+                "en_US": "cover_issue_17672_en_US.jpg"
+            },
+            "issueUrl": "https://so06.tci-thaijo.org/index.php/JSC/issue/view/17672",
+            "subtitle": {},
+            "lastModified": "2024-09-17T08:33:48+0000",
+            "dateSubmitted": "2024-09-12T09:10:32+0000",
+            "status": 3,
+            "authors": [
+                {
+                    "publication_id": 44699,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Tanyavanun Punyatanaratana",
+                        "th_TH": "ธันยวนันฐ์ ปุญญาธนรัตนะ"
+                    },
+                    "affiliation": {
+                        "en_US": "Independent Scholar, Thailand",
+                        "th_TH": "นักวิชาการอิสระ ประเทศไทย"
+                    },
+                    "last_name": {
+                        "en_US": "Punyatanaratana",
+                        "th_TH": "ปุญญาธนรัตนะ"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 473536,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Tanyavanun",
+                        "th_TH": "ธันยวนันฐ์"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 44699,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Premmanee Ariyasantichai",
+                        "th_TH": "เปรมณีย์ อริยะสันติชัย"
+                    },
+                    "affiliation": {
+                        "en_US": "Independent Scholar, Thailand",
+                        "th_TH": "นักวิชาการอิสระ ประเทศไทย"
+                    },
+                    "last_name": {
+                        "en_US": "Ariyasantichai",
+                        "th_TH": "อริยะสันติชัย"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 473537,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Premmanee",
+                        "th_TH": "เปรมณีย์"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 44699,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Thayaphon Ariyasantichai",
+                        "th_TH": "ทยภณ อริยะสันติชัย"
+                    },
+                    "affiliation": {
+                        "en_US": "Independent Scholar, Thailand",
+                        "th_TH": "นักวิชาการอิสระ ประเทศไทย"
+                    },
+                    "last_name": {
+                        "en_US": "Ariyasantichai",
+                        "th_TH": "อริยะสันติชัย"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 473539,
+                    "primary_contact": 1,
+                    "first_name": {
+                        "en_US": "Thayaphon",
+                        "th_TH": "ทยภณ"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 44699,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Supicha Assavaniwej",
+                        "th_TH": "ศุภิชฌา อัศวนิเวศน์"
+                    },
+                    "affiliation": {
+                        "en_US": "Independent Scholar, Thailand",
+                        "th_TH": "นักวิชาการอิสระ ประเทศไทย"
+                    },
+                    "last_name": {
+                        "en_US": "Assavaniwej",
+                        "th_TH": "อัศวนิเวศน์"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 473540,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Supicha",
+                        "th_TH": "ศุภิชฌา"
+                    },
+                    "country_long": "Thailand"
+                }
+            ],
+            "score": 59.37668,
+            "highlight": {
+                "title.th_TH": [
+                    "แนวทางการส่งเสริมภูมิปัญญาท้องถิ่นในการรักษาโรคของ<span>ปลา</span><span>กัด</span>สวยงาม โดยการใช้ใบหูกวาง"
+                ],
+                "keywords.th_TH": [
+                    "<span>ปลา</span><span>กัด</span>สวยงาม"
+                ],
+                "abstract_clean.th_TH": [
+                    "รวมถึงการจัดอบรมเชิงปฏิบัติการความรู้โรคที่เกิดขึ้นกับ<span>ปลา</span><span>กัด</span>สวยงาม การป้องกันและรักษาโรค<span>ปลา</span><span>กัด</span>สวยงามจากใบหูกวางโดยภูมิปัญญาชาวบ้านให้กับกลุ่มผู้เลี้ยง<span>ปลา</span><span>กัด</span>สวยงาม และการพัฒนาการบริหารและการจัดการกลุ่มผู้จำหน่าย<span>ปลา</span><span>กัด</span> โดยมีการวางแผนเกี่ยวกับการจำหน่ายน้ำใบหูกวางหมักทั้งหน้าร้านและทางออนไลน์ เพื่อเป็นการส่งเสริมให้กลุ่มเลี้ยง<span>ปลา</span><span>กัด</span>นอกจากมีการส่งออก<span>ปลา</span>ไปยังต่างประเทศแล้ว",
+                    "การวิจัยครั้งนี้มีวัตถุประสงค์เพื่อศึกษากระบวนการผลิตยารักษาโรคจากใบหูกวาง และแนวทาง การส่งเสริมภูมิปัญญาท้องถิ่นในการรักษาโรคของ<span>ปลา</span><span>กัด</span>สวยงามโดยการใช้ ใบหูกวาง เป็นวิธีวิจัยเชิงคุณภาพ ใช้เครื่องมือเป็นแบบสัมภาษณ์เชิงลึกและสนทนากลุ่ม โดยเลือกแบบเจาะจง ผู้ให้ข้อมูลสำคัญ ได้แก่ กลุ่มผู้เลี้ยง<span>ปลา</span><span>กัด</span>สวยงาม"
+                ]
+            }
+        },
+        {
+            "headerLogo": {
+                "en_US": "pageHeaderLogoImage_en_US.png"
+            },
+            "keywords": {
+                "en_US": [
+                    "Betta splendens,",
+                    "Transportation,",
+                    "Clove oil,",
+                    "Gene expression"
+                ],
+                "th_TH": [
+                    "ปลากัดไทย,",
+                    "การขนส่ง,",
+                    "น้ำมันกานพลู,",
+                    "การแสดงออกของยีน"
+                ]
+            },
+            "abstract_clean": {
+                "en_US": "Transport procedures have emerged as potential stress-inducing factors. The use of clove oil is a common practice in aquaculture to mitigate stress, but it may also induce negative side effects. Particularly in Siamese fighting fish ( Betta splendens ). In this study, we investigated the effects of different concentrations of clove oil on water quality and stress-related gene expression, including  HSP70 ,  HSP90 ,  GR ,  MR , and  HIF-1  α.  Siamese fighting fish (body weight 1.91 ± 0.42 g; n = 30) from a local farm in Nakhon Pathom province were subjected to simulated transport in 80 mL of water for 24 hours, with the addition of 0, 5, and 10 mg/L of clove oil. Samples were also collected before transportation. The results demonstrated that the dissolved oxygen in the control group had the most significant decrease ( p   0.05), along with the expression level of  MR  ( p   0.05). Conversely, the addition of 5 and 10 mg/L of clove oil decreased oxygen demand and resulted in a significant decrease in pH levels and alkalinity compared to the control group ( p   0.05). Moreover, 5 mg/L of clove oil significantly increased the expression levels of  GR  and  HIF-1  α  ( p   0.05). Additionally, 10 mg/L of clove oil significantly elevated the expression levels of stress-related genes, including  HSP70 ,  GR ,  MR , and  HIF-1  α  ( p   0.05). This indicates that transportation can have a negative impact on water quality. Furthermore, the addition of 5 and 10 mg/L of clove oil induces stress in Siamese fighting fish and is inappropriate for short-term transport. Future studies should concentrate on the smaller concentration of clove oil between 0-5 mg/L.",
+                "th_TH": "การขนส่งสัตว์น้ำเป็นปัจจัยที่ก่อให้เกิดความเครียดในปลา และการใช้น้ำมันกานพลูถือเป็นแนวทางปฏิบัติทั่วไปในการเพาะเลี้ยงสัตว์น้ำเพื่อบรรเทาความเครียด แต่ขณะเดียวกันก็อาจทำให้เกิดผลข้างเคียงที่เป็นอันตรายต่อสัตว์น้ำได้ โดยเฉพาะในกรณีของปลากัดไทย ( Betta splendens ) การศึกษานี้จึงมีวัตถุประสงค์เพื่อประเมินผลของน้ำมันกานพลูต่อคุณภาพน้ำและการแสดงออกของยีนที่เกี่ยวข้องกับความเครียด ได้แก่  HSP70 ,  HSP90 ,  GR ,  MR  และ  HIF-1  α  โดยใช้ตัวอย่างปลากัดไทยขนาดโตเต็มวัย จากฟาร์มในจังหวัดนครปฐม (น้ำหนักเฉลี่ย 1.91 ± 0.42 กรัม, n = 30) บรรจุในถุงพลาสติกที่มีน้ำ 80 มล. เติมน้ำมันกานพลูที่ความเข้มข้น 0, 5 และ 10 มก./ล. นำไปจำลองการขนส่งเป็นเวลา 24 ชั่วโมง พร้อมตรวจวัดตัวอย่างก่อนการขนส่งร่วมด้วย ผลการศึกษาพบว่าปริมาณออกซิเจนละลายน้ำต่ำกว่ากลุ่มก่อนการขนส่งอย่างมีนัยสำคัญ ( p   0.05) สอดคล้องกับการแสดงออกของยีน  MR  ที่เพิ่มขึ้นอย่างมีนัยสำคัญ ( p   0.05) ในทางกลับกันการเติมน้ำมันกานพลูที่ 5 และ 10 มก./ล. ส่งผลให้อัตราการใช้ออกซิเจนของปลาลดลง เช่นเดียวกับค่า pH และความเป็นด่าง ซึ่งลดลงอย่างมีนัยสำคัญ ( p   0.05) นอกจากนี้การเติมน้ำมันกานพลูที่ 5 มก./ล. มีผลกระตุ้นให้เกิดการเพิ่มขึ้นของการแสดงออกของยีน  GR  และ  HIF-1  α  อย่างมีนัยสำคัญ ( p   0.05) ในขณะที่ความเข้มข้น 10 มก./ล. มีผลกระตุ้นให้เกิดการแสดงออกของยีน  HSP70 ,  GR ,  MR  และ  HIF-1  α  เพิ่มขึ้นได้อย่างมีนัยสำคัญทางสถิติ ( p   0.05) จึงบ่งชี้ได้ว่าการขนส่งเป็นปัจจัยที่ส่งผลต่อคุณภาพน้ำ โดยความเข้มข้นของน้ำมันกานพลูที่ 5 และ 10 มก./ล. ส่งผลให้ปลากัดไทยมีความเครียดสูงขึ้น ซึ่งไม่เหมาะสมต่อการนำมาใช้ระหว่างการขนส่งระยะสั้น และแนวทางการศึกษาในอนาคตควรมุ่งเน้นไปยังระดับความเข้มข้นของน้ำมันกานพลูในปริมาณน้อยระหว่างช่วง 0-5 มก./ล. ต่อไป"
+            },
+            "language": null,
+            "title": {
+                "en_US": "Effects of Clove Oil on Water Quality and Stress-Related Gene Expression in Siamese Fighting Fish (Betta splendens) during Short-Term Transportation",
+                "th_TH": "ผลของน้ำมันกานพลูต่อคุณภาพน้ำและการแสดงออกของยีนที่เกี่ยวข้องกับความเครียดในปลากัดไทย (Betta splendens) ระหว่างการขนส่งระยะสั้น"
+            },
+            "pubIdDoi": null,
+            "articleUrl": "https://ph03.tci-thaijo.org/index.php/JSTKU/article/view/3203",
+            "publication_id": 3209,
+            "path": "JSTKU",
+            "pages": "10-21",
+            "copyrightHolder": {
+                "en_US": "",
+                "th_TH": ""
+            },
+            "coverImage": {
+                "en_US": "article_3203_cover_en_US.png"
+            },
+            "cat": "physical03",
+            "dateStatusModified": "2024-08-28T07:41:46+0000",
+            "id": 3203,
+            "isPublushed": 1,
+            "journal_id": 29,
+            "doiSuffix": null,
+            "journal_enabled": 1,
+            "thaijoUrl": "https://ph03.tci-thaijo.org/index.php/JSTKU",
+            "thumbnail": {
+                "en_US": "journalThumbnail_en_US.png"
+            },
+            "issue_id": 301,
+            "issueDatePublished": "2024-08-23T07:13:13+0000",
+            "version": 1,
+            "datePublished": "2024-08-22T17:00:00+0000",
+            "issueCoverImage": {
+                "en_US": "cover_issue_301_en_US.png"
+            },
+            "issueUrl": "https://ph03.tci-thaijo.org/index.php/JSTKU/issue/view/301",
+            "subtitle": {},
+            "lastModified": "2024-08-23T07:08:04+0000",
+            "dateSubmitted": "2024-08-23T07:33:53+0000",
+            "status": 3,
+            "authors": [
+                {
+                    "publication_id": 3209,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Chanoknan Sintuprom",
+                        "th_TH": "ชนกนันท์ สินธุพรหม"
+                    },
+                    "affiliation": {
+                        "en_US": "Department of Aquaculture, Faculty of Fisheries, Kasetsart University, Chatuchak, Bangkok 10900, Thailand.",
+                        "th_TH": "ภาควิชาเพาะเลี้ยงสัตว์น้ำ คณะประมง มหาวิทยาลัยเกษตรศาสตร์ เขตจตุจักร กรุงเทพฯ 10900"
+                    },
+                    "last_name": {
+                        "en_US": "Sintuprom",
+                        "th_TH": "สินธุพรหม"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 7125,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Chanoknan",
+                        "th_TH": "ชนกนันท์"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 3209,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Raveewan Ploypan",
+                        "th_TH": "รวีวรรณ พลอยพันธ์"
+                    },
+                    "affiliation": {
+                        "en_US": "Department of Pathology, Faculty of Veterinary Science, Kasetsart University, Kamphaeng Saen Campus, Kamphaeng saen Sub-District, Kamphaeng saen District, Nakhon Pathom 73140, Thailand.",
+                        "th_TH": "ภาควิชาพยาธิวิทยา คณะสัตวแพทยศาสตร์ มหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตกำแพงแสน ต.กำแพงแสน อ.กำแพงแสน จ.นครปฐม 73140"
+                    },
+                    "last_name": {
+                        "en_US": "Ploypan",
+                        "th_TH": "พลอยพันธ์"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 7126,
+                    "primary_contact": 1,
+                    "first_name": {
+                        "en_US": "Raveewan",
+                        "th_TH": "รวีวรรณ"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 3209,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Satid Chatchaiphan",
+                        "th_TH": "สาทิต ฉัตรชัยพันธ์"
+                    },
+                    "affiliation": {
+                        "en_US": "Department of Aquaculture, Faculty of Fisheries, Kasetsart University, Chatuchak, Bangkok 10900, Thailand.",
+                        "th_TH": "ภาควิชาเพาะเลี้ยงสัตว์น้ำ คณะประมง มหาวิทยาลัยเกษตรศาสตร์ เขตจตุจักร กรุงเทพฯ 1090"
+                    },
+                    "last_name": {
+                        "en_US": "Chatchaiphan",
+                        "th_TH": "ฉัตรชัยพันธ์"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 7128,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Satid",
+                        "th_TH": "สาทิต"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 3209,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Wirawan Nuchchanart",
+                        "th_TH": "วิราวรรณ นุชนารถ"
+                    },
+                    "affiliation": {
+                        "en_US": "Department of Animal Science, Faculty of Agriculture at Kamphaeng Saen, Kasetsart University, Kamphaeng Saen Campus, Kamphaeng saen Sub-District, Kamphaeng saen District Nakhon Pathom 73140, Thailand.",
+                        "th_TH": "ภาควิชาสัตวบาล คณะเกษตร กำแพงแสน มหาวิทยาลัยเกษตรศาสตร์ วิทยาเขตกำแพงแสน ต.กำแพงแสน อ.กำแพงแสน จ.นครปฐม 73140"
+                    },
+                    "last_name": {
+                        "en_US": "Nuchchanart",
+                        "th_TH": "นุชนารถ"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 7127,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Wirawan",
+                        "th_TH": "วิราวรรณ"
+                    },
+                    "country_long": "Thailand"
+                }
+            ],
+            "score": 53.847874,
+            "highlight": {
+                "title.th_TH": [
+                    "ผลของน้ำมันกานพลูต่อคุณภาพน้ำและการแสดงออกของยีนที่เกี่ยวข้องกับความเครียดใน<span>ปลา</span><span>กัด</span>ไทย (Betta splendens) ระหว่างการขนส่งระยะสั้น"
+                ],
+                "keywords.th_TH": [
+                    "<span>ปลา</span><span>กัด</span>ไทย,"
+                ],
+                "abstract_clean.th_TH": [
+                    "ได้แก่  HSP70 ,  HSP90 ,  GR ,  MR  และ  HIF-1  α  โดยใช้ตัวอย่าง<span>ปลา</span><span>กัด</span>ไทยขนาดโตเต็มวัย จากฟาร์มในจังหวัดนครปฐม (น้ำหนักเฉลี่ย 1.91 ± 0.42 กรัม, n = 30) บรรจุในถุงพลาสติกที่มีน้ำ 80 มล.",
+                    "ส่งผลให้<span>ปลา</span><span>กัด</span>ไทยมีความเครียดสูงขึ้น ซึ่งไม่เหมาะสมต่อการนำมาใช้ระหว่างการขนส่งระยะสั้น และแนวทางการศึกษาในอนาคตควรมุ่งเน้นไปยังระดับความเข้มข้นของน้ำมันกานพลูในปริมาณน้อยระหว่างช่วง 0-5 มก./ล. ต่อไป"
+                ]
+            }
+        },
+        {
+            "headerLogo": {
+                "en_US": "pageHeaderLogoImage_en_US.png"
+            },
+            "keywords": {
+                "en_US": [
+                    "Electronic Pocket Book",
+                    "Bettas Fise Business",
+                    "OMNI Channel Marketing Strategy"
+                ],
+                "th_TH": [
+                    "ธุรกิจปลากัด",
+                    "กลยุทธ์ช่องทางการตลาดแบบหลากหลาย",
+                    "หนังสือพ็อกเก็ตบุ๊คอิเล็กทรอนิกส์"
+                ]
+            },
+            "abstract_clean": {
+                "en_US": "The research study aims to 1) develop an electronic pocket book titled \"Business Tips. Siamese fighting fish using multi-channel marketing strategies.\" 2) The measurement efficiency of electronic pocket books, titled \"Business Tips. Siamese fighting fish using multi-channel marketing strategies. “The research tool is structured interview. The Information group is a group of content experts provides of three people and 3 expert persons in technology and digital media. The sample was selected using purposive sampling. Questionnaires and the general public to determine the sample size by using a formula of 400 Roscoe, method convenience sampling. The results showed that the creation of an electronic pocket book “Business Tips Bettas Fish millionaire Using a variety of marketing channel strategies\" using Canva development of multimedia e-book format. Photos (Image), narration (Sound), animation, 2D, 3D, VHS (Video) the content consists of 9 sections detail involves a startup Business of fish sales through online and offline. Strategies for fish fighting sales a variety of channels (OMNI Channel).By measuring the performance of electronic pocket books with featured elements: performance and effectiveness, the assessment is very good ( = 4.51) and integrity, Customer Learning Satisfaction and Coverage Results Assessment are at a good level ( = 4.47, 4.47, 4.40 and 4.36).",
+                "th_TH": "การศึกษาวิจัยมีวัตถุประสงค์เพื่อ 1) พัฒนาหนังสือพ็อกเก็ตบุ๊คอิเล็กทรอนิกส์ เรื่อง “เคล็ดลับธุรกิจ ปลากัดเงินล้านโดยใช้กลยุทธ์ช่องทางการตลาดแบบหลากหลาย” 2) วัดประสิทธิภาพหนังสือพ็อกเก็ต บุ๊คอิเล็กทรอนิกส์ เรื่อง “เคล็ดลับธุรกิจปลากัดเงินล้านโดยใช้กลยุทธ์ช่องทางการตลาดแบบหลากหลาย” โดยมีเครื่องมือในการวิจัย คือ แบบสัมภาษณ์แบบมีโครงสร้าง กลุ่มผู้ให้ข้อมูลเป็นกลุ่มผู้เชี่ยวชาญทางด้านเนื้อหา จำนวน 3 คน และผู้เชี่ยวชาญทางด้านเทคโนโลยีและสื่อดิจิตอล จำนวน 3 คน ใช้วิธีเลือกกลุ่มตัวอย่างแบบเจาะจง และใช้แบบสอบถามประชาชนทั่วไป วิธีกำหนดขนาดกลุ่มตัวอย่างโดยใช้สูตรของ Roscoe จำนวน 400 คน ใช้วิธีเลือกกลุ่มตัวอย่างแบบสะดวก ผลการศึกษาพบว่า การสร้างหนังสือพ็อก เก็ตบุ๊คอิเล็กทรอนิกส์ เรื่อง “เคล็ดลับธุรกิจปลากัดเงินล้านโดยใช้กลยุทธ์ช่องทางการตลาดแบบหลากหลาย” โดยใช้โปรแกรม Canva พัฒนาหนังสืออิเล็กทรอนิกส์เป็นรูปแบบของมัลติมีเดีย ภาพถ่าย (Image) เสียงบรรยาย (Sound) ภาพเคลื่อนไหว 2 มิติ 3 มิติ ( 2D-3D Animation) วีดิทัศน์ (Video) โดยเนื้อหาประกอบด้วย 9 ส่วน รายละเอียดจะเกี่ยวข้องกับการเป็นสตาร์ทอัพ (startup) ธุรกิจปลากัด  การขายปลากัดผ่านช่องทางออนไลน์และออฟไลน์ กลยุทธ์การขายปลากัดแบบหลากหลายช่องทาง (OMNI Channel) โดยทำการวัดประสิทธิภาพหนังสือพ็อกเก็ตบุ๊คอิเล็กทรอนิกส์ซึ่งมีองค์ประกอบที่เป็นจุดเด่น คือ ด้านประสิทธิภาพและประสิทธิผลการประเมินอยู่ในระดับดีมาก ( = 4.51) และด้านความสมบูรณ์ ด้านความพึงพอใจในการใช้งาน ด้านการเรียนรู้ของผู้ใช้ และด้านความครอบคลุม ผลการประเมินอยู่ในระดับดี ( = 4.47, 4.47, 4.40 และ 4.36)"
+            },
+            "language": "th",
+            "title": {
+                "en_US": "Development of Electronic Pocket Book “ Business Tips Bettas Fish millionaire By Using OMNI Channel Marketing Strategy”",
+                "th_TH": "การพัฒนาหนังสือพ็อกเก็ตบุ๊คอิเล็กทรอนิกส์ เรื่อง “เคล็ดลับธุรกิจปลากัดเงินล้านโดยใช้กลยุทธ์ ช่องทางการตลาดแบบหลากหลาย”"
+            },
+            "pubIdDoi": null,
+            "articleUrl": "https://ph01.tci-thaijo.org/index.php/vujournal/article/view/240274",
+            "publication_id": 10836,
+            "path": "vujournal",
+            "pages": "58-69",
+            "copyrightHolder": {},
+            "coverImage": null,
+            "cat": "physical01",
+            "dateStatusModified": "2020-08-14T08:09:48+0000",
+            "id": 240274,
+            "isPublushed": 1,
+            "journal_id": 700,
+            "doiSuffix": null,
+            "journal_enabled": 1,
+            "thaijoUrl": "https://ph01.tci-thaijo.org/index.php/vujournal",
+            "thumbnail": null,
+            "issue_id": 16631,
+            "issueDatePublished": "2020-08-02T17:00:00+0000",
+            "version": 1,
+            "datePublished": "2020-08-13T17:00:00+0000",
+            "issueCoverImage": {
+                "th_TH": "cover_issue_16631_th_TH.jpg"
+            },
+            "issueUrl": "https://ph01.tci-thaijo.org/index.php/vujournal/issue/view/16631",
+            "subtitle": {
+                "en_US": "",
+                "th_TH": ""
+            },
+            "lastModified": "2020-08-14T08:09:49+0000",
+            "dateSubmitted": "2020-03-30T04:55:26+0000",
+            "status": 3,
+            "authors": [
+                {
+                    "publication_id": 10836,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Natpasuth Patthirasinsiri",
+                        "th_TH": "ณัฐพศุตม์ ภัทธิราสินสิริ"
+                    },
+                    "affiliation": {
+                        "en_US": "",
+                        "th_TH": "เลขาธิการ สมาคมนักวิจัยแห่งประเทศไทย"
+                    },
+                    "last_name": {
+                        "en_US": "Patthirasinsiri",
+                        "th_TH": "ภัทธิราสินสิริ"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 412572,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Natpasuth",
+                        "th_TH": "ณัฐพศุตม์"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 10836,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Nittaya Ngamyingyong",
+                        "th_TH": "นิตยา งามยิ่งยง"
+                    },
+                    "affiliation": {
+                        "en_US": "",
+                        "th_TH": "อาจารย์ประจำสาขาธุรกิจระหว่างประเทศ คณะวิทยาการจัดการ มหาวิทยาลัยราชภัฏนครปฐม"
+                    },
+                    "last_name": {
+                        "en_US": "Ngamyingyong",
+                        "th_TH": "งามยิ่งยง"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 412573,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Nittaya",
+                        "th_TH": "นิตยา"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 10836,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Jirawat Kongka",
+                        "th_TH": "จิรวัฒน์ คงคา"
+                    },
+                    "affiliation": {
+                        "en_US": "",
+                        "th_TH": "นักศึกษาสาขาธุรกิจระหว่างประเทศ คณะวิทยาการจัดการ มหาวิทยาลัยราชภัฏนครปฐม"
+                    },
+                    "last_name": {
+                        "en_US": "Kongka",
+                        "th_TH": "คงคา"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 412574,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Jirawat",
+                        "th_TH": "จิรวัฒน์"
+                    },
+                    "country_long": "Thailand"
+                },
+                {
+                    "publication_id": 10836,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Kanokpatch Koprasert",
+                        "th_TH": "กนกพัชร กอประเสริฐ"
+                    },
+                    "affiliation": {
+                        "en_US": "",
+                        "th_TH": "อาจารย์ประจำสาขาธุรกิจระหว่างประเทศ คณะวิทยาการจัดการ มหาวิทยาลัยราชภัฏนครปฐม"
+                    },
+                    "last_name": {
+                        "en_US": "Koprasert",
+                        "th_TH": "กอประเสริฐ"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 412571,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Kanokpatch",
+                        "th_TH": "กนกพัชร"
+                    },
+                    "country_long": "Thailand"
+                }
+            ],
+            "score": 51.970486,
+            "highlight": {
+                "title.th_TH": [
+                    "การพัฒนาหนังสือพ็อกเก็ตบุ๊คอิเล็กทรอนิกส์ เรื่อง “เคล็ดลับธุรกิจ<span>ปลา</span><span>กัด</span>เงินล้านโดยใช้กลยุทธ์ ช่องทางการตลาดแบบหลากหลาย”"
+                ],
+                "keywords.th_TH": [
+                    "ธุรกิจ<span>ปลา</span><span>กัด</span>"
+                ],
+                "abstract_clean.th_TH": [
+                    "การศึกษาวิจัยมีวัตถุประสงค์เพื่อ 1) พัฒนาหนังสือพ็อกเก็ตบุ๊คอิเล็กทรอนิกส์ เรื่อง “เคล็ดลับธุรกิจ <span>ปลา</span><span>กัด</span>เงินล้านโดยใช้กลยุทธ์ช่องทางการตลาดแบบหลากหลาย” 2) วัดประสิทธิภาพหนังสือพ็อกเก็ต บุ๊คอิเล็กทรอนิกส์ เรื่อง “เคล็ดลับธุรกิจ<span>ปลา</span><span>กัด</span>เงินล้านโดยใช้กลยุทธ์ช่องทางการตลาดแบบหลากหลาย” โดยมีเครื่องมือในการวิจัย",
+                    "” โดยใช้โปรแกรม Canva พัฒนาหนังสืออิเล็กทรอนิกส์เป็นรูปแบบของมัลติมีเดีย ภาพถ่าย (Image) เสียงบรรยาย (Sound) ภาพเคลื่อนไหว 2 มิติ 3 มิติ ( 2D-3D Animation) วีดิทัศน์ (Video) โดยเนื้อหาประกอบด้วย 9 ส่วน รายละเอียดจะเกี่ยวข้องกับการเป็นสตาร์ทอัพ (startup) ธุรกิจ<span>ปลา</span><span>กัด</span>  การขาย<span>ปลา</span><span>กัด</span>ผ่านช่องทางออนไลน์และออฟไลน์"
+                ]
+            }
+        },
+        {
+            "headerLogo": {
+                "en_US": "pageHeaderLogoImage_en_US.png",
+                "th_TH": "pageHeaderLogoImage_th_TH.png"
+            },
+            "keywords": {},
+            "abstract_clean": {
+                "en_US": "This research purposed to: 1) study the fighting fish transportation system from the farms to the agents or the exporters and 2) develop the packaging which reducing the cost of fighting fish transportation. The participants were 30 fighting fish farmers in NakhonPathom, who were selected by purposing random sampling. The duration of study was from January - November 2012. The data were collected by using questionnaires asking about lately information on the fighting fish transportation system, how to develop the packaging for reducing the cost of fighting fish transportation, and evaluate satisfaction in using the packaging to transport fighting fish. Then, the descriptive statistics, in terms of percentage (%), mean (x) and standard deviation (S.D.) were employed to   analyze the data.The findings revealed that the fruit crate could contain 427 fish cylinders, while the new one could contain 539 fish cylinders that increase the number of transportation to 26.23%. Then, by comparing with the foam box that could contain 432 fish cylinders, the new packaging could contain 576 fish cylinders which increase the number of transportation to 33.33% and reduce the cost including make a high profit to the fighting fish transportation as well. Moreover, after evaluating the participants' satisfaction, it was found the 3 highest levels as the new packaging was strong enough (x = 4.86). Next, the packaging was convenient to use (x = 4.53). Finally, could reduce fighting fish's trauma (x = 4.46).",
+                "th_TH": "การวิจัยครั้งนี้มีวัตถุประสงค์เพื่อ 1) ศึกษาระบบการขนส่งปลากัดจากฟาร์มเพาะเลี้ยงไปยังพ่อค้าคนกลางหรือผู้ส่งออก 2) พัฒนาบรรจุภัณฑ์เพื่อช่วยลดต้นทุนการขนส่งปลากัดจากฟาร์มเพาะเลี้ยงไปยังพ่อค้าคนกลางหรือผู้ส่งออก กลุ่มตัวอย่างที่ใช้ในการวิจัย คือ ผู้เพาะเลี้ยงปลากัดในจังหวัดนครปฐมที่ได้จากการสุ่มตัวอย่างแบบเจาะจง (Purposing random sampling) จำนวน 30 คน ระยะเวลาศึกษาวิจัยตั้งแต่เดือนมกราคม - พฤศจิกายน 2555 โดยการสอบถามข้อมูลเกี่ยวกับระบบการขนส่งปลากัดในปัจจุบัน พัฒนาบรรจุภัณฑ์เพื่อช่วยลดต้นทุนการขนส่งปลากัด และประเมินความพึงพอใจในการใช้บรรจุภัณฑ์เพื่อการขนส่งปลากัดของผู้ใช้งาน สถิติที่ใช้ในการวิเคราะห์ข้อมูล คือ ค่าร้อยละ (Percentage) ค่าเฉลี่ย (x) และส่วนเบี่ยงเบนมาตรฐาน (S.D.)     ผลการวิจัยสรุปได้ว่า บรรจุภัณฑ์ลังผลไม้เดิมสามารถบรรจุกระบอกใส่ปลาได้จำนวน 427 กระบอก แต่บรรจุภัณฑ์ที่พัฒนาขึ้นสามารถบรรจุได้ 539 กระบอก เพิ่มขึ้นจากเดิม 112 กระบอก สามารถเพิ่มปริมาณการขนส่งต่อเที่ยวมากถึง 26.23 % และบรรจุภัณฑ์กล่องโฟมเดิมสามารถบรรจุกระบอกใส่ปลาได้จำนวน 432 กระบอก แต่บรรจุภัณฑ์ที่พัฒนาขึ้นสามารถบรรจุได้ 576 กระบอก เพิ่มขึ้นจากเดิม 144 กระบอก สามารถเพิ่มปริมาณการขนส่งต่อเที่ยวมากถึง 33.33 % ทำให้ต้นทุนการขนส่งลดลงส่งผลให้กำไรสูงขึ้น ผลการประเมินความพึงพอใจของกลุ่มตัวอย่างสูงสุด 3 ลำดับแรก พบว่า บรรจุภัณฑ์มีความแข็งแรงเหมาะสม มีค่าเฉลี่ย 4.86 รองลงมามีความสะดวกต่อการใช้งาน มีค่าเฉลี่ย 4.53 และลดการบอบช้ำของปลา มีค่าเฉลี่ย 4.46 ตามลำดับ"
+            },
+            "language": null,
+            "title": {
+                "en_US": "Increasing the Efficiency of Packaging for Fighting Fish Transportation of Thailand",
+                "th_TH": "การเพิ่มประสิทธิภาพของบรรจุภัณฑ์เพื่อการขนส่งปลากัดของไทย"
+            },
+            "pubIdDoi": null,
+            "articleUrl": "https://he01.tci-thaijo.org/index.php/CUTJ/article/view/241248",
+            "publication_id": 29254,
+            "path": "CUTJ",
+            "pages": "727-746",
+            "copyrightHolder": {
+                "en_US": "Christian University Journal",
+                "th_TH": "วารสารมหาวิทยาลัยคริสเตียน"
+            },
+            "coverImage": null,
+            "cat": "health01",
+            "dateStatusModified": "2020-04-15T05:05:10+0000",
+            "id": 241248,
+            "isPublushed": 1,
+            "journal_id": 528,
+            "doiSuffix": null,
+            "journal_enabled": 1,
+            "thaijoUrl": "https://he01.tci-thaijo.org/index.php/CUTJ",
+            "thumbnail": {
+                "en_US": "journalThumbnail_en_US.jpg",
+                "th_TH": "journalThumbnail_th_TH.jpg"
+            },
+            "issue_id": 16557,
+            "issueDatePublished": "2020-04-15T07:51:57+0000",
+            "version": 1,
+            "datePublished": "2015-12-30T17:00:00+0000",
+            "issueCoverImage": {
+                "th_TH": "cover_issue_16557_th_TH.jpg"
+            },
+            "issueUrl": "https://he01.tci-thaijo.org/index.php/CUTJ/issue/view/16557",
+            "subtitle": {
+                "en_US": "",
+                "th_TH": ""
+            },
+            "lastModified": "2020-04-15T05:11:25+0000",
+            "dateSubmitted": "2020-04-15T05:11:24+0000",
+            "status": 3,
+            "authors": [
+                {
+                    "publication_id": 29254,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Santi Ditsathaporncharoen",
+                        "th_TH": "ศานติ ดิฐสถาพรเจริญ"
+                    },
+                    "affiliation": {
+                        "en_US": "Nakhon Pathom Rajabhat University",
+                        "th_TH": "มหาวิทยาลัยราชภัฏนครปฐม"
+                    },
+                    "last_name": {
+                        "en_US": "Ditsathaporncharoen",
+                        "th_TH": "ดิฐสถาพรเจริญ"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 411114,
+                    "primary_contact": 1,
+                    "first_name": {
+                        "en_US": "Santi",
+                        "th_TH": "ศานติ"
+                    },
+                    "country_long": "Thailand"
+                }
+            ],
+            "score": 49.698986,
+            "highlight": {
+                "title.th_TH": [
+                    "การเพิ่มประสิทธิภาพของบรรจุภัณฑ์เพื่อการขนส่ง<span>ปลา</span><span>กัด</span>ของไทย"
+                ],
+                "abstract_clean.th_TH": [
+                    "การวิจัยครั้งนี้มีวัตถุประสงค์เพื่อ 1) ศึกษาระบบการขนส่ง<span>ปลา</span><span>กัด</span>จากฟาร์มเพาะเลี้ยงไปยังพ่อค้าคนกลางหรือผู้ส่งออก 2) พัฒนาบรรจุภัณฑ์เพื่อช่วยลดต้นทุนการขนส่ง<span>ปลา</span><span>กัด</span>จากฟาร์มเพาะเลี้ยงไปยังพ่อค้าคนกลางหรือผู้ส่งออก กลุ่มตัวอย่างที่ใช้ในการวิจัย คือ ผู้เพาะเลี้ยง<span>ปลา</span><span>กัด</span>ในจังหวัดนครปฐมที่ได้จากการสุ่มตัวอย่างแบบเจาะจง",
+                    "(Purposing random sampling) จำนวน 30 คน ระยะเวลาศึกษาวิจัยตั้งแต่เดือนมกราคม - พฤศจิกายน 2555 โดยการสอบถามข้อมูลเกี่ยวกับระบบการขนส่ง<span>ปลา</span><span>กัด</span>ในปัจจุบัน พัฒนาบรรจุภัณฑ์เพื่อช่วยลดต้นทุนการขนส่ง<span>ปลา</span><span>กัด</span> และประเมินความพึงพอใจในการใช้บรรจุภัณฑ์เพื่อการขนส่ง<span>ปลา</span><span>กัด</span>ของผู้ใช้งาน สถิติที่ใช้ในการวิเคราะห์ข้อมูล"
+                ]
+            }
+        },
+        {
+            "headerLogo": null,
+            "keywords": {
+                "en_US": [
+                    "Yield",
+                    "Okra",
+                    "Marine fish amino acid",
+                    "Trichome"
+                ],
+                "th_TH": [
+                    "กระเจี๊ยบเขียว",
+                    "อะมิโนปลาทะเล",
+                    "ผลผลิต",
+                    "ขนบริเวณผิวฝัก"
+                ]
+            },
+            "abstract_clean": {
+                "en_US": "The objective of this study was to study the efficiency of marine fish amino acid. KN – OYV – 02 as a best variety was carried out at Thaksin University between February and June 2022. The marine fish amino acid was sprayed as a foliar of okra every 2 nd  weeks. The marine fish amino acids were divided into 5 levels (treatments) including of 0.00, 1.50, 3.00, 4.50 and 6.00 ml/l. The 0.00 ml/l concentration was to be sprayed with as a control treatment. Randomized complete block design (RCBD) was planned for each treatment with 4 replications. The results showed that trichomes on pod surface and lower leaf surface were different in each treatment. The number of pods/plant and weights/plant were found that okra was sprayed with marine fish amino acid at various concentrations give different results. It was found that the concentrations of 3.00 and 4.50 ml/l were a statistical difference from non-sprayed (control) of marine fish amino acid. The weight/plant, which was the most important characteristic, was found that okra sprayed with marine fish amino acids at a concentration of 3.00 ml/l was the best yield (1,382.67 g), followed by spraying with marine fish amino acids at the concentration of 4.50 ml/l was 1,353.62 g, while the control had the least of pod yield about 935.41 g, while the total chlorophyll content, which was an important substance, found that spraying with marine fish amino acid at concentrations of 3.00, 4.50 and 6.00 ml/l. There was no statistical difference. which were 13.76, 12.65 and 13.31 mg/ 100 g FW, respectively, but were statistically different from those sprayed at concentrations of 0.00 and 1.50 ml/l.",
+                "th_TH": "ทำการศึกษาอิทธิพลของสารสกัดอะมิโนปลาทะเลต่อคุณภาพและผลผลิตของกระเจี๊ยบเขียว โดยทำการปลูกกระเจี๊ยบเขียวพันธุ์ KN – OYV – 02 ซึ่งเป็นพันธุ์ที่มีคุณภาพและผลผลิตสูงในภาคใต้ของประเทศไทย ระหว่างเดือนกุมภาพันธ์ ถึง มิถุนายน 2565 ณ มหาวิทยาลัยทักษิณ หลังจากนั้นฉีดพ่นสารสกัดอะมิโนปลาทะเลในรูปแบบน้ำฉีดพ่นทางใบสัปดาห์ละ 2 ครั้ง โดยแบ่งระดับความเข้มข้นของสารสกัดอะมิโนปลาทะเลออกเป็น 5 ระดับ (ทรีตเมนต์) ประกอบด้วย 0.00, 1.50, 3.00, 4.50 และ 6.00 มิลลิลิตรต่อลิตร การฉีดพ่นสารสกัดอะมิโนปลาทะเลที่ความเข้มข้น 0.00 มิลลิลิตรต่อลิตร คือการฉีดพ่นด้วยน้ำเปล่าเป็นทรีตเมนต์ควบคุม วางแผนการทดลองแบบสุ่มภายในบล็อกสมบูรณ์ (Randomized Complete Block Design, RCBD) จำนวน 4 ซ้ำ ผลการทดลองพบว่าลักษณะขน (trichome) บริเวณผิวฝัก และผิวใบมีความแตกต่างกันในแต่ละทรีตเมนต์ ส่วนน้ำหนักต่อฝัก จำนวนฝักต่อต้น และน้ำหนักต่อต้น พบว่ากระเจี๊ยบเขียวที่ได้รับการฉีดพ่นด้วยสารสกัดอะมิโนปลาทะเลระดับความเข้มข้นต่างกันให้ผลต่างกัน โดยน้ำหนักต่อฝัก พบว่าการใช้ที่ระดับความเข้มข้น 3.00 และ 4.50 มิลลิลิตรต่อลิตร มีความแตกต่างทางสถิติกับการไม่ฉีดพ่นด้วยสารสกัดอะมิโนปลา ส่วนน้ำหนักกระเจี๊ยบเขียวต่อต้นซึ่งเป็นลักษณะที่สำคัญที่สุดพบว่ากระเจี๊ยบเขียวที่ฉีดพ่นด้วยสารสกัดอะมิโนปลาทะเลที่ระดับความเข้มข้น 3.00 มิลลิลิตรต่อลิตร มีน้ำหนักต่อต้นดีที่สุดเท่ากับ 1,382.67 กรัมต่อต้น รองลงคือการฉีดพ่นด้วยสารสกัดอะมิโนปลาทะเลที่ระดับความเข้มข้น 4.50 มิลลิลิตรต่อลิตร มีผลผลิต 1,353.62 กรัมต่อต้น ในขณะที่กระเจี๊ยบเขียวที่ไม่ได้รับการฉีดพ่นกรดอะมิโนปลาทะเลแต่ฉีดพ่นด้วยน้ำเปล่ามีน้ำหนักผลผลิตน้อยที่สุดเพียง 935.41 กรัมต่อต้น ปริมาณคลอโรฟิลล์ รวม ซึ่งเป็นสารสำคัญอีกชนิดพบว่าการฉีดพ่นด้วยสารสกัดอะมิโนปลาทะลที่ระดับความเข้มข้น 3.00, 4.50 และ 6.00 มิลลิลิตรต่อลิตร ไม่มีความแตกต่างทางสถิติ ซึ่งมีค่าเท่ากับ 13.76, 12.65 และ 13.31 มิลลิกรัมต่อ 100 กรัม น้ำหนักสดตามลำดับ แต่จะมีความแตกต่างทางสถิติกับการฉีดพ่นที่ระดับความเข้มข้น 0.00 และ 1.50 มิลลิลิตรต่อลิตร"
+            },
+            "language": null,
+            "title": {
+                "en_US": "Effect of marine fish amino acid on yield of okra production",
+                "th_TH": "อิทธิพลของสารสกัดอะมิโนปลาทะเลต่อผลผลิตของกระเจี๊ยบเขียว"
+            },
+            "pubIdDoi": null,
+            "articleUrl": "https://li01.tci-thaijo.org/index.php/JVIA/article/view/257866",
+            "publication_id": 30925,
+            "path": "JVIA",
+            "pages": "115-126",
+            "copyrightHolder": {
+                "en_US": "Journal of Vocational Education in Agriculture",
+                "th_TH": "Journal of Vocational Education in Agriculture"
+            },
+            "coverImage": null,
+            "cat": "life01",
+            "dateStatusModified": "2024-01-06T18:35:41+0000",
+            "id": 257866,
+            "isPublushed": 1,
+            "journal_id": 765,
+            "doiSuffix": null,
+            "journal_enabled": 1,
+            "thaijoUrl": "https://li01.tci-thaijo.org/index.php/JVIA",
+            "thumbnail": null,
+            "issue_id": 17684,
+            "issueDatePublished": "2024-01-06T17:00:00+0000",
+            "version": 1,
+            "datePublished": "2024-01-05T17:00:00+0000",
+            "issueCoverImage": {
+                "en_US": "cover_issue_17684_en_US.jpg"
+            },
+            "issueUrl": "https://li01.tci-thaijo.org/index.php/JVIA/issue/view/17684",
+            "subtitle": {},
+            "lastModified": "2023-06-14T08:03:00+0000",
+            "dateSubmitted": "2023-02-07T10:48:27+0000",
+            "status": 3,
+            "authors": [
+                {
+                    "publication_id": 30925,
+                    "country": "TH",
+                    "full_name": {
+                        "en_US": "Sorapong Benchasri",
+                        "th_TH": "สรพงค์ เบญจศรี"
+                    },
+                    "affiliation": {
+                        "en_US": "Faculty of Technology and Community Development, Thaksin University, Phatthalung, 93210",
+                        "th_TH": "คณะเทคโนโลยีและการพัฒนาชุมชน มหาวิทยาลัยทักษิณ พัทลุง 93210"
+                    },
+                    "last_name": {
+                        "en_US": "Benchasri",
+                        "th_TH": "เบญจศรี"
+                    },
+                    "biography": {
+                        "en_US": "",
+                        "th_TH": ""
+                    },
+                    "author_id": 456220,
+                    "primary_contact": 0,
+                    "first_name": {
+                        "en_US": "Sorapong",
+                        "th_TH": "สรพงค์"
+                    },
+                    "country_long": "Thailand"
+                }
+            ],
+            "score": 48.14406,
+            "highlight": {
+                "title.th_TH": [
+                    "อิทธิพลของสารส<span>กัด</span>อะมิโน<span>ปลา</span>ทะเลต่อผลผลิตของกระเจี๊ยบเขียว"
+                ],
+                "keywords.th_TH": [
+                    "อะมิโน<span>ปลา</span>ทะเล"
+                ],
+                "abstract_clean.th_TH": [
+                    "3.00 และ 4.50 มิลลิลิตรต่อลิตร มีความแตกต่างทางสถิติกับการไม่ฉีดพ่นด้วยสารส<span>กัด</span>อะมิโน<span>ปลา</span> ส่วนน้ำหนักกระเจี๊ยบเขียวต่อต้นซึ่งเป็นลักษณะที่สำคัญที่สุดพบว่ากระเจี๊ยบเขียวที่ฉีดพ่นด้วยสารส<span>กัด</span>อะมิโน<span>ปลา</span>ทะเลที่ระดับความเข้มข้น 3.00 มิลลิลิตรต่อลิตร มีน้ำหนักต่อต้นดีที่สุดเท่ากับ 1,382.67 กรัมต่อต้น รองลงคือการฉีดพ่นด้วยสารส<span>กัด</span>อะมิโน<span>ปลา</span>ทะเลที่ระดับความเข้มข้น",
+                    "ทำการศึกษาอิทธิพลของสารส<span>กัด</span>อะมิโน<span>ปลา</span>ทะเลต่อคุณภาพและผลผลิตของกระเจี๊ยบเขียว โดยทำการปลูกกระเจี๊ยบเขียวพันธุ์ KN – OYV – 02 ซึ่งเป็นพันธุ์ที่มีคุณภาพและผลผลิตสูงในภาคใต้ของประเทศไทย ระหว่างเดือนกุมภาพันธ์ ถึง มิถุนายน 2565 ณ มหาวิทยาลัยทักษิณ หลังจากนั้นฉีดพ่นสารส<span>กัด</span>อะมิโน<span>ปลา</span>ทะเลในรูปแบบน้ำฉีดพ่นทางใบสัปดาห์ละ"
+                ]
+            }
+        }
+    ],
+    "options": [
+        1,
+        20,
+        0
+    ]
+}

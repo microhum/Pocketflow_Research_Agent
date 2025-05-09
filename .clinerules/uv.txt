@@ -1,0 +1,17 @@
+# Project Development Rules
+
+## Python Environment and Execution
+
+- **Use `uv`:** All Python scripts and module management (installation, updates, etc.) must be performed using `uv`. This ensures consistency and leverages `uv`'s performance benefits.
+
+    *Example (running a script):*
+    ```bash
+    uv run python your_script.py
+    ```
+
+    *Example (adding packages):*
+    ```bash
+    uv add <package_name>
+    ```
+
+    *Rationale:* Standardizing on `uv` simplifies environment setup and dependency management across the team.
