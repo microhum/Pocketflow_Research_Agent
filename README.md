@@ -44,11 +44,7 @@ A command-line interface (CLI) application that acts as a research agent. It tak
    # source .venv/bin/activate
 
    # Install dependencies from pyproject.toml
-   uv pip install -e .
-   # or if you list dependencies directly under [project.dependencies] in pyproject.toml
-   # uv pip sync pyproject.toml 
-   # or if you have a requirements.txt (though pyproject.toml is preferred with uv)
-   # uv pip install -r requirements.txt 
+   uv sync
    ```
 
    *Note: The exact `uv` command for installing dependencies might vary based on your `pyproject.toml` structure. `uv pip install -e .` is common for installing a project as an editable package along with its dependencies.*

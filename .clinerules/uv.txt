@@ -14,4 +14,9 @@
     uv add <package_name>
     ```
 
+    *Example (sync packages):*
+    ```bash
+    uv sync
+    ```
+
     *Rationale:* Standardizing on `uv` simplifies environment setup and dependency management across the team.

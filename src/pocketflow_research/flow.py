@@ -54,8 +54,8 @@ def create_research_agent_flow(source: str = 'arxiv') -> Flow:
 
     get_topic >> classify_intent
 
-    # Path for "FETCH_NEW" intent
     classify_intent - "fetch_new" >> extract_keywords
+
     extract_keywords >> paper_fetching_node
     paper_fetching_node >> process_papers
     process_papers >> embed_chunks
@@ -63,16 +63,9 @@ def create_research_agent_flow(source: str = 'arxiv') -> Flow:
     build_temp_index >> embed_query # Embed query after building new index
     embed_query - "default" >> retrieve_chunks # Default transition after embedding query
 
-    # Path for "QA_CURRENT" intent
-    # If QA_CURRENT, we still need to embed the current query (topic)
-    # to search the existing persistent index.
     classify_intent - "qa_current" >> embed_query 
-    # After embedding query in QA_CURRENT path, go to retrieve_chunks
-    # No new papers are fetched or processed for QA_CURRENT.
-    # RetrieveChunksNode will rely on the persistent index.
-    embed_query - "default" >> retrieve_chunks # This ensures retrieve_chunks is hit from both paths
 
-    # Common path after retrieval (from either FETCH_NEW or QA_CURRENT)
+    embed_query - "default" >> retrieve_chunks
     retrieve_chunks >> generate_response
     generate_response >> cite_sources
 
