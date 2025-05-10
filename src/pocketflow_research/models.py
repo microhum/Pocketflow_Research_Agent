@@ -2,7 +2,6 @@ from typing import List, Optional, Dict, Any, Literal, Union
 from typing_extensions import TypedDict
 from pydantic import BaseModel, Field
 from datetime import datetime
-from numpy import ndarray
 
 FaissIndexObject = Any
 
@@ -41,18 +40,25 @@ class RetrievedChunk(BaseModel):
     text: str
     original_source: ChunkSourceInfo
 
+# Define the every node types as a literal type
+NodeTypes = Literal["GetTopicNode", "QueryIntentClassifierNode", "KeywordExtractorNode", 
+                    "FetchArxivNode", "FetchThaijoNode", "ProcessPapersBatchNode", 
+                    "EmbedChunksNode", "BuildTempIndexNode", "EmbedQueryNode", 
+                    "RetrieveChunksNode", "GenerateResponseNode", 
+                    "CiteSourcesNode", "EarlyEndReporterNode"]
 class SharedStore(BaseModel):
     topic: Optional[str] = None # Explicitly for embedding and search
     chat_history: List[ChatMessage] = Field(default_factory=list) # For conversational context
-    query_intent: Optional[Literal["FETCH_NEW", "QA_CURRENT", "unknown"]] = None
+    system_instructions: Optional[str] = None # For system messages
+    query_intent: Optional[Literal["fetch_new", "qa_current", "unknown"]] = None
+    current_node: Optional[NodeTypes] = None # For tracking current node in flow
+    early_end_reason: Optional[str] = None
     search_keywords: Optional[str] = None # May be derived from topic or chat_history
     fetched_papers: List[FetchedPaperInfo] = Field(default_factory=list)
     temp_embeddings: Optional[Any] = None
     chunk_source_map: Dict[int, ChunkSourceInfo] = Field(default_factory=dict)
-    # temp_embeddings: Optional[ndarray] = None # Duplicate, removed
     query_embedding: Optional[Any] = None
     temp_index: Optional[FaissIndexObject] = None
-    # query_embedding: Optional[ndarray] = None # Duplicate, removed
     retrieved_chunks_with_source: List[RetrievedChunk] = Field(default_factory=list)
     answer_text: Optional[str] = None
     answer_sources: List[ChunkSourceInfo] = Field(default_factory=list)

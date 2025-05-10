@@ -17,7 +17,8 @@ wheels/
 # VS Code settings
 .vscode/
 
-# Vector database
+# Vector database + embeddings models
 ./pocketflow_research/persistent_faiss_index/
 *.idx
 *.pkl
+cache_models/

@@ -17,6 +17,7 @@ logging.basicConfig(level=logging.INFO)
 _model = None
 # _model_name = "bge-m3-distilled" # Specify the bge-m3 model
 _model_name = "FlukeTJ/bge-m3-m2v-distilled-256"
+# _model_name = "jaeyong2/bge-m3-Thai"
 
 def _load_model():
     """Loads the Sentence Transformer model."""
@@ -24,9 +25,8 @@ def _load_model():
     if _model is None:
         try:
             logging.info(f"Loading embedding model: {_model_name}...")
-            # You might need to specify device='cuda' if you have a GPU and PyTorch installed
-            # _model = SentenceTransformer(_model_name)
-            _model = StaticModel.from_pretrained(_model_name)
+            # _model = SentenceTransformer(_model_name, cache_folder="cache_models")
+            _model = StaticModel.from_pretrained(_model_name, path="cache_models")
             logging.info("Embedding model loaded successfully.")
         except Exception as e:
             logging.error(f"Failed to load Sentence Transformer model '{_model_name}': {e}")

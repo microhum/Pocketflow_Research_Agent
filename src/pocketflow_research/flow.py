@@ -1,6 +1,6 @@
 # flow.py
 import logging
-from pocketflow import Flow
+from pocketflow_research.pocketflow_custom import CustomFlow
 from pocketflow_research.nodes import (
     GetTopicNode,
     QueryIntentClassifierNode,
@@ -14,14 +14,14 @@ from pocketflow_research.nodes import (
     RetrieveChunksNode,
     GenerateResponseNode,
     CiteSourcesNode,
-    EarlyEndReporterNode # Added EarlyEndReporterNode
+    EarlyEndReporterNode
 )
-from pocketflow_research.models import SharedStore # Import SharedStore
-from typing import cast # For casting dict to SharedStore
+from pocketflow_research.models import SharedStore
+from typing import cast
 
 logging.basicConfig(level=logging.INFO)
 
-def create_research_agent_flow(source: str = 'arxiv') -> Flow:
+def create_research_agent_flow(source: str = 'arxiv') -> CustomFlow:
     """
     Creates and returns the Research Agent flow.
 
@@ -29,16 +29,15 @@ def create_research_agent_flow(source: str = 'arxiv') -> Flow:
         source (str): The paper source to use ('arxiv' or 'thaijo'). Defaults to 'arxiv'.
     
     Returns:
-        Flow: The configured PocketFlow object.
+        CustomFlow: The configured PocketFlow object using CustomFlow.
     """
     if source not in ['arxiv', 'thaijo']:
         raise ValueError("Invalid source specified. Choose 'arxiv' or 'thaijo'.")
 
-    # Instantiate nodes
-    get_topic = GetTopicNode()
+    # Define the nodes
+    get_topic = GetTopicNode() 
     classify_intent = QueryIntentClassifierNode()
     extract_keywords = KeywordExtractorNode()
-    
     paper_fetching_node = FetchArxivNode() if source == 'arxiv' else FetchThaijoNode()
     process_papers = ProcessPapersBatchNode()
     embed_chunks = EmbedChunksNode()
@@ -47,13 +46,13 @@ def create_research_agent_flow(source: str = 'arxiv') -> Flow:
     retrieve_chunks = RetrieveChunksNode()
     generate_response = GenerateResponseNode()
     cite_sources = CiteSourcesNode()
-    early_end_reporter = EarlyEndReporterNode() # Instantiate the new node
+    early_end_reporter = EarlyEndReporterNode()
 
 
     # Define the flow connections 
-
     get_topic >> classify_intent
 
+    # Classify intent based on the topic
     classify_intent - "fetch_new" >> extract_keywords
 
     extract_keywords >> paper_fetching_node
@@ -63,6 +62,7 @@ def create_research_agent_flow(source: str = 'arxiv') -> Flow:
     build_temp_index >> embed_query # Embed query after building new index
     embed_query - "default" >> retrieve_chunks # Default transition after embedding query
 
+    # If the intent is to fetch new papers, we need to embed the query again
     classify_intent - "qa_current" >> embed_query 
 
     embed_query - "default" >> retrieve_chunks
@@ -71,6 +71,7 @@ def create_research_agent_flow(source: str = 'arxiv') -> Flow:
 
     # Map the final answer to the shared data store
     nodes_that_can_end_early = [
+        classify_intent,
         get_topic,
         paper_fetching_node,
         process_papers,
@@ -84,7 +85,7 @@ def create_research_agent_flow(source: str = 'arxiv') -> Flow:
 
     logging.info(f"Research Agent flow connections defined (Source: {source}), including end_early handling.")
 
-    return Flow(start=get_topic)
+    return CustomFlow(start=get_topic, name=f"ResearchAgentFlow_{source}") # Use CustomFlow
 
 if __name__ == "__main__":
     # print("--- Testing Research Agent Flow (ArXiv Source) ---")
